@@ -1,0 +1,7 @@
+{
+  "name": "data-cs",
+  "type": "module",
+  "dependencies": {
+    "hltv-next": "^3.5.16"
+  }
+}

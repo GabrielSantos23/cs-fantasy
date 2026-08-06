@@ -1,0 +1,5698 @@
+{
+  "total_eras": 3999,
+  "total_players": 1219,
+  "years": [
+    2026,
+    2025,
+    2024,
+    2023,
+    2022,
+    2021,
+    2020,
+    2019,
+    2018,
+    2017,
+    2016,
+    2015,
+    2014,
+    2013,
+    2012,
+    2011,
+    2010,
+    2009,
+    2008,
+    2007,
+    2006,
+    2004,
+    2003,
+    2002,
+    2001,
+    2000
+  ],
+  "nationalities": [
+    "Algeria",
+    "Argentina",
+    "Australia",
+    "Austria",
+    "Belarus",
+    "Belgium",
+    "Bosnia and Herzegovina",
+    "Brazil",
+    "Bulgaria",
+    "Canada",
+    "Chile",
+    "China",
+    "Colombia",
+    "Czech Republic",
+    "Denmark",
+    "Estonia",
+    "Finland",
+    "France",
+    "Germany",
+    "Greece",
+    "Guatemala",
+    "Hungary",
+    "India",
+    "Indonesia",
+    "Iraq",
+    "Israel",
+    "Japan",
+    "Jordan",
+    "Kazakhstan",
+    "Kosovo",
+    "Kyrgyzstan",
+    "Latvia",
+    "Lebanon",
+    "Lithuania",
+    "Luxembourg",
+    "Malaysia",
+    "Mexico",
+    "Mongolia",
+    "Montenegro",
+    "Netherlands",
+    "New Zealand",
+    "Non-representing",
+    "North Macedonia",
+    "Norway",
+    "Palestine",
+    "Peru",
+    "Philippines",
+    "Poland",
+    "Portugal",
+    "Romania",
+    "Russia",
+    "Saudi Arabia",
+    "Serbia",
+    "Singapore",
+    "Slovakia",
+    "South Africa",
+    "South Korea",
+    "Spain",
+    "Sweden",
+    "Switzerland",
+    "Taiwan",
+    "Thailand",
+    "Tunisia",
+    "Turkey",
+    "Ukraine",
+    "United Arab Emirates",
+    "United Kingdom",
+    "United States",
+    "Uruguay",
+    "Uzbekistan",
+    "Venezuela",
+    "Vietnam"
+  ],
+  "roles": [
+    "AWPer",
+    "Entry",
+    "IGL",
+    "Lurker",
+    "Rifler",
+    "Support"
+  ],
+  "top_eras_all_time": [
+    {
+      "id": "happy_2015",
+      "player_id": "happy",
+      "handle": "Happy",
+      "real_name": "Vincent Cervoni Schopenhauer",
+      "nationality": "France",
+      "birth_date": "1991-11-23",
+      "photo_url": "https://img-cdn.hltv.org/playerbodyshot/aTavjE6s8uq_PDW_IwBc7N.png?ixlib=java-2.1.0&w=400&s=4e10fe69a2a8ae476a4003ce054f0388",
+      "year": 2015,
+      "total_score": 2774.0,
+      "average_score": 126.09,
+      "tournaments_count": 22,
+      "teams": [
+        "France",
+        "Team EnVyUs",
+        "Team LDLC.com"
+      ],
+      "roles": [
+        "IGL"
+      ],
+      "primary_role": "IGL",
+      "breakdown": {
+        "team_summary": {
+          "Team EnVyUs": {
+            "tournaments": 20,
+            "score": 2374.0,
+            "placements": [
+              "5-8",
+              "1",
+              "7",
+              "1",
+              "5-8",
+              "2",
+              "5-8",
+              "2",
+              "3",
+              "1",
+              "5-6",
+              "1",
+              "2",
+              "5-6",
+              "5-8",
+              "2",
+              "1",
+              "1",
+              "7-8",
+              "3-4"
+            ]
+          },
+          "Team LDLC.com": {
+            "tournaments": 1,
+            "score": 200.0,
+            "placements": [
+              "1"
+            ]
+          },
+          "France": {
+            "tournaments": 1,
+            "score": 200.0,
+            "placements": [
+              "1"
+            ]
+          }
+        },
+        "tournaments": [
+          {
+            "tournament_id": "esl/league/pro/2015/winter/online_stage",
+            "tournament_name": "ESL Pro League Winter 2014&zwj;/&zwj;15: Online Stage",
+            "tier": "S-Tier",
+            "team": "Team EnVyUs",
+            "role": "Rifler",
+            "placement": "5-8",
+            "score": 60.0
+          },
+          {
+            "tournament_id": "starladder/starseries/xii",
+            "tournament_name": "StarLadder StarSeries XII",
+            "tier": "S-Tier",
+            "team": "Team EnVyUs",
+            "role": "Rifler",
+            "placement": "1",
+            "score": 200.0
+          },
+          {
+            "tournament_id": "mlg/aspen_invitational",
+            "tournament_name": "MLG X Games Aspen Invitational",
+            "tier": "S-Tier",
+            "team": "Team LDLC.com",
+            "role": "Rifler",
+            "placement": "1",
+            "score": 200.0
+          },
+          {
+            "tournament_id": "faceit/league/2015/stage_1/europe",
+            "tournament_name": "FACEIT League 2015 Stage I - Europe",
+            "tier": "S-Tier",
+            "team": "Team EnVyUs",
+            "role": "Rifler",
+            "placement": "7",
+            "score": 4.0
+          },
+          {
+            "tournament_id": "gfinity/spring_masters_1",
+            "tournament_name": "Gfinity Spring Masters 1",
+            "tier": "S-Tier",
+            "team": "Team EnVyUs",
+            "role": "Rifler",
+            "placement": "1",
+            "score": 200.0
+          },
+          {
+            "tournament_id": "esl_esea/pro_league/season_1/europe",
+            "tournament_name": "ESL ESEA Pro League Season 1 - Europe",
+            "tier": "S-Tier",
+            "team": "Team EnVyUs",
+            "role": "Rifler",
+            "placement": "5-8",
+            "score": 60.0
+          },
+          {
+            "tournament_id": "dreamhack/2015/tours",
+            "tournament_name": "DreamHack Open Tours 2015",
+            "tier": "S-Tier",
+            "team": "Team EnVyUs",
+            "role": "Rifler",
+            "placement": "2",
+            "score": 140.0
+          },
+          {
+            "tournament_id": "gfinity/masters/spring_2",
+            "tournament_name": "Gfinity Spring Masters 2",
+            "tier": "S-Tier",
+            "team": "Team EnVyUs",
+            "role": "Rifler",
+            "placement": "5-8",
+            "score": 60.0
+          },
+          {
+            "tournament_id": "starladder/starseries/xiii",
+            "tournament_name": "StarLadder StarSeries XIII",
+            "tier": "S-Tier",
+            "team": "Team EnVyUs",
+            "role": "Rifler",
+            "placement": "2",
+            "score": 140.0
+          },
+          {
+            "tournament_id": "faceit/league/2015/stage_2/europe",
+            "tournament_name": "FACEIT League 2015 Stage 2 - Europe",
+            "tier": "S-Tier",
+            "team": "Team EnVyUs",
+            "role": "Rifler",
+            "placement": "3",
+            "score": 100.0
+          },
+          {
+            "tournament_id": "gfinity/masters/summer_1",
+            "tournament_name": "Gfinity Masters Summer 1",
+            "tier": "S-Tier",
+            "team": "Team EnVyUs",
+            "role": "Rifler",
+            "placement": "1",
+            "score": 200.0
+          },
+          {
+            "tournament_id": "esl_esea/pro_league/season_1/finals",
+            "tournament_name": "ESL ESEA Pro League Season 1 - Finals",
+            "tier": "S-Tier",
+            "team": "Team EnVyUs",
+            "role": "Rifler",
+            "placement": "5-6",
+            "score": 60.0
+          },
+          {
+            "tournament_id": "intel_extreme_masters/season_x/gamescom",
+            "tournament_name": "Intel Extreme Masters Season X - gamescom",
+            "tier": "S-Tier",
+            "team": "Team EnVyUs",
+            "role": "Rifler",
+            "placement": "1",
+            "score": 200.0
+          },
+          {
+            "tournament_id": "esl/one/2015/cologne",
+            "tournament_name": "ESL One: Cologne 2015",
+            "tier": "S-Tier",
+            "team": "Team EnVyUs",
+            "role": "Rifler",
+            "placement": "2",
+            "score": 140.0
+          },
+          {
+            "tournament_id": "esl_esea/pro_league/invitational",
+            "tournament_name": "ESL ESEA Pro League Invitational",
+            "tier": "S-Tier",
+            "team": "Team EnVyUs",
+            "role": "Rifler",
+            "placement": "5-6",
+            "score": 60.0
+          },
+          {
+            "tournament_id": "esl_esea/pro_league/season_2/europe",
+            "tournament_name": "ESL ESEA Pro League Season 2 - Europe",
+            "tier": "S-Tier",
+            "team": "Team EnVyUs",
+            "role": "Rifler",
+            "placement": "5-8",
+            "score": 60.0
+          },
+          {
+            "tournament_id": "faceit/league/2015/stage_3/europe",
+            "tournament_name": "FACEIT League 2015 Stage 3 - Europe",
+            "tier": "S-Tier",
+            "team": "Team EnVyUs",
+            "role": "Rifler",
+            "placement": "2",
+            "score": 140.0
+          },
+          {
+            "tournament_id": "dreamhack/2015/london",
+            "tournament_name": "DreamHack Open London 2015",
+            "tier": "S-Tier",
+            "team": "Team EnVyUs",
+            "role": "Rifler",
+            "placement": "1",
+            "score": 200.0
+          },
+          {
+            "tournament_id": "e-frag/the_world_championships/2015",
+            "tournament_name": "The World Championships 2015",
+            "tier": "S-Tier",
+            "team": "France",
+            "role": "Rifler",
+            "placement": "1",
+            "score": 200.0
+          },
+          {
+            "tournament_id": "dreamhack/2015/cluj-napoca",
+            "tournament_name": "DreamHack Open Cluj&#8288;-&#8288;Napoca 2015",
+            "tier": "S-Tier",
+            "team": "Team EnVyUs",
+            "role": "Rifler",
+            "placement": "1",
+            "score": 200.0
+          },
+          {
+            "tournament_id": "faceit/league/2015/stage_3/finals",
+            "tournament_name": "FACEIT League 2015 Stage 3 Finals",
+            "tier": "S-Tier",
+            "team": "Team EnVyUs",
+            "role": "Rifler",
+            "placement": "7-8",
+            "score": 50.0
+          },
+          {
+            "tournament_id": "esl_esea/pro_league/season_2/finals",
+            "tournament_name": "ESL ESEA Pro League Season 2 - Finals",
+            "tier": "S-Tier",
+            "team": "Team EnVyUs",
+            "role": "Rifler",
+            "placement": "3-4",
+            "score": 100.0
+          }
+        ]
+      }
+    },
+    {
+      "id": "kioshima_2015",
+      "player_id": "kioshima",
+      "handle": "kioShiMa",
+      "real_name": "Fabien Fiey",
+      "nationality": "France",
+      "birth_date": "1994-7-26",
+      "photo_url": "https://img-cdn.hltv.org/playerbodyshot/7v3kxUHbbF_CD7ambNzCIk.png?bg=3e4c54&h=100&ixlib=java-2.1.0&rect=105%2C0%2C486%2C486&w=100&s=fc9c363546b371bfc80f85bcb2cf1499",
+      "year": 2015,
+      "total_score": 2574.0,
+      "average_score": 122.57,
+      "tournaments_count": 21,
+      "teams": [
+        "Team EnVyUs",
+        "Team LDLC.com"
+      ],
+      "roles": [
+        "Entry"
+      ],
+      "primary_role": "Entry",
+      "breakdown": {
+        "team_summary": {
+          "Team EnVyUs": {
+            "tournaments": 20,
+            "score": 2374.0,
+            "placements": [
+              "5-8",
+              "1",
+              "7",
+              "1",
+              "5-8",
+              "2",
+              "5-8",
+              "2",
+              "3",
+              "1",
+              "5-6",
+              "1",
+              "2",
+              "5-6",
+              "5-8",
+              "2",
+              "1",
+              "1",
+              "7-8",
+              "3-4"
+            ]
+          },
+          "Team LDLC.com": {
+            "tournaments": 1,
+            "score": 200.0,
+            "placements": [
+              "1"
+            ]
+          }
+        },
+        "tournaments": [
+          {
+            "tournament_id": "esl/league/pro/2015/winter/online_stage",
+            "tournament_name": "ESL Pro League Winter 2014&zwj;/&zwj;15: Online Stage",
+            "tier": "S-Tier",
+            "team": "Team EnVyUs",
+            "role": "Rifler",
+            "placement": "5-8",
+            "score": 60.0
+          },
+          {
+            "tournament_id": "starladder/starseries/xii",
+            "tournament_name": "StarLadder StarSeries XII",
+            "tier": "S-Tier",
+            "team": "Team EnVyUs",
+            "role": "Rifler",
+            "placement": "1",
+            "score": 200.0
+          },
+          {
+            "tournament_id": "mlg/aspen_invitational",
+            "tournament_name": "MLG X Games Aspen Invitational",
+            "tier": "S-Tier",
+            "team": "Team LDLC.com",
+            "role": "Rifler",
+            "placement": "1",
+            "score": 200.0
+          },
+          {
+            "tournament_id": "faceit/league/2015/stage_1/europe",
+            "tournament_name": "FACEIT League 2015 Stage I - Europe",
+            "tier": "S-Tier",
+            "team": "Team EnVyUs",
+            "role": "Rifler",
+            "placement": "7",
+            "score": 4.0
+          },
+          {
+            "tournament_id": "gfinity/spring_masters_1",
+            "tournament_name": "Gfinity Spring Masters 1",
+            "tier": "S-Tier",
+            "team": "Team EnVyUs",
+            "role": "Rifler",
+            "placement": "1",
+            "score": 200.0
+          },
+          {
+            "tournament_id": "esl_esea/pro_league/season_1/europe",
+            "tournament_name": "ESL ESEA Pro League Season 1 - Europe",
+            "tier": "S-Tier",
+            "team": "Team EnVyUs",
+            "role": "Rifler",
+            "placement": "5-8",
+            "score": 60.0
+          },
+          {
+            "tournament_id": "dreamhack/2015/tours",
+            "tournament_name": "DreamHack Open Tours 2015",
+            "tier": "S-Tier",
+            "team": "Team EnVyUs",
+            "role": "Rifler",
+            "placement": "2",
+            "score": 140.0
+          },
+          {
+            "tournament_id": "gfinity/masters/spring_2",
+            "tournament_name": "Gfinity Spring Masters 2",
+            "tier": "S-Tier",
+            "team": "Team EnVyUs",
+            "role": "Rifler",
+            "placement": "5-8",
+            "score": 60.0
+          },
+          {
+            "tournament_id": "starladder/starseries/xiii",
+            "tournament_name": "StarLadder StarSeries XIII",
+            "tier": "S-Tier",
+            "team": "Team EnVyUs",
+            "role": "Rifler",
+            "placement": "2",
+            "score": 140.0
+          },
+          {
+            "tournament_id": "faceit/league/2015/stage_2/europe",
+            "tournament_name": "FACEIT League 2015 Stage 2 - Europe",
+            "tier": "S-Tier",
+            "team": "Team EnVyUs",
+            "role": "Rifler",
+            "placement": "3",
+            "score": 100.0
+          },
+          {
+            "tournament_id": "gfinity/masters/summer_1",
+            "tournament_name": "Gfinity Masters Summer 1",
+            "tier": "S-Tier",
+            "team": "Team EnVyUs",
+            "role": "Rifler",
+            "placement": "1",
+            "score": 200.0
+          },
+          {
+            "tournament_id": "esl_esea/pro_league/season_1/finals",
+            "tournament_name": "ESL ESEA Pro League Season 1 - Finals",
+            "tier": "S-Tier",
+            "team": "Team EnVyUs",
+            "role": "Rifler",
+            "placement": "5-6",
+            "score": 60.0
+          },
+          {
+            "tournament_id": "intel_extreme_masters/season_x/gamescom",
+            "tournament_name": "Intel Extreme Masters Season X - gamescom",
+            "tier": "S-Tier",
+            "team": "Team EnVyUs",
+            "role": "Rifler",
+            "placement": "1",
+            "score": 200.0
+          },
+          {
+            "tournament_id": "esl/one/2015/cologne",
+            "tournament_name": "ESL One: Cologne 2015",
+            "tier": "S-Tier",
+            "team": "Team EnVyUs",
+            "role": "Rifler",
+            "placement": "2",
+            "score": 140.0
+          },
+          {
+            "tournament_id": "esl_esea/pro_league/invitational",
+            "tournament_name": "ESL ESEA Pro League Invitational",
+            "tier": "S-Tier",
+            "team": "Team EnVyUs",
+            "role": "Rifler",
+            "placement": "5-6",
+            "score": 60.0
+          },
+          {
+            "tournament_id": "esl_esea/pro_league/season_2/europe",
+            "tournament_name": "ESL ESEA Pro League Season 2 - Europe",
+            "tier": "S-Tier",
+            "team": "Team EnVyUs",
+            "role": "Rifler",
+            "placement": "5-8",
+            "score": 60.0
+          },
+          {
+            "tournament_id": "faceit/league/2015/stage_3/europe",
+            "tournament_name": "FACEIT League 2015 Stage 3 - Europe",
+            "tier": "S-Tier",
+            "team": "Team EnVyUs",
+            "role": "Rifler",
+            "placement": "2",
+            "score": 140.0
+          },
+          {
+            "tournament_id": "dreamhack/2015/london",
+            "tournament_name": "DreamHack Open London 2015",
+            "tier": "S-Tier",
+            "team": "Team EnVyUs",
+            "role": "Rifler",
+            "placement": "1",
+            "score": 200.0
+          },
+          {
+            "tournament_id": "dreamhack/2015/cluj-napoca",
+            "tournament_name": "DreamHack Open Cluj&#8288;-&#8288;Napoca 2015",
+            "tier": "S-Tier",
+            "team": "Team EnVyUs",
+            "role": "Rifler",
+            "placement": "1",
+            "score": 200.0
+          },
+          {
+            "tournament_id": "faceit/league/2015/stage_3/finals",
+            "tournament_name": "FACEIT League 2015 Stage 3 Finals",
+            "tier": "S-Tier",
+            "team": "Team EnVyUs",
+            "role": "Rifler",
+            "placement": "7-8",
+            "score": 50.0
+          },
+          {
+            "tournament_id": "esl_esea/pro_league/season_2/finals",
+            "tournament_name": "ESL ESEA Pro League Season 2 - Finals",
+            "tier": "S-Tier",
+            "team": "Team EnVyUs",
+            "role": "Rifler",
+            "placement": "3-4",
+            "score": 100.0
+          }
+        ]
+      }
+    },
+    {
+      "id": "flamie_2015",
+      "player_id": "flamie",
+      "handle": "flamie",
+      "real_name": "Егор Сергеевич Васильев",
+      "nationality": "Russia",
+      "birth_date": "1997-4-5",
+      "photo_url": "https://img-cdn.hltv.org/playerbodyshot/qi15VCcZH0SXCVhLo-nhef.png?bg=3e4c54&h=100&ixlib=java-2.1.0&rect=121%2C12%2C467%2C467&w=100&s=98ab6cb9cfe3565cd9a90f596e54b884",
+      "year": 2015,
+      "total_score": 2400.0,
+      "average_score": 109.09,
+      "tournaments_count": 22,
+      "teams": [
+        "HellRaisers",
+        "Natus Vincere",
+        "Russia"
+      ],
+      "roles": [
+        "Entry"
+      ],
+      "primary_role": "Entry",
+      "breakdown": {
+        "team_summary": {
+          "HellRaisers": {
+            "tournaments": 2,
+            "score": 120.0,
+            "placements": [
+              "5-8",
+              "5-8"
+            ]
+          },
+          "Natus Vincere": {
+            "tournaments": 19,
+            "score": 2220.0,
+            "placements": [
+              "5-8",
+              "2",
+              "1",
+              "5-8",
+              "5-8",
+              "3-4",
+              "1",
+              "3",
+              "2",
+              "1",
+              "3-4",
+              "2",
+              "5-8",
+              "5-8",
+              "5-8",
+              "5-8",
+              "2",
+              "1",
+              "2"
+            ]
+          },
+          "Russia": {
+            "tournaments": 1,
+            "score": 60.0,
+            "placements": [
+              "5-8"
+            ]
+          }
+        },
+        "tournaments": [
+          {
+            "tournament_id": "starladder/starseries/xii",
+            "tournament_name": "StarLadder StarSeries XII",
+            "tier": "S-Tier",
+            "team": "HellRaisers",
+            "role": "Rifler",
+            "placement": "5-8",
+            "score": 60.0
+          },
+          {
+            "tournament_id": "starladder/starseries/xii",
+            "tournament_name": "StarLadder StarSeries XII",
+            "tier": "S-Tier",
+            "team": "Natus Vincere",
+            "role": "Rifler",
+            "placement": "5-8",
+            "score": 60.0
+          },
+          {
+            "tournament_id": "faceit/league/2015/stage_1/europe",
+            "tournament_name": "FACEIT League 2015 Stage I - Europe",
+            "tier": "S-Tier",
+            "team": "Natus Vincere",
+            "role": "Rifler",
+            "placement": "2",
+            "score": 140.0
+          },
+          {
+            "tournament_id": "esl/one/2015/katowice",
+            "tournament_name": "ESL One: Katowice 2015",
+            "tier": "S-Tier",
+            "team": "HellRaisers",
+            "role": "Rifler",
+            "placement": "5-8",
+            "score": 60.0
+          },
+          {
+            "tournament_id": "esl/league/pro/2015/winter",
+            "tournament_name": "ESL Pro League Winter 2014&zwj;/&zwj;15",
+            "tier": "S-Tier",
+            "team": "Natus Vincere",
+            "role": "Rifler",
+            "placement": "1",
+            "score": 200.0
+          },
+          {
+            "tournament_id": "faceit/league/finals/2015",
+            "tournament_name": "FACEIT League 2015 Stage I Finals",
+            "tier": "S-Tier",
+            "team": "Natus Vincere",
+            "role": "Rifler",
+            "placement": "5-8",
+            "score": 60.0
+          },
+          {
+            "tournament_id": "esl_esea/pro_league/season_1/europe",
+            "tournament_name": "ESL ESEA Pro League Season 1 - Europe",
+            "tier": "S-Tier",
+            "team": "Natus Vincere",
+            "role": "Rifler",
+            "placement": "5-8",
+            "score": 60.0
+          },
+          {
+            "tournament_id": "gfinity/masters/spring_2",
+            "tournament_name": "Gfinity Spring Masters 2",
+            "tier": "S-Tier",
+            "team": "Natus Vincere",
+            "role": "Rifler",
+            "placement": "3-4",
+            "score": 100.0
+          },
+          {
+            "tournament_id": "starladder/starseries/xiii",
+            "tournament_name": "StarLadder StarSeries XIII",
+            "tier": "S-Tier",
+            "team": "Natus Vincere",
+            "role": "Rifler",
+            "placement": "1",
+            "score": 200.0
+          },
+          {
+            "tournament_id": "faceit/league/2015/stage_2/europe",
+            "tournament_name": "FACEIT League 2015 Stage 2 - Europe",
+            "tier": "S-Tier",
+            "team": "Natus Vincere",
+            "role": "Rifler",
+            "placement": "3",
+            "score": 100.0
+          },
+          {
+            "tournament_id": "dreamhack/2015/summer",
+            "tournament_name": "DreamHack Open Summer 2015",
+            "tier": "S-Tier",
+            "team": "Natus Vincere",
+            "role": "Rifler",
+            "placement": "2",
+            "score": 140.0
+          },
+          {
+            "tournament_id": "electronic_sports_world_cup/2015",
+            "tournament_name": "Electronic Sports World Cup 2015",
+            "tier": "S-Tier",
+            "team": "Natus Vincere",
+            "role": "Rifler",
+            "placement": "1",
+            "score": 200.0
+          },
+          {
+            "tournament_id": "faceit/league/2015/stage_2/finals",
+            "tournament_name": "FACEIT 2015 Stage 2 Finals",
+            "tier": "S-Tier",
+            "team": "Natus Vincere",
+            "role": "Rifler",
+            "placement": "3-4",
+            "score": 100.0
+          },
+          {
+            "tournament_id": "cevo/season_7/professional",
+            "tournament_name": "CEVO Season 7 Professional",
+            "tier": "S-Tier",
+            "team": "Natus Vincere",
+            "role": "Rifler",
+            "placement": "2",
+            "score": 140.0
+          },
+          {
+            "tournament_id": "cevo/season_8/professional",
+            "tournament_name": "CEVO Season 8 Professional",
+            "tier": "S-Tier",
+            "team": "Natus Vincere",
+            "role": "Rifler",
+            "placement": "5-8",
+            "score": 60.0
+          },
+          {
+            "tournament_id": "esl/one/2015/cologne",
+            "tournament_name": "ESL One: Cologne 2015",
+            "tier": "S-Tier",
+            "team": "Natus Vincere",
+            "role": "Rifler",
+            "placement": "5-8",
+            "score": 60.0
+          },
+          {
+            "tournament_id": "esl_esea/pro_league/invitational",
+            "tournament_name": "ESL ESEA Pro League Invitational",
+            "tier": "S-Tier",
+            "team": "Natus Vincere",
+            "role": "Rifler",
+            "placement": "5-8",
+            "score": 60.0
+          },
+          {
+            "tournament_id": "esl_esea/pro_league/season_2/europe",
+            "tournament_name": "ESL ESEA Pro League Season 2 - Europe",
+            "tier": "S-Tier",
+            "team": "Natus Vincere",
+            "role": "Rifler",
+            "placement": "5-8",
+            "score": 60.0
+          },
+          {
+            "tournament_id": "e-frag/the_world_championships/2015",
+            "tournament_name": "The World Championships 2015",
+            "tier": "S-Tier",
+            "team": "Russia",
+            "role": "Rifler",
+            "placement": "5-8",
+            "score": 60.0
+          },
+          {
+            "tournament_id": "dreamhack/2015/cluj-napoca",
+            "tournament_name": "DreamHack Open Cluj&#8288;-&#8288;Napoca 2015",
+            "tier": "S-Tier",
+            "team": "Natus Vincere",
+            "role": "Rifler",
+            "placement": "2",
+            "score": 140.0
+          },
+          {
+            "tournament_id": "intel_extreme_masters/season_x/san_jose",
+            "tournament_name": "Intel Extreme Masters X - San Jose",
+            "tier": "S-Tier",
+            "team": "Natus Vincere",
+            "role": "Rifler",
+            "placement": "1",
+            "score": 200.0
+          },
+          {
+            "tournament_id": "esl_esea/pro_league/season_2/finals",
+            "tournament_name": "ESL ESEA Pro League Season 2 - Finals",
+            "tier": "S-Tier",
+            "team": "Natus Vincere",
+            "role": "Rifler",
+            "placement": "2",
+            "score": 140.0
+          }
+        ]
+      }
+    },
+    {
+      "id": "seized_2015",
+      "player_id": "seized",
+      "handle": "seized",
+      "real_name": "Денис Валерьевич Костин",
+      "nationality": "Russia",
+      "birth_date": "1994-9-9",
+      "photo_url": "https://img-cdn.hltv.org/playerbodyshot/y-Eapkasyh68rb2aIb1pxG.png?bg=3e4c54&h=100&ixlib=java-2.1.0&rect=124%2C4%2C467%2C467&w=100&s=d849549ed4df50fb675a4c082d046094",
+      "year": 2015,
+      "total_score": 2400.0,
+      "average_score": 109.09,
+      "tournaments_count": 22,
+      "teams": [
+        "Natus Vincere",
+        "Russia"
+      ],
+      "roles": [
+        "IGL"
+      ],
+      "primary_role": "IGL",
+      "breakdown": {
+        "team_summary": {
+          "Natus Vincere": {
+            "tournaments": 21,
+            "score": 2340.0,
+            "placements": [
+              "5-8",
+              "5-8",
+              "2",
+              "5-8",
+              "1",
+              "5-8",
+              "5-8",
+              "3-4",
+              "1",
+              "3",
+              "2",
+              "1",
+              "3-4",
+              "2",
+              "5-8",
+              "5-8",
+              "5-8",
+              "5-8",
+              "2",
+              "1",
+              "2"
+            ]
+          },
+          "Russia": {
+            "tournaments": 1,
+            "score": 60.0,
+            "placements": [
+              "5-8"
+            ]
+          }
+        },
+        "tournaments": [
+          {
+            "tournament_id": "esl/league/pro/2015/winter/online_stage",
+            "tournament_name": "ESL Pro League Winter 2014&zwj;/&zwj;15: Online Stage",
+            "tier": "S-Tier",
+            "team": "Natus Vincere",
+            "role": "Rifler",
+            "placement": "5-8",
+            "score": 60.0
+          },
+          {
+            "tournament_id": "starladder/starseries/xii",
+            "tournament_name": "StarLadder StarSeries XII",
+            "tier": "S-Tier",
+            "team": "Natus Vincere",
+            "role": "Rifler",
+            "placement": "5-8",
+            "score": 60.0
+          },
+          {
+            "tournament_id": "faceit/league/2015/stage_1/europe",
+            "tournament_name": "FACEIT League 2015 Stage I - Europe",
+            "tier": "S-Tier",
+            "team": "Natus Vincere",
+            "role": "Rifler",
+            "placement": "2",
+            "score": 140.0
+          },
+          {
+            "tournament_id": "esl/one/2015/katowice",
+            "tournament_name": "ESL One: Katowice 2015",
+            "tier": "S-Tier",
+            "team": "Natus Vincere",
+            "role": "Rifler",
+            "placement": "5-8",
+            "score": 60.0
+          },
+          {
+            "tournament_id": "esl/league/pro/2015/winter",
+            "tournament_name": "ESL Pro League Winter 2014&zwj;/&zwj;15",
+            "tier": "S-Tier",
+            "team": "Natus Vincere",
+            "role": "Rifler",
+            "placement": "1",
+            "score": 200.0
+          },
+          {
+            "tournament_id": "faceit/league/finals/2015",
+            "tournament_name": "FACEIT League 2015 Stage I Finals",
+            "tier": "S-Tier",
+            "team": "Natus Vincere",
+            "role": "Rifler",
+            "placement": "5-8",
+            "score": 60.0
+          },
+          {
+            "tournament_id": "esl_esea/pro_league/season_1/europe",
+            "tournament_name": "ESL ESEA Pro League Season 1 - Europe",
+            "tier": "S-Tier",
+            "team": "Natus Vincere",
+            "role": "Rifler",
+            "placement": "5-8",
+            "score": 60.0
+          },
+          {
+            "tournament_id": "gfinity/masters/spring_2",
+            "tournament_name": "Gfinity Spring Masters 2",
+            "tier": "S-Tier",
+            "team": "Natus Vincere",
+            "role": "Rifler",
+            "placement": "3-4",
+            "score": 100.0
+          },
+          {
+            "tournament_id": "starladder/starseries/xiii",
+            "tournament_name": "StarLadder StarSeries XIII",
+            "tier": "S-Tier",
+            "team": "Natus Vincere",
+            "role": "Rifler",
+            "placement": "1",
+            "score": 200.0
+          },
+          {
+            "tournament_id": "faceit/league/2015/stage_2/europe",
+            "tournament_name": "FACEIT League 2015 Stage 2 - Europe",
+            "tier": "S-Tier",
+            "team": "Natus Vincere",
+            "role": "Rifler",
+            "placement": "3",
+            "score": 100.0
+          },
+          {
+            "tournament_id": "dreamhack/2015/summer",
+            "tournament_name": "DreamHack Open Summer 2015",
+            "tier": "S-Tier",
+            "team": "Natus Vincere",
+            "role": "Rifler",
+            "placement": "2",
+            "score": 140.0
+          },
+          {
+            "tournament_id": "electronic_sports_world_cup/2015",
+            "tournament_name": "Electronic Sports World Cup 2015",
+            "tier": "S-Tier",
+            "team": "Natus Vincere",
+            "role": "Rifler",
+            "placement": "1",
+            "score": 200.0
+          },
+          {
+            "tournament_id": "faceit/league/2015/stage_2/finals",
+            "tournament_name": "FACEIT 2015 Stage 2 Finals",
+            "tier": "S-Tier",
+            "team": "Natus Vincere",
+            "role": "Rifler",
+            "placement": "3-4",
+            "score": 100.0
+          },
+          {
+            "tournament_id": "cevo/season_7/professional",
+            "tournament_name": "CEVO Season 7 Professional",
+            "tier": "S-Tier",
+            "team": "Natus Vincere",
+            "role": "Rifler",
+            "placement": "2",
+            "score": 140.0
+          },
+          {
+            "tournament_id": "cevo/season_8/professional",
+            "tournament_name": "CEVO Season 8 Professional",
+            "tier": "S-Tier",
+            "team": "Natus Vincere",
+            "role": "Rifler",
+            "placement": "5-8",
+            "score": 60.0
+          },
+          {
+            "tournament_id": "esl/one/2015/cologne",
+            "tournament_name": "ESL One: Cologne 2015",
+            "tier": "S-Tier",
+            "team": "Natus Vincere",
+            "role": "Rifler",
+            "placement": "5-8",
+            "score": 60.0
+          },
+          {
+            "tournament_id": "esl_esea/pro_league/invitational",
+            "tournament_name": "ESL ESEA Pro League Invitational",
+            "tier": "S-Tier",
+            "team": "Natus Vincere",
+            "role": "Rifler",
+            "placement": "5-8",
+            "score": 60.0
+          },
+          {
+            "tournament_id": "esl_esea/pro_league/season_2/europe",
+            "tournament_name": "ESL ESEA Pro League Season 2 - Europe",
+            "tier": "S-Tier",
+            "team": "Natus Vincere",
+            "role": "Rifler",
+            "placement": "5-8",
+            "score": 60.0
+          },
+          {
+            "tournament_id": "e-frag/the_world_championships/2015",
+            "tournament_name": "The World Championships 2015",
+            "tier": "S-Tier",
+            "team": "Russia",
+            "role": "Rifler",
+            "placement": "5-8",
+            "score": 60.0
+          },
+          {
+            "tournament_id": "dreamhack/2015/cluj-napoca",
+            "tournament_name": "DreamHack Open Cluj&#8288;-&#8288;Napoca 2015",
+            "tier": "S-Tier",
+            "team": "Natus Vincere",
+            "role": "Rifler",
+            "placement": "2",
+            "score": 140.0
+          },
+          {
+            "tournament_id": "intel_extreme_masters/season_x/san_jose",
+            "tournament_name": "Intel Extreme Masters X - San Jose",
+            "tier": "S-Tier",
+            "team": "Natus Vincere",
+            "role": "Rifler",
+            "placement": "1",
+            "score": 200.0
+          },
+          {
+            "tournament_id": "esl_esea/pro_league/season_2/finals",
+            "tournament_name": "ESL ESEA Pro League Season 2 - Finals",
+            "tier": "S-Tier",
+            "team": "Natus Vincere",
+            "role": "Rifler",
+            "placement": "2",
+            "score": 140.0
+          }
+        ]
+      }
+    },
+    {
+      "id": "edward_2015",
+      "player_id": "edward",
+      "handle": "Edward",
+      "real_name": "Іоанн Сухарєв",
+      "nationality": "Ukraine",
+      "birth_date": "1987-12-28",
+      "photo_url": "https://img-cdn.hltv.org/playerbodyshot/SLGtMmhi14PGcz0lOe-c-B.png?bg=3e4c54&h=100&ixlib=java-2.1.0&rect=124%2C4%2C467%2C467&w=100&s=5d6577719c81d1d9977fe165d54e1049",
+      "year": 2015,
+      "total_score": 2340.0,
+      "average_score": 111.43,
+      "tournaments_count": 21,
+      "teams": [
+        "Natus Vincere"
+      ],
+      "roles": [
+        "Entry"
+      ],
+      "primary_role": "Entry",
+      "breakdown": {
+        "team_summary": {
+          "Natus Vincere": {
+            "tournaments": 21,
+            "score": 2340.0,
+            "placements": [
+              "5-8",
+              "5-8",
+              "2",
+              "5-8",
+              "1",
+              "5-8",
+              "5-8",
+              "3-4",
+              "1",
+              "3",
+              "2",
+              "1",
+              "3-4",
+              "2",
+              "5-8",
+              "5-8",
+              "5-8",
+              "5-8",
+              "2",
+              "1",
+              "2"
+            ]
+          }
+        },
+        "tournaments": [
+          {
+            "tournament_id": "esl/league/pro/2015/winter/online_stage",
+            "tournament_name": "ESL Pro League Winter 2014&zwj;/&zwj;15: Online Stage",
+            "tier": "S-Tier",
+            "team": "Natus Vincere",
+            "role": "Rifler",
+            "placement": "5-8",
+            "score": 60.0
+          },
+          {
+            "tournament_id": "starladder/starseries/xii",
+            "tournament_name": "StarLadder StarSeries XII",
+            "tier": "S-Tier",
+            "team": "Natus Vincere",
+            "role": "Rifler",
+            "placement": "5-8",
+            "score": 60.0
+          },
+          {
+            "tournament_id": "faceit/league/2015/stage_1/europe",
+            "tournament_name": "FACEIT League 2015 Stage I - Europe",
+            "tier": "S-Tier",
+            "team": "Natus Vincere",
+            "role": "Rifler",
+            "placement": "2",
+            "score": 140.0
+          },
+          {
+            "tournament_id": "esl/one/2015/katowice",
+            "tournament_name": "ESL One: Katowice 2015",
+            "tier": "S-Tier",
+            "team": "Natus Vincere",
+            "role": "Rifler",
+            "placement": "5-8",
+            "score": 60.0
+          },
+          {
+            "tournament_id": "esl/league/pro/2015/winter",
+            "tournament_name": "ESL Pro League Winter 2014&zwj;/&zwj;15",
+            "tier": "S-Tier",
+            "team": "Natus Vincere",
+            "role": "Rifler",
+            "placement": "1",
+            "score": 200.0
+          },
+          {
+            "tournament_id": "faceit/league/finals/2015",
+            "tournament_name": "FACEIT League 2015 Stage I Finals",
+            "tier": "S-Tier",
+            "team": "Natus Vincere",
+            "role": "Rifler",
+            "placement": "5-8",
+            "score": 60.0
+          },
+          {
+            "tournament_id": "esl_esea/pro_league/season_1/europe",
+            "tournament_name": "ESL ESEA Pro League Season 1 - Europe",
+            "tier": "S-Tier",
+            "team": "Natus Vincere",
+            "role": "Rifler",
+            "placement": "5-8",
+            "score": 60.0
+          },
+          {
+            "tournament_id": "gfinity/masters/spring_2",
+            "tournament_name": "Gfinity Spring Masters 2",
+            "tier": "S-Tier",
+            "team": "Natus Vincere",
+            "role": "Rifler",
+            "placement": "3-4",
+            "score": 100.0
+          },
+          {
+            "tournament_id": "starladder/starseries/xiii",
+            "tournament_name": "StarLadder StarSeries XIII",
+            "tier": "S-Tier",
+            "team": "Natus Vincere",
+            "role": "Rifler",
+            "placement": "1",
+            "score": 200.0
+          },
+          {
+            "tournament_id": "faceit/league/2015/stage_2/europe",
+            "tournament_name": "FACEIT League 2015 Stage 2 - Europe",
+            "tier": "S-Tier",
+            "team": "Natus Vincere",
+            "role": "Rifler",
+            "placement": "3",
+            "score": 100.0
+          },
+          {
+            "tournament_id": "dreamhack/2015/summer",
+            "tournament_name": "DreamHack Open Summer 2015",
+            "tier": "S-Tier",
+            "team": "Natus Vincere",
+            "role": "Rifler",
+            "placement": "2",
+            "score": 140.0
+          },
+          {
+            "tournament_id": "electronic_sports_world_cup/2015",
+            "tournament_name": "Electronic Sports World Cup 2015",
+            "tier": "S-Tier",
+            "team": "Natus Vincere",
+            "role": "Rifler",
+            "placement": "1",
+            "score": 200.0
+          },
+          {
+            "tournament_id": "faceit/league/2015/stage_2/finals",
+            "tournament_name": "FACEIT 2015 Stage 2 Finals",
+            "tier": "S-Tier",
+            "team": "Natus Vincere",
+            "role": "Rifler",
+            "placement": "3-4",
+            "score": 100.0
+          },
+          {
+            "tournament_id": "cevo/season_7/professional",
+            "tournament_name": "CEVO Season 7 Professional",
+            "tier": "S-Tier",
+            "team": "Natus Vincere",
+            "role": "Rifler",
+            "placement": "2",
+            "score": 140.0
+          },
+          {
+            "tournament_id": "cevo/season_8/professional",
+            "tournament_name": "CEVO Season 8 Professional",
+            "tier": "S-Tier",
+            "team": "Natus Vincere",
+            "role": "Rifler",
+            "placement": "5-8",
+            "score": 60.0
+          },
+          {
+            "tournament_id": "esl/one/2015/cologne",
+            "tournament_name": "ESL One: Cologne 2015",
+            "tier": "S-Tier",
+            "team": "Natus Vincere",
+            "role": "Rifler",
+            "placement": "5-8",
+            "score": 60.0
+          },
+          {
+            "tournament_id": "esl_esea/pro_league/invitational",
+            "tournament_name": "ESL ESEA Pro League Invitational",
+            "tier": "S-Tier",
+            "team": "Natus Vincere",
+            "role": "Rifler",
+            "placement": "5-8",
+            "score": 60.0
+          },
+          {
+            "tournament_id": "esl_esea/pro_league/season_2/europe",
+            "tournament_name": "ESL ESEA Pro League Season 2 - Europe",
+            "tier": "S-Tier",
+            "team": "Natus Vincere",
+            "role": "Rifler",
+            "placement": "5-8",
+            "score": 60.0
+          },
+          {
+            "tournament_id": "dreamhack/2015/cluj-napoca",
+            "tournament_name": "DreamHack Open Cluj&#8288;-&#8288;Napoca 2015",
+            "tier": "S-Tier",
+            "team": "Natus Vincere",
+            "role": "Rifler",
+            "placement": "2",
+            "score": 140.0
+          },
+          {
+            "tournament_id": "intel_extreme_masters/season_x/san_jose",
+            "tournament_name": "Intel Extreme Masters X - San Jose",
+            "tier": "S-Tier",
+            "team": "Natus Vincere",
+            "role": "Rifler",
+            "placement": "1",
+            "score": 200.0
+          },
+          {
+            "tournament_id": "esl_esea/pro_league/season_2/finals",
+            "tournament_name": "ESL ESEA Pro League Season 2 - Finals",
+            "tier": "S-Tier",
+            "team": "Natus Vincere",
+            "role": "Rifler",
+            "placement": "2",
+            "score": 140.0
+          }
+        ]
+      }
+    },
+    {
+      "id": "guardian_2015",
+      "player_id": "guardian",
+      "handle": "GuardiaN",
+      "real_name": "Ladislav Kovács",
+      "nationality": "Slovakia",
+      "birth_date": "1991-7-9",
+      "photo_url": "https://img-cdn.hltv.org/playerbodyshot/yAqXqbDzYSFWZUNvMhdI07.png?ixlib=java-2.1.0&w=400&s=ad758e9a7138ef56ca6cd71dbccb90c0",
+      "year": 2015,
+      "total_score": 2340.0,
+      "average_score": 111.43,
+      "tournaments_count": 21,
+      "teams": [
+        "Natus Vincere"
+      ],
+      "roles": [
+        "AWPer"
+      ],
+      "primary_role": "AWPer",
+      "breakdown": {
+        "team_summary": {
+          "Natus Vincere": {
+            "tournaments": 21,
+            "score": 2340.0,
+            "placements": [
+              "5-8",
+              "5-8",
+              "2",
+              "5-8",
+              "1",
+              "5-8",
+              "5-8",
+              "3-4",
+              "1",
+              "3",
+              "2",
+              "1",
+              "3-4",
+              "2",
+              "5-8",
+              "5-8",
+              "5-8",
+              "5-8",
+              "2",
+              "1",
+              "2"
+            ]
+          }
+        },
+        "tournaments": [
+          {
+            "tournament_id": "esl/league/pro/2015/winter/online_stage",
+            "tournament_name": "ESL Pro League Winter 2014&zwj;/&zwj;15: Online Stage",
+            "tier": "S-Tier",
+            "team": "Natus Vincere",
+            "role": "Rifler",
+            "placement": "5-8",
+            "score": 60.0
+          },
+          {
+            "tournament_id": "starladder/starseries/xii",
+            "tournament_name": "StarLadder StarSeries XII",
+            "tier": "S-Tier",
+            "team": "Natus Vincere",
+            "role": "Rifler",
+            "placement": "5-8",
+            "score": 60.0
+          },
+          {
+            "tournament_id": "faceit/league/2015/stage_1/europe",
+            "tournament_name": "FACEIT League 2015 Stage I - Europe",
+            "tier": "S-Tier",
+            "team": "Natus Vincere",
+            "role": "Rifler",
+            "placement": "2",
+            "score": 140.0
+          },
+          {
+            "tournament_id": "esl/one/2015/katowice",
+            "tournament_name": "ESL One: Katowice 2015",
+            "tier": "S-Tier",
+            "team": "Natus Vincere",
+            "role": "Rifler",
+            "placement": "5-8",
+            "score": 60.0
+          },
+          {
+            "tournament_id": "esl/league/pro/2015/winter",
+            "tournament_name": "ESL Pro League Winter 2014&zwj;/&zwj;15",
+            "tier": "S-Tier",
+            "team": "Natus Vincere",
+            "role": "Rifler",
+            "placement": "1",
+            "score": 200.0
+          },
+          {
+            "tournament_id": "faceit/league/finals/2015",
+            "tournament_name": "FACEIT League 2015 Stage I Finals",
+            "tier": "S-Tier",
+            "team": "Natus Vincere",
+            "role": "Rifler",
+            "placement": "5-8",
+            "score": 60.0
+          },
+          {
+            "tournament_id": "esl_esea/pro_league/season_1/europe",
+            "tournament_name": "ESL ESEA Pro League Season 1 - Europe",
+            "tier": "S-Tier",
+            "team": "Natus Vincere",
+            "role": "Rifler",
+            "placement": "5-8",
+            "score": 60.0
+          },
+          {
+            "tournament_id": "gfinity/masters/spring_2",
+            "tournament_name": "Gfinity Spring Masters 2",
+            "tier": "S-Tier",
+            "team": "Natus Vincere",
+            "role": "Rifler",
+            "placement": "3-4",
+            "score": 100.0
+          },
+          {
+            "tournament_id": "starladder/starseries/xiii",
+            "tournament_name": "StarLadder StarSeries XIII",
+            "tier": "S-Tier",
+            "team": "Natus Vincere",
+            "role": "Rifler",
+            "placement": "1",
+            "score": 200.0
+          },
+          {
+            "tournament_id": "faceit/league/2015/stage_2/europe",
+            "tournament_name": "FACEIT League 2015 Stage 2 - Europe",
+            "tier": "S-Tier",
+            "team": "Natus Vincere",
+            "role": "Rifler",
+            "placement": "3",
+            "score": 100.0
+          },
+          {
+            "tournament_id": "dreamhack/2015/summer",
+            "tournament_name": "DreamHack Open Summer 2015",
+            "tier": "S-Tier",
+            "team": "Natus Vincere",
+            "role": "Rifler",
+            "placement": "2",
+            "score": 140.0
+          },
+          {
+            "tournament_id": "electronic_sports_world_cup/2015",
+            "tournament_name": "Electronic Sports World Cup 2015",
+            "tier": "S-Tier",
+            "team": "Natus Vincere",
+            "role": "Rifler",
+            "placement": "1",
+            "score": 200.0
+          },
+          {
+            "tournament_id": "faceit/league/2015/stage_2/finals",
+            "tournament_name": "FACEIT 2015 Stage 2 Finals",
+            "tier": "S-Tier",
+            "team": "Natus Vincere",
+            "role": "Rifler",
+            "placement": "3-4",
+            "score": 100.0
+          },
+          {
+            "tournament_id": "cevo/season_7/professional",
+            "tournament_name": "CEVO Season 7 Professional",
+            "tier": "S-Tier",
+            "team": "Natus Vincere",
+            "role": "Rifler",
+            "placement": "2",
+            "score": 140.0
+          },
+          {
+            "tournament_id": "cevo/season_8/professional",
+            "tournament_name": "CEVO Season 8 Professional",
+            "tier": "S-Tier",
+            "team": "Natus Vincere",
+            "role": "Rifler",
+            "placement": "5-8",
+            "score": 60.0
+          },
+          {
+            "tournament_id": "esl/one/2015/cologne",
+            "tournament_name": "ESL One: Cologne 2015",
+            "tier": "S-Tier",
+            "team": "Natus Vincere",
+            "role": "Rifler",
+            "placement": "5-8",
+            "score": 60.0
+          },
+          {
+            "tournament_id": "esl_esea/pro_league/invitational",
+            "tournament_name": "ESL ESEA Pro League Invitational",
+            "tier": "S-Tier",
+            "team": "Natus Vincere",
+            "role": "Rifler",
+            "placement": "5-8",
+            "score": 60.0
+          },
+          {
+            "tournament_id": "esl_esea/pro_league/season_2/europe",
+            "tournament_name": "ESL ESEA Pro League Season 2 - Europe",
+            "tier": "S-Tier",
+            "team": "Natus Vincere",
+            "role": "Rifler",
+            "placement": "5-8",
+            "score": 60.0
+          },
+          {
+            "tournament_id": "dreamhack/2015/cluj-napoca",
+            "tournament_name": "DreamHack Open Cluj&#8288;-&#8288;Napoca 2015",
+            "tier": "S-Tier",
+            "team": "Natus Vincere",
+            "role": "Rifler",
+            "placement": "2",
+            "score": 140.0
+          },
+          {
+            "tournament_id": "intel_extreme_masters/season_x/san_jose",
+            "tournament_name": "Intel Extreme Masters X - San Jose",
+            "tier": "S-Tier",
+            "team": "Natus Vincere",
+            "role": "Rifler",
+            "placement": "1",
+            "score": 200.0
+          },
+          {
+            "tournament_id": "esl_esea/pro_league/season_2/finals",
+            "tournament_name": "ESL ESEA Pro League Season 2 - Finals",
+            "tier": "S-Tier",
+            "team": "Natus Vincere",
+            "role": "Rifler",
+            "placement": "2",
+            "score": 140.0
+          }
+        ]
+      }
+    },
+    {
+      "id": "apex_2015",
+      "player_id": "apex",
+      "handle": "apEX",
+      "real_name": "Dan Madesclaire",
+      "nationality": "France",
+      "birth_date": "1993-2-22",
+      "photo_url": "https://img-cdn.hltv.org/playerbodyshot/3M9h08qvl3YOsaRcAvKhs4.png?ixlib=java-2.1.0&w=400&s=c1acc9777d9e3165140548582e9bf1f5",
+      "year": 2015,
+      "total_score": 2178.0,
+      "average_score": 90.75,
+      "tournaments_count": 24,
+      "teams": [
+        "France",
+        "Team EnVyUs",
+        "Titan",
+        "Titan eSports"
+      ],
+      "roles": [
+        "Entry"
+      ],
+      "primary_role": "Entry",
+      "breakdown": {
+        "team_summary": {
+          "Titan eSports": {
+            "tournaments": 5,
+            "score": 334.0,
+            "placements": [
+              "5-8",
+              "4",
+              "6",
+              "2",
+              "7-8"
+            ]
+          },
+          "Titan": {
+            "tournaments": 9,
+            "score": 494.0,
+            "placements": [
+              "5-8",
+              "3",
+              "5-8",
+              "5-8",
+              "5-8",
+              "6",
+              "5-8",
+              "5-6",
+              "9-12"
+            ]
+          },
+          "Team EnVyUs": {
+            "tournaments": 9,
+            "score": 1150.0,
+            "placements": [
+              "1",
+              "2",
+              "5-6",
+              "5-8",
+              "2",
+              "1",
+              "1",
+              "7-8",
+              "3-4"
+            ]
+          },
+          "France": {
+            "tournaments": 1,
+            "score": 200.0,
+            "placements": [
+              "1"
+            ]
+          }
+        },
+        "tournaments": [
+          {
+            "tournament_id": "esl/league/pro/2015/winter/online_stage",
+            "tournament_name": "ESL Pro League Winter 2014&zwj;/&zwj;15: Online Stage",
+            "tier": "S-Tier",
+            "team": "Titan eSports",
+            "role": "Rifler",
+            "placement": "5-8",
+            "score": 60.0
+          },
+          {
+            "tournament_id": "starladder/starseries/xii",
+            "tournament_name": "StarLadder StarSeries XII",
+            "tier": "S-Tier",
+            "team": "Titan eSports",
+            "role": "Rifler",
+            "placement": "4",
+            "score": 80.0
+          },
+          {
+            "tournament_id": "faceit/league/2015/stage_1/europe",
+            "tournament_name": "FACEIT League 2015 Stage I - Europe",
+            "tier": "S-Tier",
+            "team": "Titan eSports",
+            "role": "Rifler",
+            "placement": "6",
+            "score": 4.0
+          },
+          {
+            "tournament_id": "esl/one/2015/katowice",
+            "tournament_name": "ESL One: Katowice 2015",
+            "tier": "S-Tier",
+            "team": "Titan",
+            "role": "Rifler",
+            "placement": "5-8",
+            "score": 60.0
+          },
+          {
+            "tournament_id": "esl/league/pro/2015/winter",
+            "tournament_name": "ESL Pro League Winter 2014&zwj;/&zwj;15",
+            "tier": "S-Tier",
+            "team": "Titan eSports",
+            "role": "Rifler",
+            "placement": "2",
+            "score": 140.0
+          },
+          {
+            "tournament_id": "esea/season_18/invite",
+            "tournament_name": "ESEA Season 18: Global Invite Division",
+            "tier": "S-Tier",
+            "team": "Titan",
+            "role": "Rifler",
+            "placement": "3",
+            "score": 100.0
+          },
+          {
+            "tournament_id": "esl_esea/pro_league/season_1/europe",
+            "tournament_name": "ESL ESEA Pro League Season 1 - Europe",
+            "tier": "S-Tier",
+            "team": "Titan",
+            "role": "Rifler",
+            "placement": "5-8",
+            "score": 60.0
+          },
+          {
+            "tournament_id": "dreamhack/2015/tours",
+            "tournament_name": "DreamHack Open Tours 2015",
+            "tier": "S-Tier",
+            "team": "Titan",
+            "role": "Rifler",
+            "placement": "5-8",
+            "score": 60.0
+          },
+          {
+            "tournament_id": "gfinity/masters/spring_2",
+            "tournament_name": "Gfinity Spring Masters 2",
+            "tier": "S-Tier",
+            "team": "Titan",
+            "role": "Rifler",
+            "placement": "5-8",
+            "score": 60.0
+          },
+          {
+            "tournament_id": "starladder/starseries/xiii",
+            "tournament_name": "StarLadder StarSeries XIII",
+            "tier": "S-Tier",
+            "team": "Titan eSports",
+            "role": "Rifler",
+            "placement": "7-8",
+            "score": 50.0
+          },
+          {
+            "tournament_id": "faceit/league/2015/stage_2/europe",
+            "tournament_name": "FACEIT League 2015 Stage 2 - Europe",
+            "tier": "S-Tier",
+            "team": "Titan",
+            "role": "Rifler",
+            "placement": "6",
+            "score": 4.0
+          },
+          {
+            "tournament_id": "dreamhack/2015/summer",
+            "tournament_name": "DreamHack Open Summer 2015",
+            "tier": "S-Tier",
+            "team": "Titan",
+            "role": "Rifler",
+            "placement": "5-8",
+            "score": 60.0
+          },
+          {
+            "tournament_id": "gfinity/masters/summer_1",
+            "tournament_name": "Gfinity Masters Summer 1",
+            "tier": "S-Tier",
+            "team": "Titan",
+            "role": "Rifler",
+            "placement": "5-6",
+            "score": 60.0
+          },
+          {
+            "tournament_id": "electronic_sports_world_cup/2015",
+            "tournament_name": "Electronic Sports World Cup 2015",
+            "tier": "S-Tier",
+            "team": "Titan",
+            "role": "Rifler",
+            "placement": "9-12",
+            "score": 30.0
+          },
+          {
+            "tournament_id": "intel_extreme_masters/season_x/gamescom",
+            "tournament_name": "Intel Extreme Masters Season X - gamescom",
+            "tier": "S-Tier",
+            "team": "Team EnVyUs",
+            "role": "Rifler",
+            "placement": "1",
+            "score": 200.0
+          },
+          {
+            "tournament_id": "esl/one/2015/cologne",
+            "tournament_name": "ESL One: Cologne 2015",
+            "tier": "S-Tier",
+            "team": "Team EnVyUs",
+            "role": "Rifler",
+            "placement": "2",
+            "score": 140.0
+          },
+          {
+            "tournament_id": "esl_esea/pro_league/invitational",
+            "tournament_name": "ESL ESEA Pro League Invitational",
+            "tier": "S-Tier",
+            "team": "Team EnVyUs",
+            "role": "Rifler",
+            "placement": "5-6",
+            "score": 60.0
+          },
+          {
+            "tournament_id": "esl_esea/pro_league/season_2/europe",
+            "tournament_name": "ESL ESEA Pro League Season 2 - Europe",
+            "tier": "S-Tier",
+            "team": "Team EnVyUs",
+            "role": "Rifler",
+            "placement": "5-8",
+            "score": 60.0
+          },
+          {
+            "tournament_id": "faceit/league/2015/stage_3/europe",
+            "tournament_name": "FACEIT League 2015 Stage 3 - Europe",
+            "tier": "S-Tier",
+            "team": "Team EnVyUs",
+            "role": "Rifler",
+            "placement": "2",
+            "score": 140.0
+          },
+          {
+            "tournament_id": "dreamhack/2015/london",
+            "tournament_name": "DreamHack Open London 2015",
+            "tier": "S-Tier",
+            "team": "Team EnVyUs",
+            "role": "Rifler",
+            "placement": "1",
+            "score": 200.0
+          },
+          {
+            "tournament_id": "e-frag/the_world_championships/2015",
+            "tournament_name": "The World Championships 2015",
+            "tier": "S-Tier",
+            "team": "France",
+            "role": "Rifler",
+            "placement": "1",
+            "score": 200.0
+          },
+          {
+            "tournament_id": "dreamhack/2015/cluj-napoca",
+            "tournament_name": "DreamHack Open Cluj&#8288;-&#8288;Napoca 2015",
+            "tier": "S-Tier",
+            "team": "Team EnVyUs",
+            "role": "Rifler",
+            "placement": "1",
+            "score": 200.0
+          },
+          {
+            "tournament_id": "faceit/league/2015/stage_3/finals",
+            "tournament_name": "FACEIT League 2015 Stage 3 Finals",
+            "tier": "S-Tier",
+            "team": "Team EnVyUs",
+            "role": "Rifler",
+            "placement": "7-8",
+            "score": 50.0
+          },
+          {
+            "tournament_id": "esl_esea/pro_league/season_2/finals",
+            "tournament_name": "ESL ESEA Pro League Season 2 - Finals",
+            "tier": "S-Tier",
+            "team": "Team EnVyUs",
+            "role": "Rifler",
+            "placement": "3-4",
+            "score": 100.0
+          }
+        ]
+      }
+    },
+    {
+      "id": "shox_2015",
+      "player_id": "shox",
+      "handle": "shox",
+      "real_name": "Richard Papillon",
+      "nationality": "France",
+      "birth_date": "1992-05-27",
+      "photo_url": "https://img-cdn.hltv.org/playerbodyshot/nGrgZuKB0e04MUnIpRCdj7.png?bg=3e4c54&h=100&ixlib=java-2.1.0&rect=113%2C8%2C478%2C478&w=100&s=968c69c5e11eb1586188bced9f5e8a53",
+      "year": 2015,
+      "total_score": 2028.0,
+      "average_score": 101.4,
+      "tournaments_count": 20,
+      "teams": [
+        "France",
+        "Team EnVyUs",
+        "Team LDLC.com",
+        "Titan"
+      ],
+      "roles": [
+        "Lurker"
+      ],
+      "primary_role": "Lurker",
+      "breakdown": {
+        "team_summary": {
+          "Team EnVyUs": {
+            "tournaments": 11,
+            "score": 1224.0,
+            "placements": [
+              "5-8",
+              "1",
+              "7",
+              "1",
+              "5-8",
+              "2",
+              "5-8",
+              "2",
+              "3",
+              "1",
+              "5-6"
+            ]
+          },
+          "Team LDLC.com": {
+            "tournaments": 1,
+            "score": 200.0,
+            "placements": [
+              "1"
+            ]
+          },
+          "Titan": {
+            "tournaments": 7,
+            "score": 404.0,
+            "placements": [
+              "3-4",
+              "5-8",
+              "5-8",
+              "5-8",
+              "8",
+              "5-8",
+              "5-8"
+            ]
+          },
+          "France": {
+            "tournaments": 1,
+            "score": 200.0,
+            "placements": [
+              "1"
+            ]
+          }
+        },
+        "tournaments": [
+          {
+            "tournament_id": "esl/league/pro/2015/winter/online_stage",
+            "tournament_name": "ESL Pro League Winter 2014&zwj;/&zwj;15: Online Stage",
+            "tier": "S-Tier",
+            "team": "Team EnVyUs",
+            "role": "Rifler",
+            "placement": "5-8",
+            "score": 60.0
+          },
+          {
+            "tournament_id": "starladder/starseries/xii",
+            "tournament_name": "StarLadder StarSeries XII",
+            "tier": "S-Tier",
+            "team": "Team EnVyUs",
+            "role": "Rifler",
+            "placement": "1",
+            "score": 200.0
+          },
+          {
+            "tournament_id": "mlg/aspen_invitational",
+            "tournament_name": "MLG X Games Aspen Invitational",
+            "tier": "S-Tier",
+            "team": "Team LDLC.com",
+            "role": "Rifler",
+            "placement": "1",
+            "score": 200.0
+          },
+          {
+            "tournament_id": "faceit/league/2015/stage_1/europe",
+            "tournament_name": "FACEIT League 2015 Stage I - Europe",
+            "tier": "S-Tier",
+            "team": "Team EnVyUs",
+            "role": "Rifler",
+            "placement": "7",
+            "score": 4.0
+          },
+          {
+            "tournament_id": "gfinity/spring_masters_1",
+            "tournament_name": "Gfinity Spring Masters 1",
+            "tier": "S-Tier",
+            "team": "Team EnVyUs",
+            "role": "Rifler",
+            "placement": "1",
+            "score": 200.0
+          },
+          {
+            "tournament_id": "esl_esea/pro_league/season_1/europe",
+            "tournament_name": "ESL ESEA Pro League Season 1 - Europe",
+            "tier": "S-Tier",
+            "team": "Team EnVyUs",
+            "role": "Rifler",
+            "placement": "5-8",
+            "score": 60.0
+          },
+          {
+            "tournament_id": "dreamhack/2015/tours",
+            "tournament_name": "DreamHack Open Tours 2015",
+            "tier": "S-Tier",
+            "team": "Team EnVyUs",
+            "role": "Rifler",
+            "placement": "2",
+            "score": 140.0
+          },
+          {
+            "tournament_id": "gfinity/masters/spring_2",
+            "tournament_name": "Gfinity Spring Masters 2",
+            "tier": "S-Tier",
+            "team": "Team EnVyUs",
+            "role": "Rifler",
+            "placement": "5-8",
+            "score": 60.0
+          },
+          {
+            "tournament_id": "starladder/starseries/xiii",
+            "tournament_name": "StarLadder StarSeries XIII",
+            "tier": "S-Tier",
+            "team": "Team EnVyUs",
+            "role": "Rifler",
+            "placement": "2",
+            "score": 140.0
+          },
+          {
+            "tournament_id": "faceit/league/2015/stage_2/europe",
+            "tournament_name": "FACEIT League 2015 Stage 2 - Europe",
+            "tier": "S-Tier",
+            "team": "Team EnVyUs",
+            "role": "Rifler",
+            "placement": "3",
+            "score": 100.0
+          },
+          {
+            "tournament_id": "gfinity/masters/summer_1",
+            "tournament_name": "Gfinity Masters Summer 1",
+            "tier": "S-Tier",
+            "team": "Team EnVyUs",
+            "role": "Rifler",
+            "placement": "1",
+            "score": 200.0
+          },
+          {
+            "tournament_id": "esl_esea/pro_league/season_1/finals",
+            "tournament_name": "ESL ESEA Pro League Season 1 - Finals",
+            "tier": "S-Tier",
+            "team": "Team EnVyUs",
+            "role": "Rifler",
+            "placement": "5-6",
+            "score": 60.0
+          },
+          {
+            "tournament_id": "cevo/season_8/professional",
+            "tournament_name": "CEVO Season 8 Professional",
+            "tier": "S-Tier",
+            "team": "Titan",
+            "role": "Rifler",
+            "placement": "3-4",
+            "score": 100.0
+          },
+          {
+            "tournament_id": "esl/one/2015/cologne",
+            "tournament_name": "ESL One: Cologne 2015",
+            "tier": "S-Tier",
+            "team": "Titan",
+            "role": "Rifler",
+            "placement": "5-8",
+            "score": 60.0
+          },
+          {
+            "tournament_id": "esl_esea/pro_league/invitational",
+            "tournament_name": "ESL ESEA Pro League Invitational",
+            "tier": "S-Tier",
+            "team": "Titan",
+            "role": "Rifler",
+            "placement": "5-8",
+            "score": 60.0
+          },
+          {
+            "tournament_id": "esl_esea/pro_league/season_2/europe",
+            "tournament_name": "ESL ESEA Pro League Season 2 - Europe",
+            "tier": "S-Tier",
+            "team": "Titan",
+            "role": "Rifler",
+            "placement": "5-8",
+            "score": 60.0
+          },
+          {
+            "tournament_id": "faceit/league/2015/stage_3/europe",
+            "tournament_name": "FACEIT League 2015 Stage 3 - Europe",
+            "tier": "S-Tier",
+            "team": "Titan",
+            "role": "Rifler",
+            "placement": "8",
+            "score": 4.0
+          },
+          {
+            "tournament_id": "dreamhack/2015/stockholm",
+            "tournament_name": "DreamHack Open Stockholm 2015",
+            "tier": "S-Tier",
+            "team": "Titan",
+            "role": "Rifler",
+            "placement": "5-8",
+            "score": 60.0
+          },
+          {
+            "tournament_id": "e-frag/the_world_championships/2015",
+            "tournament_name": "The World Championships 2015",
+            "tier": "S-Tier",
+            "team": "France",
+            "role": "Rifler",
+            "placement": "1",
+            "score": 200.0
+          },
+          {
+            "tournament_id": "dreamhack/2015/cluj-napoca",
+            "tournament_name": "DreamHack Open Cluj&#8288;-&#8288;Napoca 2015",
+            "tier": "S-Tier",
+            "team": "Titan",
+            "role": "Rifler",
+            "placement": "5-8",
+            "score": 60.0
+          }
+        ]
+      }
+    },
+    {
+      "id": "smithzz_2015",
+      "player_id": "smithzz",
+      "handle": "SmithZz",
+      "real_name": "Edouard Dubourdeaux",
+      "nationality": "France",
+      "birth_date": "1988-12-17",
+      "photo_url": "https://img-cdn.hltv.org/playerbodyshot/GPEEjMU8NLwa54a0s6VdlD.png?bg=3e4c54&h=100&ixlib=java-2.1.0&rect=113%2C19%2C494%2C494&w=100&s=4210c7ee1b025a25e966b4e29ec5a618",
+      "year": 2015,
+      "total_score": 2028.0,
+      "average_score": 101.4,
+      "tournaments_count": 20,
+      "teams": [
+        "France",
+        "Team EnVyUs",
+        "Team LDLC.com",
+        "Titan"
+      ],
+      "roles": [
+        "AWPer"
+      ],
+      "primary_role": "AWPer",
+      "breakdown": {
+        "team_summary": {
+          "Team EnVyUs": {
+            "tournaments": 11,
+            "score": 1224.0,
+            "placements": [
+              "5-8",
+              "1",
+              "7",
+              "1",
+              "5-8",
+              "2",
+              "5-8",
+              "2",
+              "3",
+              "1",
+              "5-6"
+            ]
+          },
+          "Team LDLC.com": {
+            "tournaments": 1,
+            "score": 200.0,
+            "placements": [
+              "1"
+            ]
+          },
+          "Titan": {
+            "tournaments": 7,
+            "score": 404.0,
+            "placements": [
+              "3-4",
+              "5-8",
+              "5-8",
+              "5-8",
+              "8",
+              "5-8",
+              "5-8"
+            ]
+          },
+          "France": {
+            "tournaments": 1,
+            "score": 200.0,
+            "placements": [
+              "1"
+            ]
+          }
+        },
+        "tournaments": [
+          {
+            "tournament_id": "esl/league/pro/2015/winter/online_stage",
+            "tournament_name": "ESL Pro League Winter 2014&zwj;/&zwj;15: Online Stage",
+            "tier": "S-Tier",
+            "team": "Team EnVyUs",
+            "role": "Rifler",
+            "placement": "5-8",
+            "score": 60.0
+          },
+          {
+            "tournament_id": "starladder/starseries/xii",
+            "tournament_name": "StarLadder StarSeries XII",
+            "tier": "S-Tier",
+            "team": "Team EnVyUs",
+            "role": "Rifler",
+            "placement": "1",
+            "score": 200.0
+          },
+          {
+            "tournament_id": "mlg/aspen_invitational",
+            "tournament_name": "MLG X Games Aspen Invitational",
+            "tier": "S-Tier",
+            "team": "Team LDLC.com",
+            "role": "Rifler",
+            "placement": "1",
+            "score": 200.0
+          },
+          {
+            "tournament_id": "faceit/league/2015/stage_1/europe",
+            "tournament_name": "FACEIT League 2015 Stage I - Europe",
+            "tier": "S-Tier",
+            "team": "Team EnVyUs",
+            "role": "Rifler",
+            "placement": "7",
+            "score": 4.0
+          },
+          {
+            "tournament_id": "gfinity/spring_masters_1",
+            "tournament_name": "Gfinity Spring Masters 1",
+            "tier": "S-Tier",
+            "team": "Team EnVyUs",
+            "role": "Rifler",
+            "placement": "1",
+            "score": 200.0
+          },
+          {
+            "tournament_id": "esl_esea/pro_league/season_1/europe",
+            "tournament_name": "ESL ESEA Pro League Season 1 - Europe",
+            "tier": "S-Tier",
+            "team": "Team EnVyUs",
+            "role": "Rifler",
+            "placement": "5-8",
+            "score": 60.0
+          },
+          {
+            "tournament_id": "dreamhack/2015/tours",
+            "tournament_name": "DreamHack Open Tours 2015",
+            "tier": "S-Tier",
+            "team": "Team EnVyUs",
+            "role": "Rifler",
+            "placement": "2",
+            "score": 140.0
+          },
+          {
+            "tournament_id": "gfinity/masters/spring_2",
+            "tournament_name": "Gfinity Spring Masters 2",
+            "tier": "S-Tier",
+            "team": "Team EnVyUs",
+            "role": "Rifler",
+            "placement": "5-8",
+            "score": 60.0
+          },
+          {
+            "tournament_id": "starladder/starseries/xiii",
+            "tournament_name": "StarLadder StarSeries XIII",
+            "tier": "S-Tier",
+            "team": "Team EnVyUs",
+            "role": "Rifler",
+            "placement": "2",
+            "score": 140.0
+          },
+          {
+            "tournament_id": "faceit/league/2015/stage_2/europe",
+            "tournament_name": "FACEIT League 2015 Stage 2 - Europe",
+            "tier": "S-Tier",
+            "team": "Team EnVyUs",
+            "role": "Rifler",
+            "placement": "3",
+            "score": 100.0
+          },
+          {
+            "tournament_id": "gfinity/masters/summer_1",
+            "tournament_name": "Gfinity Masters Summer 1",
+            "tier": "S-Tier",
+            "team": "Team EnVyUs",
+            "role": "Rifler",
+            "placement": "1",
+            "score": 200.0
+          },
+          {
+            "tournament_id": "esl_esea/pro_league/season_1/finals",
+            "tournament_name": "ESL ESEA Pro League Season 1 - Finals",
+            "tier": "S-Tier",
+            "team": "Team EnVyUs",
+            "role": "Rifler",
+            "placement": "5-6",
+            "score": 60.0
+          },
+          {
+            "tournament_id": "cevo/season_8/professional",
+            "tournament_name": "CEVO Season 8 Professional",
+            "tier": "S-Tier",
+            "team": "Titan",
+            "role": "Rifler",
+            "placement": "3-4",
+            "score": 100.0
+          },
+          {
+            "tournament_id": "esl/one/2015/cologne",
+            "tournament_name": "ESL One: Cologne 2015",
+            "tier": "S-Tier",
+            "team": "Titan",
+            "role": "Rifler",
+            "placement": "5-8",
+            "score": 60.0
+          },
+          {
+            "tournament_id": "esl_esea/pro_league/invitational",
+            "tournament_name": "ESL ESEA Pro League Invitational",
+            "tier": "S-Tier",
+            "team": "Titan",
+            "role": "Rifler",
+            "placement": "5-8",
+            "score": 60.0
+          },
+          {
+            "tournament_id": "esl_esea/pro_league/season_2/europe",
+            "tournament_name": "ESL ESEA Pro League Season 2 - Europe",
+            "tier": "S-Tier",
+            "team": "Titan",
+            "role": "Rifler",
+            "placement": "5-8",
+            "score": 60.0
+          },
+          {
+            "tournament_id": "faceit/league/2015/stage_3/europe",
+            "tournament_name": "FACEIT League 2015 Stage 3 - Europe",
+            "tier": "S-Tier",
+            "team": "Titan",
+            "role": "Rifler",
+            "placement": "8",
+            "score": 4.0
+          },
+          {
+            "tournament_id": "dreamhack/2015/stockholm",
+            "tournament_name": "DreamHack Open Stockholm 2015",
+            "tier": "S-Tier",
+            "team": "Titan",
+            "role": "Rifler",
+            "placement": "5-8",
+            "score": 60.0
+          },
+          {
+            "tournament_id": "e-frag/the_world_championships/2015",
+            "tournament_name": "The World Championships 2015",
+            "tier": "S-Tier",
+            "team": "France",
+            "role": "Rifler",
+            "placement": "1",
+            "score": 200.0
+          },
+          {
+            "tournament_id": "dreamhack/2015/cluj-napoca",
+            "tournament_name": "DreamHack Open Cluj&#8288;-&#8288;Napoca 2015",
+            "tier": "S-Tier",
+            "team": "Titan",
+            "role": "Rifler",
+            "placement": "5-8",
+            "score": 60.0
+          }
+        ]
+      }
+    },
+    {
+      "id": "karrigan_2017",
+      "player_id": "karrigan",
+      "handle": "karrigan",
+      "real_name": "Finn Andersen",
+      "nationality": "Denmark",
+      "birth_date": "1990-4-14",
+      "photo_url": "https://img-cdn.hltv.org/playerbodyshot/4nm-v1aawxy5SUrv81H9JZ.png?bg=3e4c54&h=100&ixlib=java-2.1.0&rect=121%2C4%2C467%2C467&w=100&s=e47e0b9d1676a4acbbec4ecc2570b3cc",
+      "year": 2017,
+      "total_score": 1980.0,
+      "average_score": 116.47,
+      "tournaments_count": 17,
+      "teams": [
+        "FaZe Clan"
+      ],
+      "roles": [
+        "IGL"
+      ],
+      "primary_role": "IGL",
+      "breakdown": {
+        "team_summary": {
+          "FaZe Clan": {
+            "tournaments": 17,
+            "score": 1980.0,
+            "placements": [
+              "5-8",
+              "5-8",
+              "5-8",
+              "2",
+              "1",
+              "2",
+              "5-8",
+              "2",
+              "5-8",
+              "5-8",
+              "5-8",
+              "1",
+              "1",
+              "5-6",
+              "2",
+              "2",
+              "1"
+            ]
+          }
+        },
+        "tournaments": [
+          {
+            "tournament_id": "eleague/2017/major",
+            "tournament_name": "ELEAGUE Major Atlanta 2017",
+            "tier": "S-Tier",
+            "team": "FaZe Clan",
+            "role": "Rifler",
+            "placement": "5-8",
+            "score": 60.0
+          },
+          {
+            "tournament_id": "esl/pro_league/season_5/europe",
+            "tournament_name": "ESL Pro League Season 5 - Europe",
+            "tier": "S-Tier",
+            "team": "FaZe Clan",
+            "role": "Rifler",
+            "placement": "5-8",
+            "score": 60.0
+          },
+          {
+            "tournament_id": "dreamhack/2017/las_vegas",
+            "tournament_name": "DreamHack Masters Las&nbsp;Vegas 2017",
+            "tier": "S-Tier",
+            "team": "FaZe Clan",
+            "role": "Rifler",
+            "placement": "5-8",
+            "score": 60.0
+          },
+          {
+            "tournament_id": "intel_extreme_masters/season_xi/world_championship",
+            "tournament_name": "Intel Extreme Masters XI - World Championship",
+            "tier": "S-Tier",
+            "team": "FaZe Clan",
+            "role": "Rifler",
+            "placement": "2",
+            "score": 140.0
+          },
+          {
+            "tournament_id": "starladder_i-league/starseries/season_3",
+            "tournament_name": "StarLadder i-League StarSeries Season 3",
+            "tier": "S-Tier",
+            "team": "FaZe Clan",
+            "role": "Rifler",
+            "placement": "1",
+            "score": 200.0
+          },
+          {
+            "tournament_id": "intel_extreme_masters/season_xii/sydney",
+            "tournament_name": "Intel Extreme Masters XII - Sydney",
+            "tier": "S-Tier",
+            "team": "FaZe Clan",
+            "role": "Rifler",
+            "placement": "2",
+            "score": 140.0
+          },
+          {
+            "tournament_id": "esl/one/2017/cologne",
+            "tournament_name": "ESL One: Cologne 2017",
+            "tier": "S-Tier",
+            "team": "FaZe Clan",
+            "role": "Rifler",
+            "placement": "5-8",
+            "score": 60.0
+          },
+          {
+            "tournament_id": "intel/grand_slam/1",
+            "tournament_name": "Intel Grand Slam Season 1",
+            "tier": "S-Tier",
+            "team": "FaZe Clan",
+            "role": "Rifler",
+            "placement": "2",
+            "score": 140.0
+          },
+          {
+            "tournament_id": "pgl/2017/krakow",
+            "tournament_name": "PGL Major Kraków 2017",
+            "tier": "S-Tier",
+            "team": "FaZe Clan",
+            "role": "Rifler",
+            "placement": "5-8",
+            "score": 60.0
+          },
+          {
+            "tournament_id": "esl/pro_league/season_6/europe",
+            "tournament_name": "ESL Pro League Season 6 - Europe",
+            "tier": "S-Tier",
+            "team": "FaZe Clan",
+            "role": "Rifler",
+            "placement": "5-8",
+            "score": 60.0
+          },
+          {
+            "tournament_id": "dreamhack/2017/malmö",
+            "tournament_name": "DreamHack Masters Malmö&nbsp;2017",
+            "tier": "S-Tier",
+            "team": "FaZe Clan",
+            "role": "Rifler",
+            "placement": "5-8",
+            "score": 60.0
+          },
+          {
+            "tournament_id": "eleague/2017/premier",
+            "tournament_name": "ELEAGUE Premier 2017",
+            "tier": "S-Tier",
+            "team": "FaZe Clan",
+            "role": "Rifler",
+            "placement": "1",
+            "score": 200.0
+          },
+          {
+            "tournament_id": "esl/one/2017/new_york",
+            "tournament_name": "ESL One: New York 2017",
+            "tier": "S-Tier",
+            "team": "FaZe Clan",
+            "role": "Rifler",
+            "placement": "1",
+            "score": 200.0
+          },
+          {
+            "tournament_id": "epicenter/2017",
+            "tournament_name": "EPICENTER 2017",
+            "tier": "S-Tier",
+            "team": "FaZe Clan",
+            "role": "Rifler",
+            "placement": "5-6",
+            "score": 60.0
+          },
+          {
+            "tournament_id": "intel_extreme_masters/season_xii/oakland",
+            "tournament_name": "Intel Extreme Masters XII - Oakland",
+            "tier": "S-Tier",
+            "team": "FaZe Clan",
+            "role": "Rifler",
+            "placement": "2",
+            "score": 140.0
+          },
+          {
+            "tournament_id": "esl/pro_league/season_6/finals",
+            "tournament_name": "ESL Pro League Season 6 - Finals",
+            "tier": "S-Tier",
+            "team": "FaZe Clan",
+            "role": "Rifler",
+            "placement": "2",
+            "score": 140.0
+          },
+          {
+            "tournament_id": "esports_championship_series/season_4",
+            "tournament_name": "Esports Championship Series Season 4 - Finals",
+            "tier": "S-Tier",
+            "team": "FaZe Clan",
+            "role": "Rifler",
+            "placement": "1",
+            "score": 200.0
+          }
+        ]
+      }
+    },
+    {
+      "id": "niko_2017",
+      "player_id": "niko",
+      "handle": "NiKo",
+      "real_name": "Никола Ковач",
+      "nationality": "Bosnia and Herzegovina",
+      "birth_date": "1997-2-16",
+      "photo_url": "https://img-cdn.hltv.org/playerbodyshot/ZPB6zop8FumkqqbHl8BGos.png?ixlib=java-2.1.0&w=400&s=a81b4da0555bb1f3599bd3ca854f5515",
+      "year": 2017,
+      "total_score": 1980.0,
+      "average_score": 116.47,
+      "tournaments_count": 17,
+      "teams": [
+        "FaZe Clan",
+        "mousesports"
+      ],
+      "roles": [
+        "Lurker"
+      ],
+      "primary_role": "Lurker",
+      "breakdown": {
+        "team_summary": {
+          "mousesports": {
+            "tournaments": 2,
+            "score": 120.0,
+            "placements": [
+              "5-8",
+              "5-8"
+            ]
+          },
+          "FaZe Clan": {
+            "tournaments": 15,
+            "score": 1860.0,
+            "placements": [
+              "5-8",
+              "2",
+              "1",
+              "2",
+              "5-8",
+              "2",
+              "5-8",
+              "5-8",
+              "5-8",
+              "1",
+              "1",
+              "5-6",
+              "2",
+              "2",
+              "1"
+            ]
+          }
+        },
+        "tournaments": [
+          {
+            "tournament_id": "eleague/2017/major",
+            "tournament_name": "ELEAGUE Major Atlanta 2017",
+            "tier": "S-Tier",
+            "team": "mousesports",
+            "role": "Rifler",
+            "placement": "5-8",
+            "score": 60.0
+          },
+          {
+            "tournament_id": "esl/pro_league/season_5/europe",
+            "tournament_name": "ESL Pro League Season 5 - Europe",
+            "tier": "S-Tier",
+            "team": "FaZe Clan",
+            "role": "Rifler",
+            "placement": "5-8",
+            "score": 60.0
+          },
+          {
+            "tournament_id": "dreamhack/2017/las_vegas",
+            "tournament_name": "DreamHack Masters Las&nbsp;Vegas 2017",
+            "tier": "S-Tier",
+            "team": "mousesports",
+            "role": "Rifler",
+            "placement": "5-8",
+            "score": 60.0
+          },
+          {
+            "tournament_id": "intel_extreme_masters/season_xi/world_championship",
+            "tournament_name": "Intel Extreme Masters XI - World Championship",
+            "tier": "S-Tier",
+            "team": "FaZe Clan",
+            "role": "Rifler",
+            "placement": "2",
+            "score": 140.0
+          },
+          {
+            "tournament_id": "starladder_i-league/starseries/season_3",
+            "tournament_name": "StarLadder i-League StarSeries Season 3",
+            "tier": "S-Tier",
+            "team": "FaZe Clan",
+            "role": "Rifler",
+            "placement": "1",
+            "score": 200.0
+          },
+          {
+            "tournament_id": "intel_extreme_masters/season_xii/sydney",
+            "tournament_name": "Intel Extreme Masters XII - Sydney",
+            "tier": "S-Tier",
+            "team": "FaZe Clan",
+            "role": "Rifler",
+            "placement": "2",
+            "score": 140.0
+          },
+          {
+            "tournament_id": "esl/one/2017/cologne",
+            "tournament_name": "ESL One: Cologne 2017",
+            "tier": "S-Tier",
+            "team": "FaZe Clan",
+            "role": "Rifler",
+            "placement": "5-8",
+            "score": 60.0
+          },
+          {
+            "tournament_id": "intel/grand_slam/1",
+            "tournament_name": "Intel Grand Slam Season 1",
+            "tier": "S-Tier",
+            "team": "FaZe Clan",
+            "role": "Rifler",
+            "placement": "2",
+            "score": 140.0
+          },
+          {
+            "tournament_id": "pgl/2017/krakow",
+            "tournament_name": "PGL Major Kraków 2017",
+            "tier": "S-Tier",
+            "team": "FaZe Clan",
+            "role": "Rifler",
+            "placement": "5-8",
+            "score": 60.0
+          },
+          {
+            "tournament_id": "esl/pro_league/season_6/europe",
+            "tournament_name": "ESL Pro League Season 6 - Europe",
+            "tier": "S-Tier",
+            "team": "FaZe Clan",
+            "role": "Rifler",
+            "placement": "5-8",
+            "score": 60.0
+          },
+          {
+            "tournament_id": "dreamhack/2017/malmö",
+            "tournament_name": "DreamHack Masters Malmö&nbsp;2017",
+            "tier": "S-Tier",
+            "team": "FaZe Clan",
+            "role": "Rifler",
+            "placement": "5-8",
+            "score": 60.0
+          },
+          {
+            "tournament_id": "eleague/2017/premier",
+            "tournament_name": "ELEAGUE Premier 2017",
+            "tier": "S-Tier",
+            "team": "FaZe Clan",
+            "role": "Rifler",
+            "placement": "1",
+            "score": 200.0
+          },
+          {
+            "tournament_id": "esl/one/2017/new_york",
+            "tournament_name": "ESL One: New York 2017",
+            "tier": "S-Tier",
+            "team": "FaZe Clan",
+            "role": "Rifler",
+            "placement": "1",
+            "score": 200.0
+          },
+          {
+            "tournament_id": "epicenter/2017",
+            "tournament_name": "EPICENTER 2017",
+            "tier": "S-Tier",
+            "team": "FaZe Clan",
+            "role": "Rifler",
+            "placement": "5-6",
+            "score": 60.0
+          },
+          {
+            "tournament_id": "intel_extreme_masters/season_xii/oakland",
+            "tournament_name": "Intel Extreme Masters XII - Oakland",
+            "tier": "S-Tier",
+            "team": "FaZe Clan",
+            "role": "Rifler",
+            "placement": "2",
+            "score": 140.0
+          },
+          {
+            "tournament_id": "esl/pro_league/season_6/finals",
+            "tournament_name": "ESL Pro League Season 6 - Finals",
+            "tier": "S-Tier",
+            "team": "FaZe Clan",
+            "role": "Rifler",
+            "placement": "2",
+            "score": 140.0
+          },
+          {
+            "tournament_id": "esports_championship_series/season_4",
+            "tournament_name": "Esports Championship Series Season 4 - Finals",
+            "tier": "S-Tier",
+            "team": "FaZe Clan",
+            "role": "Rifler",
+            "placement": "1",
+            "score": 200.0
+          }
+        ]
+      }
+    },
+    {
+      "id": "rain_2017",
+      "player_id": "rain",
+      "handle": "rain",
+      "real_name": "Håvard Liset Nygaard",
+      "nationality": "Norway",
+      "birth_date": "1994-8-27",
+      "photo_url": "https://img-cdn.hltv.org/playerbodyshot/ArQdriVHoK0YNQPdugKBiq.png?ixlib=java-2.1.0&w=400&s=53f89da2f6162676c4f42869ecda0c29",
+      "year": 2017,
+      "total_score": 1980.0,
+      "average_score": 116.47,
+      "tournaments_count": 17,
+      "teams": [
+        "FaZe Clan"
+      ],
+      "roles": [
+        "Entry"
+      ],
+      "primary_role": "Entry",
+      "breakdown": {
+        "team_summary": {
+          "FaZe Clan": {
+            "tournaments": 17,
+            "score": 1980.0,
+            "placements": [
+              "5-8",
+              "5-8",
+              "5-8",
+              "2",
+              "1",
+              "2",
+              "5-8",
+              "2",
+              "5-8",
+              "5-8",
+              "5-8",
+              "1",
+              "1",
+              "5-6",
+              "2",
+              "2",
+              "1"
+            ]
+          }
+        },
+        "tournaments": [
+          {
+            "tournament_id": "eleague/2017/major",
+            "tournament_name": "ELEAGUE Major Atlanta 2017",
+            "tier": "S-Tier",
+            "team": "FaZe Clan",
+            "role": "Rifler",
+            "placement": "5-8",
+            "score": 60.0
+          },
+          {
+            "tournament_id": "esl/pro_league/season_5/europe",
+            "tournament_name": "ESL Pro League Season 5 - Europe",
+            "tier": "S-Tier",
+            "team": "FaZe Clan",
+            "role": "Rifler",
+            "placement": "5-8",
+            "score": 60.0
+          },
+          {
+            "tournament_id": "dreamhack/2017/las_vegas",
+            "tournament_name": "DreamHack Masters Las&nbsp;Vegas 2017",
+            "tier": "S-Tier",
+            "team": "FaZe Clan",
+            "role": "Rifler",
+            "placement": "5-8",
+            "score": 60.0
+          },
+          {
+            "tournament_id": "intel_extreme_masters/season_xi/world_championship",
+            "tournament_name": "Intel Extreme Masters XI - World Championship",
+            "tier": "S-Tier",
+            "team": "FaZe Clan",
+            "role": "Rifler",
+            "placement": "2",
+            "score": 140.0
+          },
+          {
+            "tournament_id": "starladder_i-league/starseries/season_3",
+            "tournament_name": "StarLadder i-League StarSeries Season 3",
+            "tier": "S-Tier",
+            "team": "FaZe Clan",
+            "role": "Rifler",
+            "placement": "1",
+            "score": 200.0
+          },
+          {
+            "tournament_id": "intel_extreme_masters/season_xii/sydney",
+            "tournament_name": "Intel Extreme Masters XII - Sydney",
+            "tier": "S-Tier",
+            "team": "FaZe Clan",
+            "role": "Rifler",
+            "placement": "2",
+            "score": 140.0
+          },
+          {
+            "tournament_id": "esl/one/2017/cologne",
+            "tournament_name": "ESL One: Cologne 2017",
+            "tier": "S-Tier",
+            "team": "FaZe Clan",
+            "role": "Rifler",
+            "placement": "5-8",
+            "score": 60.0
+          },
+          {
+            "tournament_id": "intel/grand_slam/1",
+            "tournament_name": "Intel Grand Slam Season 1",
+            "tier": "S-Tier",
+            "team": "FaZe Clan",
+            "role": "Rifler",
+            "placement": "2",
+            "score": 140.0
+          },
+          {
+            "tournament_id": "pgl/2017/krakow",
+            "tournament_name": "PGL Major Kraków 2017",
+            "tier": "S-Tier",
+            "team": "FaZe Clan",
+            "role": "Rifler",
+            "placement": "5-8",
+            "score": 60.0
+          },
+          {
+            "tournament_id": "esl/pro_league/season_6/europe",
+            "tournament_name": "ESL Pro League Season 6 - Europe",
+            "tier": "S-Tier",
+            "team": "FaZe Clan",
+            "role": "Rifler",
+            "placement": "5-8",
+            "score": 60.0
+          },
+          {
+            "tournament_id": "dreamhack/2017/malmö",
+            "tournament_name": "DreamHack Masters Malmö&nbsp;2017",
+            "tier": "S-Tier",
+            "team": "FaZe Clan",
+            "role": "Rifler",
+            "placement": "5-8",
+            "score": 60.0
+          },
+          {
+            "tournament_id": "eleague/2017/premier",
+            "tournament_name": "ELEAGUE Premier 2017",
+            "tier": "S-Tier",
+            "team": "FaZe Clan",
+            "role": "Rifler",
+            "placement": "1",
+            "score": 200.0
+          },
+          {
+            "tournament_id": "esl/one/2017/new_york",
+            "tournament_name": "ESL One: New York 2017",
+            "tier": "S-Tier",
+            "team": "FaZe Clan",
+            "role": "Rifler",
+            "placement": "1",
+            "score": 200.0
+          },
+          {
+            "tournament_id": "epicenter/2017",
+            "tournament_name": "EPICENTER 2017",
+            "tier": "S-Tier",
+            "team": "FaZe Clan",
+            "role": "Rifler",
+            "placement": "5-6",
+            "score": 60.0
+          },
+          {
+            "tournament_id": "intel_extreme_masters/season_xii/oakland",
+            "tournament_name": "Intel Extreme Masters XII - Oakland",
+            "tier": "S-Tier",
+            "team": "FaZe Clan",
+            "role": "Rifler",
+            "placement": "2",
+            "score": 140.0
+          },
+          {
+            "tournament_id": "esl/pro_league/season_6/finals",
+            "tournament_name": "ESL Pro League Season 6 - Finals",
+            "tier": "S-Tier",
+            "team": "FaZe Clan",
+            "role": "Rifler",
+            "placement": "2",
+            "score": 140.0
+          },
+          {
+            "tournament_id": "esports_championship_series/season_4",
+            "tournament_name": "Esports Championship Series Season 4 - Finals",
+            "tier": "S-Tier",
+            "team": "FaZe Clan",
+            "role": "Rifler",
+            "placement": "1",
+            "score": 200.0
+          }
+        ]
+      }
+    },
+    {
+      "id": "kennys_2015",
+      "player_id": "kennys",
+      "handle": "kennyS",
+      "real_name": "Kenny Schrub",
+      "nationality": "France",
+      "birth_date": "1995-05-19",
+      "photo_url": "https://img-cdn.hltv.org/playerbodyshot/7O41YNDhjwV8nYuDpm5M0J.png?bg=3e4c54&h=100&ixlib=java-2.1.0&rect=121%2C8%2C467%2C467&w=100&s=8fe402f344ff187583e4544a6d77737a",
+      "year": 2015,
+      "total_score": 1978.0,
+      "average_score": 86.0,
+      "tournaments_count": 23,
+      "teams": [
+        "Team EnVyUs",
+        "Titan",
+        "Titan eSports"
+      ],
+      "roles": [
+        "AWPer"
+      ],
+      "primary_role": "AWPer",
+      "breakdown": {
+        "team_summary": {
+          "Titan eSports": {
+            "tournaments": 5,
+            "score": 334.0,
+            "placements": [
+              "5-8",
+              "4",
+              "6",
+              "2",
+              "7-8"
+            ]
+          },
+          "Titan": {
+            "tournaments": 9,
+            "score": 494.0,
+            "placements": [
+              "5-8",
+              "3",
+              "5-8",
+              "5-8",
+              "5-8",
+              "6",
+              "5-8",
+              "5-6",
+              "9-12"
+            ]
+          },
+          "Team EnVyUs": {
+            "tournaments": 9,
+            "score": 1150.0,
+            "placements": [
+              "1",
+              "2",
+              "5-6",
+              "5-8",
+              "2",
+              "1",
+              "1",
+              "7-8",
+              "3-4"
+            ]
+          }
+        },
+        "tournaments": [
+          {
+            "tournament_id": "esl/league/pro/2015/winter/online_stage",
+            "tournament_name": "ESL Pro League Winter 2014&zwj;/&zwj;15: Online Stage",
+            "tier": "S-Tier",
+            "team": "Titan eSports",
+            "role": "Rifler",
+            "placement": "5-8",
+            "score": 60.0
+          },
+          {
+            "tournament_id": "starladder/starseries/xii",
+            "tournament_name": "StarLadder StarSeries XII",
+            "tier": "S-Tier",
+            "team": "Titan eSports",
+            "role": "Rifler",
+            "placement": "4",
+            "score": 80.0
+          },
+          {
+            "tournament_id": "faceit/league/2015/stage_1/europe",
+            "tournament_name": "FACEIT League 2015 Stage I - Europe",
+            "tier": "S-Tier",
+            "team": "Titan eSports",
+            "role": "Rifler",
+            "placement": "6",
+            "score": 4.0
+          },
+          {
+            "tournament_id": "esl/one/2015/katowice",
+            "tournament_name": "ESL One: Katowice 2015",
+            "tier": "S-Tier",
+            "team": "Titan",
+            "role": "Rifler",
+            "placement": "5-8",
+            "score": 60.0
+          },
+          {
+            "tournament_id": "esl/league/pro/2015/winter",
+            "tournament_name": "ESL Pro League Winter 2014&zwj;/&zwj;15",
+            "tier": "S-Tier",
+            "team": "Titan eSports",
+            "role": "Rifler",
+            "placement": "2",
+            "score": 140.0
+          },
+          {
+            "tournament_id": "esea/season_18/invite",
+            "tournament_name": "ESEA Season 18: Global Invite Division",
+            "tier": "S-Tier",
+            "team": "Titan",
+            "role": "Rifler",
+            "placement": "3",
+            "score": 100.0
+          },
+          {
+            "tournament_id": "esl_esea/pro_league/season_1/europe",
+            "tournament_name": "ESL ESEA Pro League Season 1 - Europe",
+            "tier": "S-Tier",
+            "team": "Titan",
+            "role": "Rifler",
+            "placement": "5-8",
+            "score": 60.0
+          },
+          {
+            "tournament_id": "dreamhack/2015/tours",
+            "tournament_name": "DreamHack Open Tours 2015",
+            "tier": "S-Tier",
+            "team": "Titan",
+            "role": "Rifler",
+            "placement": "5-8",
+            "score": 60.0
+          },
+          {
+            "tournament_id": "gfinity/masters/spring_2",
+            "tournament_name": "Gfinity Spring Masters 2",
+            "tier": "S-Tier",
+            "team": "Titan",
+            "role": "Rifler",
+            "placement": "5-8",
+            "score": 60.0
+          },
+          {
+            "tournament_id": "starladder/starseries/xiii",
+            "tournament_name": "StarLadder StarSeries XIII",
+            "tier": "S-Tier",
+            "team": "Titan eSports",
+            "role": "Rifler",
+            "placement": "7-8",
+            "score": 50.0
+          },
+          {
+            "tournament_id": "faceit/league/2015/stage_2/europe",
+            "tournament_name": "FACEIT League 2015 Stage 2 - Europe",
+            "tier": "S-Tier",
+            "team": "Titan",
+            "role": "Rifler",
+            "placement": "6",
+            "score": 4.0
+          },
+          {
+            "tournament_id": "dreamhack/2015/summer",
+            "tournament_name": "DreamHack Open Summer 2015",
+            "tier": "S-Tier",
+            "team": "Titan",
+            "role": "Rifler",
+            "placement": "5-8",
+            "score": 60.0
+          },
+          {
+            "tournament_id": "gfinity/masters/summer_1",
+            "tournament_name": "Gfinity Masters Summer 1",
+            "tier": "S-Tier",
+            "team": "Titan",
+            "role": "Rifler",
+            "placement": "5-6",
+            "score": 60.0
+          },
+          {
+            "tournament_id": "electronic_sports_world_cup/2015",
+            "tournament_name": "Electronic Sports World Cup 2015",
+            "tier": "S-Tier",
+            "team": "Titan",
+            "role": "Rifler",
+            "placement": "9-12",
+            "score": 30.0
+          },
+          {
+            "tournament_id": "intel_extreme_masters/season_x/gamescom",
+            "tournament_name": "Intel Extreme Masters Season X - gamescom",
+            "tier": "S-Tier",
+            "team": "Team EnVyUs",
+            "role": "Rifler",
+            "placement": "1",
+            "score": 200.0
+          },
+          {
+            "tournament_id": "esl/one/2015/cologne",
+            "tournament_name": "ESL One: Cologne 2015",
+            "tier": "S-Tier",
+            "team": "Team EnVyUs",
+            "role": "Rifler",
+            "placement": "2",
+            "score": 140.0
+          },
+          {
+            "tournament_id": "esl_esea/pro_league/invitational",
+            "tournament_name": "ESL ESEA Pro League Invitational",
+            "tier": "S-Tier",
+            "team": "Team EnVyUs",
+            "role": "Rifler",
+            "placement": "5-6",
+            "score": 60.0
+          },
+          {
+            "tournament_id": "esl_esea/pro_league/season_2/europe",
+            "tournament_name": "ESL ESEA Pro League Season 2 - Europe",
+            "tier": "S-Tier",
+            "team": "Team EnVyUs",
+            "role": "Rifler",
+            "placement": "5-8",
+            "score": 60.0
+          },
+          {
+            "tournament_id": "faceit/league/2015/stage_3/europe",
+            "tournament_name": "FACEIT League 2015 Stage 3 - Europe",
+            "tier": "S-Tier",
+            "team": "Team EnVyUs",
+            "role": "Rifler",
+            "placement": "2",
+            "score": 140.0
+          },
+          {
+            "tournament_id": "dreamhack/2015/london",
+            "tournament_name": "DreamHack Open London 2015",
+            "tier": "S-Tier",
+            "team": "Team EnVyUs",
+            "role": "Rifler",
+            "placement": "1",
+            "score": 200.0
+          },
+          {
+            "tournament_id": "dreamhack/2015/cluj-napoca",
+            "tournament_name": "DreamHack Open Cluj&#8288;-&#8288;Napoca 2015",
+            "tier": "S-Tier",
+            "team": "Team EnVyUs",
+            "role": "Rifler",
+            "placement": "1",
+            "score": 200.0
+          },
+          {
+            "tournament_id": "faceit/league/2015/stage_3/finals",
+            "tournament_name": "FACEIT League 2015 Stage 3 Finals",
+            "tier": "S-Tier",
+            "team": "Team EnVyUs",
+            "role": "Rifler",
+            "placement": "7-8",
+            "score": 50.0
+          },
+          {
+            "tournament_id": "esl_esea/pro_league/season_2/finals",
+            "tournament_name": "ESL ESEA Pro League Season 2 - Finals",
+            "tier": "S-Tier",
+            "team": "Team EnVyUs",
+            "role": "Rifler",
+            "placement": "3-4",
+            "score": 100.0
+          }
+        ]
+      }
+    },
+    {
+      "id": "coldzera_2017",
+      "player_id": "coldzera",
+      "handle": "coldzera",
+      "real_name": "Marcelo Augusto David",
+      "nationality": "Brazil",
+      "birth_date": "1994-10-31",
+      "photo_url": "https://img-cdn.hltv.org/playerbodyshot/eQN-pKLbiz_8oMSkAQVDfv.png?bg=3e4c54&h=100&ixlib=java-2.1.0&rect=124%2C8%2C467%2C467&w=100&s=e8d6167ef0f1860d4a4cfa88a4de6061",
+      "year": 2017,
+      "total_score": 1912.0,
+      "average_score": 100.63,
+      "tournaments_count": 19,
+      "teams": [
+        "MIBR",
+        "SK Gaming"
+      ],
+      "roles": [
+        "Lurker"
+      ],
+      "primary_role": "Lurker",
+      "breakdown": {
+        "team_summary": {
+          "SK Gaming": {
+            "tournaments": 18,
+            "score": 1908.0,
+            "placements": [
+              "5-8",
+              "2",
+              "11-12",
+              "9-11",
+              "1",
+              "3-4",
+              "1",
+              "1",
+              "5-8",
+              "5-8",
+              "5-8",
+              "3",
+              "5-8",
+              "3-4",
+              "1",
+              "3-4",
+              "1",
+              "5-8"
+            ]
+          },
+          "MIBR": {
+            "tournaments": 1,
+            "score": 4.0,
+            "placements": [
+              "7"
+            ]
+          }
+        },
+        "tournaments": [
+          {
+            "tournament_id": "esl/pro_league/season_5/north_america",
+            "tournament_name": "ESL Pro League Season 5 - North America",
+            "tier": "S-Tier",
+            "team": "SK Gaming",
+            "role": "Rifler",
+            "placement": "5-8",
+            "score": 60.0
+          },
+          {
+            "tournament_id": "dreamhack/2017/las_vegas",
+            "tournament_name": "DreamHack Masters Las&nbsp;Vegas 2017",
+            "tier": "S-Tier",
+            "team": "SK Gaming",
+            "role": "Rifler",
+            "placement": "2",
+            "score": 140.0
+          },
+          {
+            "tournament_id": "intel_extreme_masters/season_xi/world_championship",
+            "tournament_name": "Intel Extreme Masters XI - World Championship",
+            "tier": "S-Tier",
+            "team": "SK Gaming",
+            "role": "Rifler",
+            "placement": "11-12",
+            "score": 4.0
+          },
+          {
+            "tournament_id": "starladder_i-league/starseries/season_3",
+            "tournament_name": "StarLadder i-League StarSeries Season 3",
+            "tier": "S-Tier",
+            "team": "SK Gaming",
+            "role": "Rifler",
+            "placement": "9-11",
+            "score": 4.0
+          },
+          {
+            "tournament_id": "intel_extreme_masters/season_xii/sydney",
+            "tournament_name": "Intel Extreme Masters XII - Sydney",
+            "tier": "S-Tier",
+            "team": "SK Gaming",
+            "role": "Rifler",
+            "placement": "1",
+            "score": 200.0
+          },
+          {
+            "tournament_id": "esl/pro_league/season_5/finals",
+            "tournament_name": "ESL Pro League Season 5 - Finals",
+            "tier": "S-Tier",
+            "team": "SK Gaming",
+            "role": "Rifler",
+            "placement": "3-4",
+            "score": 100.0
+          },
+          {
+            "tournament_id": "esports_championship_series/season_3",
+            "tournament_name": "Esports Championship Series Season 3 - Finals",
+            "tier": "S-Tier",
+            "team": "SK Gaming",
+            "role": "Rifler",
+            "placement": "1",
+            "score": 200.0
+          },
+          {
+            "tournament_id": "esl/one/2017/cologne",
+            "tournament_name": "ESL One: Cologne 2017",
+            "tier": "S-Tier",
+            "team": "SK Gaming",
+            "role": "Rifler",
+            "placement": "1",
+            "score": 200.0
+          },
+          {
+            "tournament_id": "intel/grand_slam/1",
+            "tournament_name": "Intel Grand Slam Season 1",
+            "tier": "S-Tier",
+            "team": "MIBR",
+            "role": "Rifler",
+            "placement": "7",
+            "score": 4.0
+          },
+          {
+            "tournament_id": "pgl/2017/krakow",
+            "tournament_name": "PGL Major Kraków 2017",
+            "tier": "S-Tier",
+            "team": "SK Gaming",
+            "role": "Rifler",
+            "placement": "5-8",
+            "score": 60.0
+          },
+          {
+            "tournament_id": "esl/pro_league/season_6/north_america",
+            "tournament_name": "ESL Pro League Season 6 - North America",
+            "tier": "S-Tier",
+            "team": "SK Gaming",
+            "role": "Rifler",
+            "placement": "5-8",
+            "score": 60.0
+          },
+          {
+            "tournament_id": "dreamhack/2017/malmö",
+            "tournament_name": "DreamHack Masters Malmö&nbsp;2017",
+            "tier": "S-Tier",
+            "team": "SK Gaming",
+            "role": "Rifler",
+            "placement": "5-8",
+            "score": 60.0
+          },
+          {
+            "tournament_id": "esg_tour/2017/mykonos",
+            "tournament_name": "ESG Tour Mykonos 2017",
+            "tier": "S-Tier",
+            "team": "SK Gaming",
+            "role": "Rifler",
+            "placement": "3",
+            "score": 100.0
+          },
+          {
+            "tournament_id": "eleague/2017/premier",
+            "tournament_name": "ELEAGUE Premier 2017",
+            "tier": "S-Tier",
+            "team": "SK Gaming",
+            "role": "Rifler",
+            "placement": "5-8",
+            "score": 60.0
+          },
+          {
+            "tournament_id": "esl/one/2017/new_york",
+            "tournament_name": "ESL One: New York 2017",
+            "tier": "S-Tier",
+            "team": "SK Gaming",
+            "role": "Rifler",
+            "placement": "3-4",
+            "score": 100.0
+          },
+          {
+            "tournament_id": "epicenter/2017",
+            "tournament_name": "EPICENTER 2017",
+            "tier": "S-Tier",
+            "team": "SK Gaming",
+            "role": "Rifler",
+            "placement": "1",
+            "score": 200.0
+          },
+          {
+            "tournament_id": "intel_extreme_masters/season_xii/oakland",
+            "tournament_name": "Intel Extreme Masters XII - Oakland",
+            "tier": "S-Tier",
+            "team": "SK Gaming",
+            "role": "Rifler",
+            "placement": "3-4",
+            "score": 100.0
+          },
+          {
+            "tournament_id": "esl/pro_league/season_6/finals",
+            "tournament_name": "ESL Pro League Season 6 - Finals",
+            "tier": "S-Tier",
+            "team": "SK Gaming",
+            "role": "Rifler",
+            "placement": "1",
+            "score": 200.0
+          },
+          {
+            "tournament_id": "world_electronic_sports_games/2017",
+            "tournament_name": "World Electronic Sports Games 2017",
+            "tier": "S-Tier",
+            "team": "SK Gaming",
+            "role": "Rifler",
+            "placement": "5-8",
+            "score": 60.0
+          }
+        ]
+      }
+    },
+    {
+      "id": "fallen_2017",
+      "player_id": "fallen",
+      "handle": "FalleN",
+      "real_name": "Gabriel Toledo de Alcântara Sguario",
+      "nationality": "Brazil",
+      "birth_date": "1991-05-30",
+      "photo_url": "https://img-cdn.hltv.org/playerbodyshot/gQbb4I0TeHmxx7bYBOtd7T.png?ixlib=java-2.1.0&w=400&s=744dd676bd5ad23e4adfc8dc8fcbaa80",
+      "year": 2017,
+      "total_score": 1912.0,
+      "average_score": 100.63,
+      "tournaments_count": 19,
+      "teams": [
+        "MIBR",
+        "SK Gaming"
+      ],
+      "roles": [
+        "AWPer"
+      ],
+      "primary_role": "AWPer",
+      "breakdown": {
+        "team_summary": {
+          "SK Gaming": {
+            "tournaments": 18,
+            "score": 1908.0,
+            "placements": [
+              "5-8",
+              "2",
+              "11-12",
+              "9-11",
+              "1",
+              "3-4",
+              "1",
+              "1",
+              "5-8",
+              "5-8",
+              "5-8",
+              "3",
+              "5-8",
+              "3-4",
+              "1",
+              "3-4",
+              "1",
+              "5-8"
+            ]
+          },
+          "MIBR": {
+            "tournaments": 1,
+            "score": 4.0,
+            "placements": [
+              "7"
+            ]
+          }
+        },
+        "tournaments": [
+          {
+            "tournament_id": "esl/pro_league/season_5/north_america",
+            "tournament_name": "ESL Pro League Season 5 - North America",
+            "tier": "S-Tier",
+            "team": "SK Gaming",
+            "role": "Rifler",
+            "placement": "5-8",
+            "score": 60.0
+          },
+          {
+            "tournament_id": "dreamhack/2017/las_vegas",
+            "tournament_name": "DreamHack Masters Las&nbsp;Vegas 2017",
+            "tier": "S-Tier",
+            "team": "SK Gaming",
+            "role": "Rifler",
+            "placement": "2",
+            "score": 140.0
+          },
+          {
+            "tournament_id": "intel_extreme_masters/season_xi/world_championship",
+            "tournament_name": "Intel Extreme Masters XI - World Championship",
+            "tier": "S-Tier",
+            "team": "SK Gaming",
+            "role": "Rifler",
+            "placement": "11-12",
+            "score": 4.0
+          },
+          {
+            "tournament_id": "starladder_i-league/starseries/season_3",
+            "tournament_name": "StarLadder i-League StarSeries Season 3",
+            "tier": "S-Tier",
+            "team": "SK Gaming",
+            "role": "Rifler",
+            "placement": "9-11",
+            "score": 4.0
+          },
+          {
+            "tournament_id": "intel_extreme_masters/season_xii/sydney",
+            "tournament_name": "Intel Extreme Masters XII - Sydney",
+            "tier": "S-Tier",
+            "team": "SK Gaming",
+            "role": "Rifler",
+            "placement": "1",
+            "score": 200.0
+          },
+          {
+            "tournament_id": "esl/pro_league/season_5/finals",
+            "tournament_name": "ESL Pro League Season 5 - Finals",
+            "tier": "S-Tier",
+            "team": "SK Gaming",
+            "role": "Rifler",
+            "placement": "3-4",
+            "score": 100.0
+          },
+          {
+            "tournament_id": "esports_championship_series/season_3",
+            "tournament_name": "Esports Championship Series Season 3 - Finals",
+            "tier": "S-Tier",
+            "team": "SK Gaming",
+            "role": "Rifler",
+            "placement": "1",
+            "score": 200.0
+          },
+          {
+            "tournament_id": "esl/one/2017/cologne",
+            "tournament_name": "ESL One: Cologne 2017",
+            "tier": "S-Tier",
+            "team": "SK Gaming",
+            "role": "Rifler",
+            "placement": "1",
+            "score": 200.0
+          },
+          {
+            "tournament_id": "intel/grand_slam/1",
+            "tournament_name": "Intel Grand Slam Season 1",
+            "tier": "S-Tier",
+            "team": "MIBR",
+            "role": "Rifler",
+            "placement": "7",
+            "score": 4.0
+          },
+          {
+            "tournament_id": "pgl/2017/krakow",
+            "tournament_name": "PGL Major Kraków 2017",
+            "tier": "S-Tier",
+            "team": "SK Gaming",
+            "role": "Rifler",
+            "placement": "5-8",
+            "score": 60.0
+          },
+          {
+            "tournament_id": "esl/pro_league/season_6/north_america",
+            "tournament_name": "ESL Pro League Season 6 - North America",
+            "tier": "S-Tier",
+            "team": "SK Gaming",
+            "role": "Rifler",
+            "placement": "5-8",
+            "score": 60.0
+          },
+          {
+            "tournament_id": "dreamhack/2017/malmö",
+            "tournament_name": "DreamHack Masters Malmö&nbsp;2017",
+            "tier": "S-Tier",
+            "team": "SK Gaming",
+            "role": "Rifler",
+            "placement": "5-8",
+            "score": 60.0
+          },
+          {
+            "tournament_id": "esg_tour/2017/mykonos",
+            "tournament_name": "ESG Tour Mykonos 2017",
+            "tier": "S-Tier",
+            "team": "SK Gaming",
+            "role": "Rifler",
+            "placement": "3",
+            "score": 100.0
+          },
+          {
+            "tournament_id": "eleague/2017/premier",
+            "tournament_name": "ELEAGUE Premier 2017",
+            "tier": "S-Tier",
+            "team": "SK Gaming",
+            "role": "Rifler",
+            "placement": "5-8",
+            "score": 60.0
+          },
+          {
+            "tournament_id": "esl/one/2017/new_york",
+            "tournament_name": "ESL One: New York 2017",
+            "tier": "S-Tier",
+            "team": "SK Gaming",
+            "role": "Rifler",
+            "placement": "3-4",
+            "score": 100.0
+          },
+          {
+            "tournament_id": "epicenter/2017",
+            "tournament_name": "EPICENTER 2017",
+            "tier": "S-Tier",
+            "team": "SK Gaming",
+            "role": "Rifler",
+            "placement": "1",
+            "score": 200.0
+          },
+          {
+            "tournament_id": "intel_extreme_masters/season_xii/oakland",
+            "tournament_name": "Intel Extreme Masters XII - Oakland",
+            "tier": "S-Tier",
+            "team": "SK Gaming",
+            "role": "Rifler",
+            "placement": "3-4",
+            "score": 100.0
+          },
+          {
+            "tournament_id": "esl/pro_league/season_6/finals",
+            "tournament_name": "ESL Pro League Season 6 - Finals",
+            "tier": "S-Tier",
+            "team": "SK Gaming",
+            "role": "Rifler",
+            "placement": "1",
+            "score": 200.0
+          },
+          {
+            "tournament_id": "world_electronic_sports_games/2017",
+            "tournament_name": "World Electronic Sports Games 2017",
+            "tier": "S-Tier",
+            "team": "SK Gaming",
+            "role": "Rifler",
+            "placement": "5-8",
+            "score": 60.0
+          }
+        ]
+      }
+    },
+    {
+      "id": "fer_2017",
+      "player_id": "fer",
+      "handle": "fer",
+      "real_name": "Fernando Alvarenga",
+      "nationality": "Brazil",
+      "birth_date": "1991-10-30",
+      "photo_url": "https://img-cdn.hltv.org/playerbodyshot/0wByIKmMndjpZZS9V6_485.png?ixlib=java-2.1.0&w=400&s=c405eb54d75015b10b2dca87231b04b6",
+      "year": 2017,
+      "total_score": 1912.0,
+      "average_score": 100.63,
+      "tournaments_count": 19,
+      "teams": [
+        "MIBR",
+        "SK Gaming"
+      ],
+      "roles": [
+        "Entry"
+      ],
+      "primary_role": "Entry",
+      "breakdown": {
+        "team_summary": {
+          "SK Gaming": {
+            "tournaments": 18,
+            "score": 1908.0,
+            "placements": [
+              "5-8",
+              "2",
+              "11-12",
+              "9-11",
+              "1",
+              "3-4",
+              "1",
+              "1",
+              "5-8",
+              "5-8",
+              "5-8",
+              "3",
+              "5-8",
+              "3-4",
+              "1",
+              "3-4",
+              "1",
+              "5-8"
+            ]
+          },
+          "MIBR": {
+            "tournaments": 1,
+            "score": 4.0,
+            "placements": [
+              "7"
+            ]
+          }
+        },
+        "tournaments": [
+          {
+            "tournament_id": "esl/pro_league/season_5/north_america",
+            "tournament_name": "ESL Pro League Season 5 - North America",
+            "tier": "S-Tier",
+            "team": "SK Gaming",
+            "role": "Rifler",
+            "placement": "5-8",
+            "score": 60.0
+          },
+          {
+            "tournament_id": "dreamhack/2017/las_vegas",
+            "tournament_name": "DreamHack Masters Las&nbsp;Vegas 2017",
+            "tier": "S-Tier",
+            "team": "SK Gaming",
+            "role": "Rifler",
+            "placement": "2",
+            "score": 140.0
+          },
+          {
+            "tournament_id": "intel_extreme_masters/season_xi/world_championship",
+            "tournament_name": "Intel Extreme Masters XI - World Championship",
+            "tier": "S-Tier",
+            "team": "SK Gaming",
+            "role": "Rifler",
+            "placement": "11-12",
+            "score": 4.0
+          },
+          {
+            "tournament_id": "starladder_i-league/starseries/season_3",
+            "tournament_name": "StarLadder i-League StarSeries Season 3",
+            "tier": "S-Tier",
+            "team": "SK Gaming",
+            "role": "Rifler",
+            "placement": "9-11",
+            "score": 4.0
+          },
+          {
+            "tournament_id": "intel_extreme_masters/season_xii/sydney",
+            "tournament_name": "Intel Extreme Masters XII - Sydney",
+            "tier": "S-Tier",
+            "team": "SK Gaming",
+            "role": "Rifler",
+            "placement": "1",
+            "score": 200.0
+          },
+          {
+            "tournament_id": "esl/pro_league/season_5/finals",
+            "tournament_name": "ESL Pro League Season 5 - Finals",
+            "tier": "S-Tier",
+            "team": "SK Gaming",
+            "role": "Rifler",
+            "placement": "3-4",
+            "score": 100.0
+          },
+          {
+            "tournament_id": "esports_championship_series/season_3",
+            "tournament_name": "Esports Championship Series Season 3 - Finals",
+            "tier": "S-Tier",
+            "team": "SK Gaming",
+            "role": "Rifler",
+            "placement": "1",
+            "score": 200.0
+          },
+          {
+            "tournament_id": "esl/one/2017/cologne",
+            "tournament_name": "ESL One: Cologne 2017",
+            "tier": "S-Tier",
+            "team": "SK Gaming",
+            "role": "Rifler",
+            "placement": "1",
+            "score": 200.0
+          },
+          {
+            "tournament_id": "intel/grand_slam/1",
+            "tournament_name": "Intel Grand Slam Season 1",
+            "tier": "S-Tier",
+            "team": "MIBR",
+            "role": "Rifler",
+            "placement": "7",
+            "score": 4.0
+          },
+          {
+            "tournament_id": "pgl/2017/krakow",
+            "tournament_name": "PGL Major Kraków 2017",
+            "tier": "S-Tier",
+            "team": "SK Gaming",
+            "role": "Rifler",
+            "placement": "5-8",
+            "score": 60.0
+          },
+          {
+            "tournament_id": "esl/pro_league/season_6/north_america",
+            "tournament_name": "ESL Pro League Season 6 - North America",
+            "tier": "S-Tier",
+            "team": "SK Gaming",
+            "role": "Rifler",
+            "placement": "5-8",
+            "score": 60.0
+          },
+          {
+            "tournament_id": "dreamhack/2017/malmö",
+            "tournament_name": "DreamHack Masters Malmö&nbsp;2017",
+            "tier": "S-Tier",
+            "team": "SK Gaming",
+            "role": "Rifler",
+            "placement": "5-8",
+            "score": 60.0
+          },
+          {
+            "tournament_id": "esg_tour/2017/mykonos",
+            "tournament_name": "ESG Tour Mykonos 2017",
+            "tier": "S-Tier",
+            "team": "SK Gaming",
+            "role": "Rifler",
+            "placement": "3",
+            "score": 100.0
+          },
+          {
+            "tournament_id": "eleague/2017/premier",
+            "tournament_name": "ELEAGUE Premier 2017",
+            "tier": "S-Tier",
+            "team": "SK Gaming",
+            "role": "Rifler",
+            "placement": "5-8",
+            "score": 60.0
+          },
+          {
+            "tournament_id": "esl/one/2017/new_york",
+            "tournament_name": "ESL One: New York 2017",
+            "tier": "S-Tier",
+            "team": "SK Gaming",
+            "role": "Rifler",
+            "placement": "3-4",
+            "score": 100.0
+          },
+          {
+            "tournament_id": "epicenter/2017",
+            "tournament_name": "EPICENTER 2017",
+            "tier": "S-Tier",
+            "team": "SK Gaming",
+            "role": "Rifler",
+            "placement": "1",
+            "score": 200.0
+          },
+          {
+            "tournament_id": "intel_extreme_masters/season_xii/oakland",
+            "tournament_name": "Intel Extreme Masters XII - Oakland",
+            "tier": "S-Tier",
+            "team": "SK Gaming",
+            "role": "Rifler",
+            "placement": "3-4",
+            "score": 100.0
+          },
+          {
+            "tournament_id": "esl/pro_league/season_6/finals",
+            "tournament_name": "ESL Pro League Season 6 - Finals",
+            "tier": "S-Tier",
+            "team": "SK Gaming",
+            "role": "Rifler",
+            "placement": "1",
+            "score": 200.0
+          },
+          {
+            "tournament_id": "world_electronic_sports_games/2017",
+            "tournament_name": "World Electronic Sports Games 2017",
+            "tier": "S-Tier",
+            "team": "SK Gaming",
+            "role": "Rifler",
+            "placement": "5-8",
+            "score": 60.0
+          }
+        ]
+      }
+    },
+    {
+      "id": "taco_2017",
+      "player_id": "taco",
+      "handle": "TACO",
+      "real_name": "Epitácio Pessoa de Melo Filho",
+      "nationality": "Brazil",
+      "birth_date": "1995-1-24",
+      "photo_url": "https://img-cdn.hltv.org/playerbodyshot/oVlLgpSsMu8ZBc-iAWuzZ3.png?bg=3e4c54&h=100&ixlib=java-2.1.0&rect=121%2C8%2C467%2C467&w=100&s=e5ebe692f4104c15870e31b79ed8a4e5",
+      "year": 2017,
+      "total_score": 1908.0,
+      "average_score": 106.0,
+      "tournaments_count": 18,
+      "teams": [
+        "SK Gaming"
+      ],
+      "roles": [
+        "Lurker"
+      ],
+      "primary_role": "Lurker",
+      "breakdown": {
+        "team_summary": {
+          "SK Gaming": {
+            "tournaments": 18,
+            "score": 1908.0,
+            "placements": [
+              "5-8",
+              "2",
+              "11-12",
+              "9-11",
+              "1",
+              "3-4",
+              "1",
+              "1",
+              "5-8",
+              "5-8",
+              "5-8",
+              "3",
+              "5-8",
+              "3-4",
+              "1",
+              "3-4",
+              "1",
+              "5-8"
+            ]
+          }
+        },
+        "tournaments": [
+          {
+            "tournament_id": "esl/pro_league/season_5/north_america",
+            "tournament_name": "ESL Pro League Season 5 - North America",
+            "tier": "S-Tier",
+            "team": "SK Gaming",
+            "role": "Rifler",
+            "placement": "5-8",
+            "score": 60.0
+          },
+          {
+            "tournament_id": "dreamhack/2017/las_vegas",
+            "tournament_name": "DreamHack Masters Las&nbsp;Vegas 2017",
+            "tier": "S-Tier",
+            "team": "SK Gaming",
+            "role": "Rifler",
+            "placement": "2",
+            "score": 140.0
+          },
+          {
+            "tournament_id": "intel_extreme_masters/season_xi/world_championship",
+            "tournament_name": "Intel Extreme Masters XI - World Championship",
+            "tier": "S-Tier",
+            "team": "SK Gaming",
+            "role": "Rifler",
+            "placement": "11-12",
+            "score": 4.0
+          },
+          {
+            "tournament_id": "starladder_i-league/starseries/season_3",
+            "tournament_name": "StarLadder i-League StarSeries Season 3",
+            "tier": "S-Tier",
+            "team": "SK Gaming",
+            "role": "Rifler",
+            "placement": "9-11",
+            "score": 4.0
+          },
+          {
+            "tournament_id": "intel_extreme_masters/season_xii/sydney",
+            "tournament_name": "Intel Extreme Masters XII - Sydney",
+            "tier": "S-Tier",
+            "team": "SK Gaming",
+            "role": "Rifler",
+            "placement": "1",
+            "score": 200.0
+          },
+          {
+            "tournament_id": "esl/pro_league/season_5/finals",
+            "tournament_name": "ESL Pro League Season 5 - Finals",
+            "tier": "S-Tier",
+            "team": "SK Gaming",
+            "role": "Rifler",
+            "placement": "3-4",
+            "score": 100.0
+          },
+          {
+            "tournament_id": "esports_championship_series/season_3",
+            "tournament_name": "Esports Championship Series Season 3 - Finals",
+            "tier": "S-Tier",
+            "team": "SK Gaming",
+            "role": "Rifler",
+            "placement": "1",
+            "score": 200.0
+          },
+          {
+            "tournament_id": "esl/one/2017/cologne",
+            "tournament_name": "ESL One: Cologne 2017",
+            "tier": "S-Tier",
+            "team": "SK Gaming",
+            "role": "Rifler",
+            "placement": "1",
+            "score": 200.0
+          },
+          {
+            "tournament_id": "pgl/2017/krakow",
+            "tournament_name": "PGL Major Kraków 2017",
+            "tier": "S-Tier",
+            "team": "SK Gaming",
+            "role": "Rifler",
+            "placement": "5-8",
+            "score": 60.0
+          },
+          {
+            "tournament_id": "esl/pro_league/season_6/north_america",
+            "tournament_name": "ESL Pro League Season 6 - North America",
+            "tier": "S-Tier",
+            "team": "SK Gaming",
+            "role": "Rifler",
+            "placement": "5-8",
+            "score": 60.0
+          },
+          {
+            "tournament_id": "dreamhack/2017/malmö",
+            "tournament_name": "DreamHack Masters Malmö&nbsp;2017",
+            "tier": "S-Tier",
+            "team": "SK Gaming",
+            "role": "Rifler",
+            "placement": "5-8",
+            "score": 60.0
+          },
+          {
+            "tournament_id": "esg_tour/2017/mykonos",
+            "tournament_name": "ESG Tour Mykonos 2017",
+            "tier": "S-Tier",
+            "team": "SK Gaming",
+            "role": "Rifler",
+            "placement": "3",
+            "score": 100.0
+          },
+          {
+            "tournament_id": "eleague/2017/premier",
+            "tournament_name": "ELEAGUE Premier 2017",
+            "tier": "S-Tier",
+            "team": "SK Gaming",
+            "role": "Rifler",
+            "placement": "5-8",
+            "score": 60.0
+          },
+          {
+            "tournament_id": "esl/one/2017/new_york",
+            "tournament_name": "ESL One: New York 2017",
+            "tier": "S-Tier",
+            "team": "SK Gaming",
+            "role": "Rifler",
+            "placement": "3-4",
+            "score": 100.0
+          },
+          {
+            "tournament_id": "epicenter/2017",
+            "tournament_name": "EPICENTER 2017",
+            "tier": "S-Tier",
+            "team": "SK Gaming",
+            "role": "Rifler",
+            "placement": "1",
+            "score": 200.0
+          },
+          {
+            "tournament_id": "intel_extreme_masters/season_xii/oakland",
+            "tournament_name": "Intel Extreme Masters XII - Oakland",
+            "tier": "S-Tier",
+            "team": "SK Gaming",
+            "role": "Rifler",
+            "placement": "3-4",
+            "score": 100.0
+          },
+          {
+            "tournament_id": "esl/pro_league/season_6/finals",
+            "tournament_name": "ESL Pro League Season 6 - Finals",
+            "tier": "S-Tier",
+            "team": "SK Gaming",
+            "role": "Rifler",
+            "placement": "1",
+            "score": 200.0
+          },
+          {
+            "tournament_id": "world_electronic_sports_games/2017",
+            "tournament_name": "World Electronic Sports Games 2017",
+            "tier": "S-Tier",
+            "team": "SK Gaming",
+            "role": "Rifler",
+            "placement": "5-8",
+            "score": 60.0
+          }
+        ]
+      }
+    },
+    {
+      "id": "boombl4_2021",
+      "player_id": "boombl4",
+      "handle": "Boombl4",
+      "real_name": "Кирилл Сергеевич Михайлов",
+      "nationality": "Russia",
+      "birth_date": "1998-12-20",
+      "photo_url": "https://img-cdn.hltv.org/playerbodyshot/n0tPG5RsfX_R0u29lg1_oB.png?bg=3e4c54&h=100&ixlib=java-2.1.0&rect=121%2C8%2C467%2C467&w=100&s=60d357ac585dd157b464744c13139947",
+      "year": 2021,
+      "total_score": 1780.0,
+      "average_score": 148.33,
+      "tournaments_count": 12,
+      "teams": [
+        "Natus Vincere"
+      ],
+      "roles": [
+        "IGL"
+      ],
+      "primary_role": "IGL",
+      "breakdown": {
+        "team_summary": {
+          "Natus Vincere": {
+            "tournaments": 12,
+            "score": 1780.0,
+            "placements": [
+              "1",
+              "5-8",
+              "5-6",
+              "5-8",
+              "1",
+              "2",
+              "1",
+              "1",
+              "5-8",
+              "1",
+              "1",
+              "1"
+            ]
+          }
+        },
+        "tournaments": [
+          {
+            "tournament_id": "blast/premier/2021/leaderboard",
+            "tournament_name": "BLAST Premier World&nbsp;Leaderboard 2021",
+            "tier": "S-Tier",
+            "team": "Natus Vincere",
+            "role": "Rifler",
+            "placement": "1",
+            "score": 200.0
+          },
+          {
+            "tournament_id": "blast/premier/2021/spring/groups",
+            "tournament_name": "BLAST Premier: Spring&nbsp;Groups&nbsp;2021",
+            "tier": "S-Tier",
+            "team": "Natus Vincere",
+            "role": "Rifler",
+            "placement": "5-8",
+            "score": 60.0
+          },
+          {
+            "tournament_id": "intel_extreme_masters/season_xv/world_championship",
+            "tournament_name": "Intel Extreme Masters XV - World Championship",
+            "tier": "S-Tier",
+            "team": "Natus Vincere",
+            "role": "Rifler",
+            "placement": "5-6",
+            "score": 60.0
+          },
+          {
+            "tournament_id": "esl/pro_league/season_13",
+            "tournament_name": "ESL Pro League Season 13",
+            "tier": "S-Tier",
+            "team": "Natus Vincere",
+            "role": "Rifler",
+            "placement": "5-8",
+            "score": 60.0
+          },
+          {
+            "tournament_id": "dreamhack/2021/spring",
+            "tournament_name": "DreamHack Masters Spring&nbsp;2021",
+            "tier": "S-Tier",
+            "team": "Natus Vincere",
+            "role": "Rifler",
+            "placement": "1",
+            "score": 200.0
+          },
+          {
+            "tournament_id": "blast/premier/2021/spring",
+            "tournament_name": "BLAST Premier: Spring&nbsp;Finals&nbsp;2021",
+            "tier": "S-Tier",
+            "team": "Natus Vincere",
+            "role": "Rifler",
+            "placement": "2",
+            "score": 140.0
+          },
+          {
+            "tournament_id": "intel_extreme_masters/season_xvi/cologne",
+            "tournament_name": "Intel Extreme Masters XVI - Cologne",
+            "tier": "S-Tier",
+            "team": "Natus Vincere",
+            "role": "Rifler",
+            "placement": "1",
+            "score": 200.0
+          },
+          {
+            "tournament_id": "esl/pro_league/season_14",
+            "tournament_name": "ESL Pro League Season 14",
+            "tier": "S-Tier",
+            "team": "Natus Vincere",
+            "role": "Rifler",
+            "placement": "1",
+            "score": 200.0
+          },
+          {
+            "tournament_id": "blast/premier/2021/fall/groups",
+            "tournament_name": "BLAST Premier: Fall&nbsp;Groups&nbsp;2021",
+            "tier": "S-Tier",
+            "team": "Natus Vincere",
+            "role": "Rifler",
+            "placement": "5-8",
+            "score": 60.0
+          },
+          {
+            "tournament_id": "pgl/2021/stockholm",
+            "tournament_name": "PGL Major Stockholm 2021",
+            "tier": "S-Tier",
+            "team": "Natus Vincere",
+            "role": "Rifler",
+            "placement": "1",
+            "score": 200.0
+          },
+          {
+            "tournament_id": "blast/premier/2021/fall",
+            "tournament_name": "BLAST Premier: Fall&nbsp;Finals&nbsp;2021",
+            "tier": "S-Tier",
+            "team": "Natus Vincere",
+            "role": "Rifler",
+            "placement": "1",
+            "score": 200.0
+          },
+          {
+            "tournament_id": "blast/premier/2021/world_final",
+            "tournament_name": "BLAST Premier: World&nbsp;Final&nbsp;2021",
+            "tier": "S-Tier",
+            "team": "Natus Vincere",
+            "role": "Rifler",
+            "placement": "1",
+            "score": 200.0
+          }
+        ]
+      }
+    },
+    {
+      "id": "perfecto_2021",
+      "player_id": "perfecto",
+      "handle": "Perfecto",
+      "real_name": "Илья Игоревич Залуцкий",
+      "nationality": "Russia",
+      "birth_date": "1999-11-24",
+      "photo_url": "https://img-cdn.hltv.org/playerbodyshot/_Bd-3-3iI1t4EASNUNt3p6.png?bg=3e4c54&h=100&ixlib=java-2.1.0&rect=121%2C4%2C467%2C467&w=100&s=48bff3a7e48a33d65d0e864abfff07a0",
+      "year": 2021,
+      "total_score": 1780.0,
+      "average_score": 148.33,
+      "tournaments_count": 12,
+      "teams": [
+        "Natus Vincere"
+      ],
+      "roles": [
+        "Lurker"
+      ],
+      "primary_role": "Lurker",
+      "breakdown": {
+        "team_summary": {
+          "Natus Vincere": {
+            "tournaments": 12,
+            "score": 1780.0,
+            "placements": [
+              "1",
+              "5-8",
+              "5-6",
+              "5-8",
+              "1",
+              "2",
+              "1",
+              "1",
+              "5-8",
+              "1",
+              "1",
+              "1"
+            ]
+          }
+        },
+        "tournaments": [
+          {
+            "tournament_id": "blast/premier/2021/leaderboard",
+            "tournament_name": "BLAST Premier World&nbsp;Leaderboard 2021",
+            "tier": "S-Tier",
+            "team": "Natus Vincere",
+            "role": "Rifler",
+            "placement": "1",
+            "score": 200.0
+          },
+          {
+            "tournament_id": "blast/premier/2021/spring/groups",
+            "tournament_name": "BLAST Premier: Spring&nbsp;Groups&nbsp;2021",
+            "tier": "S-Tier",
+            "team": "Natus Vincere",
+            "role": "Rifler",
+            "placement": "5-8",
+            "score": 60.0
+          },
+          {
+            "tournament_id": "intel_extreme_masters/season_xv/world_championship",
+            "tournament_name": "Intel Extreme Masters XV - World Championship",
+            "tier": "S-Tier",
+            "team": "Natus Vincere",
+            "role": "Rifler",
+            "placement": "5-6",
+            "score": 60.0
+          },
+          {
+            "tournament_id": "esl/pro_league/season_13",
+            "tournament_name": "ESL Pro League Season 13",
+            "tier": "S-Tier",
+            "team": "Natus Vincere",
+            "role": "Rifler",
+            "placement": "5-8",
+            "score": 60.0
+          },
+          {
+            "tournament_id": "dreamhack/2021/spring",
+            "tournament_name": "DreamHack Masters Spring&nbsp;2021",
+            "tier": "S-Tier",
+            "team": "Natus Vincere",
+            "role": "Rifler",
+            "placement": "1",
+            "score": 200.0
+          },
+          {
+            "tournament_id": "blast/premier/2021/spring",
+            "tournament_name": "BLAST Premier: Spring&nbsp;Finals&nbsp;2021",
+            "tier": "S-Tier",
+            "team": "Natus Vincere",
+            "role": "Rifler",
+            "placement": "2",
+            "score": 140.0
+          },
+          {
+            "tournament_id": "intel_extreme_masters/season_xvi/cologne",
+            "tournament_name": "Intel Extreme Masters XVI - Cologne",
+            "tier": "S-Tier",
+            "team": "Natus Vincere",
+            "role": "Rifler",
+            "placement": "1",
+            "score": 200.0
+          },
+          {
+            "tournament_id": "esl/pro_league/season_14",
+            "tournament_name": "ESL Pro League Season 14",
+            "tier": "S-Tier",
+            "team": "Natus Vincere",
+            "role": "Rifler",
+            "placement": "1",
+            "score": 200.0
+          },
+          {
+            "tournament_id": "blast/premier/2021/fall/groups",
+            "tournament_name": "BLAST Premier: Fall&nbsp;Groups&nbsp;2021",
+            "tier": "S-Tier",
+            "team": "Natus Vincere",
+            "role": "Rifler",
+            "placement": "5-8",
+            "score": 60.0
+          },
+          {
+            "tournament_id": "pgl/2021/stockholm",
+            "tournament_name": "PGL Major Stockholm 2021",
+            "tier": "S-Tier",
+            "team": "Natus Vincere",
+            "role": "Rifler",
+            "placement": "1",
+            "score": 200.0
+          },
+          {
+            "tournament_id": "blast/premier/2021/fall",
+            "tournament_name": "BLAST Premier: Fall&nbsp;Finals&nbsp;2021",
+            "tier": "S-Tier",
+            "team": "Natus Vincere",
+            "role": "Rifler",
+            "placement": "1",
+            "score": 200.0
+          },
+          {
+            "tournament_id": "blast/premier/2021/world_final",
+            "tournament_name": "BLAST Premier: World&nbsp;Final&nbsp;2021",
+            "tier": "S-Tier",
+            "team": "Natus Vincere",
+            "role": "Rifler",
+            "placement": "1",
+            "score": 200.0
+          }
+        ]
+      }
+    },
+    {
+      "id": "s1mple_2021",
+      "player_id": "s1mple",
+      "handle": "s1mple",
+      "real_name": "Олександр Олегович Костилєв",
+      "nationality": "Ukraine",
+      "birth_date": "1997-10-02",
+      "photo_url": "https://img-cdn.hltv.org/playerbodyshot/mJ4aRpdUSXtuzgHSp9ytjh.png?bg=3e4c54&h=100&ixlib=java-2.1.0&rect=117%2C8%2C467%2C467&w=100&s=28f682d1d4fe03280bd7d2daebe75559",
+      "year": 2021,
+      "total_score": 1780.0,
+      "average_score": 148.33,
+      "tournaments_count": 12,
+      "teams": [
+        "Natus Vincere"
+      ],
+      "roles": [
+        "AWPer"
+      ],
+      "primary_role": "AWPer",
+      "breakdown": {
+        "team_summary": {
+          "Natus Vincere": {
+            "tournaments": 12,
+            "score": 1780.0,
+            "placements": [
+              "1",
+              "5-8",
+              "5-6",
+              "5-8",
+              "1",
+              "2",
+              "1",
+              "1",
+              "5-8",
+              "1",
+              "1",
+              "1"
+            ]
+          }
+        },
+        "tournaments": [
+          {
+            "tournament_id": "blast/premier/2021/leaderboard",
+            "tournament_name": "BLAST Premier World&nbsp;Leaderboard 2021",
+            "tier": "S-Tier",
+            "team": "Natus Vincere",
+            "role": "Rifler",
+            "placement": "1",
+            "score": 200.0
+          },
+          {
+            "tournament_id": "blast/premier/2021/spring/groups",
+            "tournament_name": "BLAST Premier: Spring&nbsp;Groups&nbsp;2021",
+            "tier": "S-Tier",
+            "team": "Natus Vincere",
+            "role": "Rifler",
+            "placement": "5-8",
+            "score": 60.0
+          },
+          {
+            "tournament_id": "intel_extreme_masters/season_xv/world_championship",
+            "tournament_name": "Intel Extreme Masters XV - World Championship",
+            "tier": "S-Tier",
+            "team": "Natus Vincere",
+            "role": "Rifler",
+            "placement": "5-6",
+            "score": 60.0
+          },
+          {
+            "tournament_id": "esl/pro_league/season_13",
+            "tournament_name": "ESL Pro League Season 13",
+            "tier": "S-Tier",
+            "team": "Natus Vincere",
+            "role": "Rifler",
+            "placement": "5-8",
+            "score": 60.0
+          },
+          {
+            "tournament_id": "dreamhack/2021/spring",
+            "tournament_name": "DreamHack Masters Spring&nbsp;2021",
+            "tier": "S-Tier",
+            "team": "Natus Vincere",
+            "role": "Rifler",
+            "placement": "1",
+            "score": 200.0
+          },
+          {
+            "tournament_id": "blast/premier/2021/spring",
+            "tournament_name": "BLAST Premier: Spring&nbsp;Finals&nbsp;2021",
+            "tier": "S-Tier",
+            "team": "Natus Vincere",
+            "role": "Rifler",
+            "placement": "2",
+            "score": 140.0
+          },
+          {
+            "tournament_id": "intel_extreme_masters/season_xvi/cologne",
+            "tournament_name": "Intel Extreme Masters XVI - Cologne",
+            "tier": "S-Tier",
+            "team": "Natus Vincere",
+            "role": "Rifler",
+            "placement": "1",
+            "score": 200.0
+          },
+          {
+            "tournament_id": "esl/pro_league/season_14",
+            "tournament_name": "ESL Pro League Season 14",
+            "tier": "S-Tier",
+            "team": "Natus Vincere",
+            "role": "Rifler",
+            "placement": "1",
+            "score": 200.0
+          },
+          {
+            "tournament_id": "blast/premier/2021/fall/groups",
+            "tournament_name": "BLAST Premier: Fall&nbsp;Groups&nbsp;2021",
+            "tier": "S-Tier",
+            "team": "Natus Vincere",
+            "role": "Rifler",
+            "placement": "5-8",
+            "score": 60.0
+          },
+          {
+            "tournament_id": "pgl/2021/stockholm",
+            "tournament_name": "PGL Major Stockholm 2021",
+            "tier": "S-Tier",
+            "team": "Natus Vincere",
+            "role": "Rifler",
+            "placement": "1",
+            "score": 200.0
+          },
+          {
+            "tournament_id": "blast/premier/2021/fall",
+            "tournament_name": "BLAST Premier: Fall&nbsp;Finals&nbsp;2021",
+            "tier": "S-Tier",
+            "team": "Natus Vincere",
+            "role": "Rifler",
+            "placement": "1",
+            "score": 200.0
+          },
+          {
+            "tournament_id": "blast/premier/2021/world_final",
+            "tournament_name": "BLAST Premier: World&nbsp;Final&nbsp;2021",
+            "tier": "S-Tier",
+            "team": "Natus Vincere",
+            "role": "Rifler",
+            "placement": "1",
+            "score": 200.0
+          }
+        ]
+      }
+    },
+    {
+      "id": "olofmeister_2017",
+      "player_id": "olofmeister",
+      "handle": "olofmeister",
+      "real_name": "Olof Markus Kajbjer Gustafsson",
+      "nationality": "Sweden",
+      "birth_date": "1992-1-31",
+      "photo_url": "https://img-cdn.hltv.org/playerbodyshot/T4k2BS5NnPAoyh8yeg28MK.png?bg=3e4c54&h=100&ixlib=java-2.1.0&rect=128%2C19%2C455%2C455&w=100&s=d3b52047e586a7e4bc2ae477d995f699",
+      "year": 2017,
+      "total_score": 1760.0,
+      "average_score": 97.78,
+      "tournaments_count": 18,
+      "teams": [
+        "FaZe Clan",
+        "Fnatic"
+      ],
+      "roles": [
+        "IGL"
+      ],
+      "primary_role": "IGL",
+      "breakdown": {
+        "team_summary": {
+          "Fnatic": {
+            "tournaments": 9,
+            "score": 560.0,
+            "placements": [
+              "3-4",
+              "5-8",
+              "5-8",
+              "7-8",
+              "5-8",
+              "7-8",
+              "5-8",
+              "5-8",
+              "5-8"
+            ]
+          },
+          "FaZe Clan": {
+            "tournaments": 9,
+            "score": 1200.0,
+            "placements": [
+              "2",
+              "5-8",
+              "5-8",
+              "1",
+              "1",
+              "5-6",
+              "2",
+              "2",
+              "1"
+            ]
+          }
+        },
+        "tournaments": [
+          {
+            "tournament_id": "eleague/2017/major",
+            "tournament_name": "ELEAGUE Major Atlanta 2017",
+            "tier": "S-Tier",
+            "team": "Fnatic",
+            "role": "Rifler",
+            "placement": "3-4",
+            "score": 100.0
+          },
+          {
+            "tournament_id": "esl/pro_league/season_5/europe",
+            "tournament_name": "ESL Pro League Season 5 - Europe",
+            "tier": "S-Tier",
+            "team": "Fnatic",
+            "role": "Rifler",
+            "placement": "5-8",
+            "score": 60.0
+          },
+          {
+            "tournament_id": "dreamhack/2017/las_vegas",
+            "tournament_name": "DreamHack Masters Las&nbsp;Vegas 2017",
+            "tier": "S-Tier",
+            "team": "Fnatic",
+            "role": "Rifler",
+            "placement": "5-8",
+            "score": 60.0
+          },
+          {
+            "tournament_id": "intel_extreme_masters/season_xi/world_championship",
+            "tournament_name": "Intel Extreme Masters XI - World Championship",
+            "tier": "S-Tier",
+            "team": "Fnatic",
+            "role": "Rifler",
+            "placement": "7-8",
+            "score": 50.0
+          },
+          {
+            "tournament_id": "starladder_i-league/starseries/season_3",
+            "tournament_name": "StarLadder i-League StarSeries Season 3",
+            "tier": "S-Tier",
+            "team": "Fnatic",
+            "role": "Rifler",
+            "placement": "5-8",
+            "score": 60.0
+          },
+          {
+            "tournament_id": "esl/pro_league/season_5/finals",
+            "tournament_name": "ESL Pro League Season 5 - Finals",
+            "tier": "S-Tier",
+            "team": "Fnatic",
+            "role": "Rifler",
+            "placement": "7-8",
+            "score": 50.0
+          },
+          {
+            "tournament_id": "esports_championship_series/season_3",
+            "tournament_name": "Esports Championship Series Season 3 - Finals",
+            "tier": "S-Tier",
+            "team": "Fnatic",
+            "role": "Rifler",
+            "placement": "5-8",
+            "score": 60.0
+          },
+          {
+            "tournament_id": "esl/one/2017/cologne",
+            "tournament_name": "ESL One: Cologne 2017",
+            "tier": "S-Tier",
+            "team": "Fnatic",
+            "role": "Rifler",
+            "placement": "5-8",
+            "score": 60.0
+          },
+          {
+            "tournament_id": "intel/grand_slam/1",
+            "tournament_name": "Intel Grand Slam Season 1",
+            "tier": "S-Tier",
+            "team": "FaZe Clan",
+            "role": "Rifler",
+            "placement": "2",
+            "score": 140.0
+          },
+          {
+            "tournament_id": "pgl/2017/krakow",
+            "tournament_name": "PGL Major Kraków 2017",
+            "tier": "S-Tier",
+            "team": "Fnatic",
+            "role": "Rifler",
+            "placement": "5-8",
+            "score": 60.0
+          },
+          {
+            "tournament_id": "esl/pro_league/season_6/europe",
+            "tournament_name": "ESL Pro League Season 6 - Europe",
+            "tier": "S-Tier",
+            "team": "FaZe Clan",
+            "role": "Rifler",
+            "placement": "5-8",
+            "score": 60.0
+          },
+          {
+            "tournament_id": "dreamhack/2017/malmö",
+            "tournament_name": "DreamHack Masters Malmö&nbsp;2017",
+            "tier": "S-Tier",
+            "team": "FaZe Clan",
+            "role": "Rifler",
+            "placement": "5-8",
+            "score": 60.0
+          },
+          {
+            "tournament_id": "eleague/2017/premier",
+            "tournament_name": "ELEAGUE Premier 2017",
+            "tier": "S-Tier",
+            "team": "FaZe Clan",
+            "role": "Rifler",
+            "placement": "1",
+            "score": 200.0
+          },
+          {
+            "tournament_id": "esl/one/2017/new_york",
+            "tournament_name": "ESL One: New York 2017",
+            "tier": "S-Tier",
+            "team": "FaZe Clan",
+            "role": "Rifler",
+            "placement": "1",
+            "score": 200.0
+          },
+          {
+            "tournament_id": "epicenter/2017",
+            "tournament_name": "EPICENTER 2017",
+            "tier": "S-Tier",
+            "team": "FaZe Clan",
+            "role": "Rifler",
+            "placement": "5-6",
+            "score": 60.0
+          },
+          {
+            "tournament_id": "intel_extreme_masters/season_xii/oakland",
+            "tournament_name": "Intel Extreme Masters XII - Oakland",
+            "tier": "S-Tier",
+            "team": "FaZe Clan",
+            "role": "Rifler",
+            "placement": "2",
+            "score": 140.0
+          },
+          {
+            "tournament_id": "esl/pro_league/season_6/finals",
+            "tournament_name": "ESL Pro League Season 6 - Finals",
+            "tier": "S-Tier",
+            "team": "FaZe Clan",
+            "role": "Rifler",
+            "placement": "2",
+            "score": 140.0
+          },
+          {
+            "tournament_id": "esports_championship_series/season_4",
+            "tournament_name": "Esports Championship Series Season 4 - Finals",
+            "tier": "S-Tier",
+            "team": "FaZe Clan",
+            "role": "Rifler",
+            "placement": "1",
+            "score": 200.0
+          }
+        ]
+      }
+    },
+    {
+      "id": "coldzera_2016",
+      "player_id": "coldzera",
+      "handle": "coldzera",
+      "real_name": "Marcelo Augusto David",
+      "nationality": "Brazil",
+      "birth_date": "1994-10-31",
+      "photo_url": "https://img-cdn.hltv.org/playerbodyshot/eQN-pKLbiz_8oMSkAQVDfv.png?bg=3e4c54&h=100&ixlib=java-2.1.0&rect=124%2C8%2C467%2C467&w=100&s=e8d6167ef0f1860d4a4cfa88a4de6061",
+      "year": 2016,
+      "total_score": 1754.0,
+      "average_score": 109.62,
+      "tournaments_count": 16,
+      "teams": [
+        "Luminosity Gaming",
+        "SK Gaming"
+      ],
+      "roles": [
+        "Lurker"
+      ],
+      "primary_role": "Lurker",
+      "breakdown": {
+        "team_summary": {
+          "Luminosity Gaming": {
+            "tournaments": 8,
+            "score": 1010.0,
+            "placements": [
+              "3-4",
+              "2",
+              "5-8",
+              "2",
+              "1",
+              "9-12",
+              "1",
+              "2"
+            ]
+          },
+          "SK Gaming": {
+            "tournaments": 8,
+            "score": 744.0,
+            "placements": [
+              "dq",
+              "5-8",
+              "3-4",
+              "3-4",
+              "3-4",
+              "2",
+              "2",
+              "3-4"
+            ]
+          }
+        },
+        "tournaments": [
+          {
+            "tournament_id": "starladder/i-league_starseries/xiv",
+            "tournament_name": "StarLadder i-League StarSeries XIV",
+            "tier": "S-Tier",
+            "team": "Luminosity Gaming",
+            "role": "Rifler",
+            "placement": "3-4",
+            "score": 100.0
+          },
+          {
+            "tournament_id": "dreamhack/2016/leipzig",
+            "tournament_name": "DreamHack Open Leipzig 2016",
+            "tier": "S-Tier",
+            "team": "Luminosity Gaming",
+            "role": "Rifler",
+            "placement": "2",
+            "score": 140.0
+          },
+          {
+            "tournament_id": "esl/pro_league/season_3/north_america",
+            "tournament_name": "ESL Pro League Season 3 - North America",
+            "tier": "S-Tier",
+            "team": "Luminosity Gaming",
+            "role": "Rifler",
+            "placement": "5-8",
+            "score": 60.0
+          },
+          {
+            "tournament_id": "intel_extreme_masters/season_x/world_championship",
+            "tournament_name": "Intel Extreme Masters X - World Championship",
+            "tier": "S-Tier",
+            "team": "Luminosity Gaming",
+            "role": "Rifler",
+            "placement": "2",
+            "score": 140.0
+          },
+          {
+            "tournament_id": "mlg/2016/columbus",
+            "tournament_name": "MLG Major Championship: Columbus 2016",
+            "tier": "S-Tier",
+            "team": "Luminosity Gaming",
+            "role": "Rifler",
+            "placement": "1",
+            "score": 200.0
+          },
+          {
+            "tournament_id": "dreamhack/2016/malmö",
+            "tournament_name": "DreamHack Masters Malmö&nbsp;2016",
+            "tier": "S-Tier",
+            "team": "Luminosity Gaming",
+            "role": "Rifler",
+            "placement": "9-12",
+            "score": 30.0
+          },
+          {
+            "tournament_id": "esl/pro_league/season_3/finals",
+            "tournament_name": "ESL Pro League Season 3 - Finals",
+            "tier": "S-Tier",
+            "team": "Luminosity Gaming",
+            "role": "Rifler",
+            "placement": "1",
+            "score": 200.0
+          },
+          {
+            "tournament_id": "eleague/season_1",
+            "tournament_name": "ELEAGUE Season 1",
+            "tier": "S-Tier",
+            "team": "SK Gaming",
+            "role": "Rifler",
+            "placement": "dq",
+            "score": 4.0
+          },
+          {
+            "tournament_id": "esports_championship_series/season_1",
+            "tournament_name": "Esports Championship Series Season 1 - Finals",
+            "tier": "S-Tier",
+            "team": "Luminosity Gaming",
+            "role": "Rifler",
+            "placement": "2",
+            "score": 140.0
+          },
+          {
+            "tournament_id": "esl/pro_league/season_4/north_america",
+            "tournament_name": "ESL Pro League Season 4 - North America",
+            "tier": "S-Tier",
+            "team": "SK Gaming",
+            "role": "Rifler",
+            "placement": "5-8",
+            "score": 60.0
+          },
+          {
+            "tournament_id": "esl/one/2016/new_york",
+            "tournament_name": "ESL One: New York 2016",
+            "tier": "S-Tier",
+            "team": "SK Gaming",
+            "role": "Rifler",
+            "placement": "3-4",
+            "score": 100.0
+          },
+          {
+            "tournament_id": "epicenter/2016",
+            "tournament_name": "EPICENTER 2016",
+            "tier": "S-Tier",
+            "team": "SK Gaming",
+            "role": "Rifler",
+            "placement": "3-4",
+            "score": 100.0
+          },
+          {
+            "tournament_id": "eleague/season_2",
+            "tournament_name": "ELEAGUE Season 2",
+            "tier": "S-Tier",
+            "team": "SK Gaming",
+            "role": "Rifler",
+            "placement": "3-4",
+            "score": 100.0
+          },
+          {
+            "tournament_id": "esl/pro_league/season_4/finals",
+            "tournament_name": "ESL Pro League Season 4 - Finals",
+            "tier": "S-Tier",
+            "team": "SK Gaming",
+            "role": "Rifler",
+            "placement": "2",
+            "score": 140.0
+          },
+          {
+            "tournament_id": "intel_extreme_masters/season_xi/oakland",
+            "tournament_name": "Intel Extreme Masters XI - Oakland",
+            "tier": "S-Tier",
+            "team": "SK Gaming",
+            "role": "Rifler",
+            "placement": "2",
+            "score": 140.0
+          },
+          {
+            "tournament_id": "esports_championship_series/season_2",
+            "tournament_name": "Esports Championship Series Season 2 - Finals",
+            "tier": "S-Tier",
+            "team": "SK Gaming",
+            "role": "Rifler",
+            "placement": "3-4",
+            "score": 100.0
+          }
+        ]
+      }
+    },
+    {
+      "id": "fallen_2016",
+      "player_id": "fallen",
+      "handle": "FalleN",
+      "real_name": "Gabriel Toledo de Alcântara Sguario",
+      "nationality": "Brazil",
+      "birth_date": "1991-05-30",
+      "photo_url": "https://img-cdn.hltv.org/playerbodyshot/gQbb4I0TeHmxx7bYBOtd7T.png?ixlib=java-2.1.0&w=400&s=744dd676bd5ad23e4adfc8dc8fcbaa80",
+      "year": 2016,
+      "total_score": 1754.0,
+      "average_score": 109.62,
+      "tournaments_count": 16,
+      "teams": [
+        "Luminosity Gaming",
+        "SK Gaming"
+      ],
+      "roles": [
+        "AWPer"
+      ],
+      "primary_role": "AWPer",
+      "breakdown": {
+        "team_summary": {
+          "Luminosity Gaming": {
+            "tournaments": 8,
+            "score": 1010.0,
+            "placements": [
+              "3-4",
+              "2",
+              "5-8",
+              "2",
+              "1",
+              "9-12",
+              "1",
+              "2"
+            ]
+          },
+          "SK Gaming": {
+            "tournaments": 8,
+            "score": 744.0,
+            "placements": [
+              "dq",
+              "5-8",
+              "3-4",
+              "3-4",
+              "3-4",
+              "2",
+              "2",
+              "3-4"
+            ]
+          }
+        },
+        "tournaments": [
+          {
+            "tournament_id": "starladder/i-league_starseries/xiv",
+            "tournament_name": "StarLadder i-League StarSeries XIV",
+            "tier": "S-Tier",
+            "team": "Luminosity Gaming",
+            "role": "Rifler",
+            "placement": "3-4",
+            "score": 100.0
+          },
+          {
+            "tournament_id": "dreamhack/2016/leipzig",
+            "tournament_name": "DreamHack Open Leipzig 2016",
+            "tier": "S-Tier",
+            "team": "Luminosity Gaming",
+            "role": "Rifler",
+            "placement": "2",
+            "score": 140.0
+          },
+          {
+            "tournament_id": "esl/pro_league/season_3/north_america",
+            "tournament_name": "ESL Pro League Season 3 - North America",
+            "tier": "S-Tier",
+            "team": "Luminosity Gaming",
+            "role": "Rifler",
+            "placement": "5-8",
+            "score": 60.0
+          },
+          {
+            "tournament_id": "intel_extreme_masters/season_x/world_championship",
+            "tournament_name": "Intel Extreme Masters X - World Championship",
+            "tier": "S-Tier",
+            "team": "Luminosity Gaming",
+            "role": "Rifler",
+            "placement": "2",
+            "score": 140.0
+          },
+          {
+            "tournament_id": "mlg/2016/columbus",
+            "tournament_name": "MLG Major Championship: Columbus 2016",
+            "tier": "S-Tier",
+            "team": "Luminosity Gaming",
+            "role": "Rifler",
+            "placement": "1",
+            "score": 200.0
+          },
+          {
+            "tournament_id": "dreamhack/2016/malmö",
+            "tournament_name": "DreamHack Masters Malmö&nbsp;2016",
+            "tier": "S-Tier",
+            "team": "Luminosity Gaming",
+            "role": "Rifler",
+            "placement": "9-12",
+            "score": 30.0
+          },
+          {
+            "tournament_id": "esl/pro_league/season_3/finals",
+            "tournament_name": "ESL Pro League Season 3 - Finals",
+            "tier": "S-Tier",
+            "team": "Luminosity Gaming",
+            "role": "Rifler",
+            "placement": "1",
+            "score": 200.0
+          },
+          {
+            "tournament_id": "eleague/season_1",
+            "tournament_name": "ELEAGUE Season 1",
+            "tier": "S-Tier",
+            "team": "SK Gaming",
+            "role": "Rifler",
+            "placement": "dq",
+            "score": 4.0
+          },
+          {
+            "tournament_id": "esports_championship_series/season_1",
+            "tournament_name": "Esports Championship Series Season 1 - Finals",
+            "tier": "S-Tier",
+            "team": "Luminosity Gaming",
+            "role": "Rifler",
+            "placement": "2",
+            "score": 140.0
+          },
+          {
+            "tournament_id": "esl/pro_league/season_4/north_america",
+            "tournament_name": "ESL Pro League Season 4 - North America",
+            "tier": "S-Tier",
+            "team": "SK Gaming",
+            "role": "Rifler",
+            "placement": "5-8",
+            "score": 60.0
+          },
+          {
+            "tournament_id": "esl/one/2016/new_york",
+            "tournament_name": "ESL One: New York 2016",
+            "tier": "S-Tier",
+            "team": "SK Gaming",
+            "role": "Rifler",
+            "placement": "3-4",
+            "score": 100.0
+          },
+          {
+            "tournament_id": "epicenter/2016",
+            "tournament_name": "EPICENTER 2016",
+            "tier": "S-Tier",
+            "team": "SK Gaming",
+            "role": "Rifler",
+            "placement": "3-4",
+            "score": 100.0
+          },
+          {
+            "tournament_id": "eleague/season_2",
+            "tournament_name": "ELEAGUE Season 2",
+            "tier": "S-Tier",
+            "team": "SK Gaming",
+            "role": "Rifler",
+            "placement": "3-4",
+            "score": 100.0
+          },
+          {
+            "tournament_id": "esl/pro_league/season_4/finals",
+            "tournament_name": "ESL Pro League Season 4 - Finals",
+            "tier": "S-Tier",
+            "team": "SK Gaming",
+            "role": "Rifler",
+            "placement": "2",
+            "score": 140.0
+          },
+          {
+            "tournament_id": "intel_extreme_masters/season_xi/oakland",
+            "tournament_name": "Intel Extreme Masters XI - Oakland",
+            "tier": "S-Tier",
+            "team": "SK Gaming",
+            "role": "Rifler",
+            "placement": "2",
+            "score": 140.0
+          },
+          {
+            "tournament_id": "esports_championship_series/season_2",
+            "tournament_name": "Esports Championship Series Season 2 - Finals",
+            "tier": "S-Tier",
+            "team": "SK Gaming",
+            "role": "Rifler",
+            "placement": "3-4",
+            "score": 100.0
+          }
+        ]
+      }
+    },
+    {
+      "id": "fer_2016",
+      "player_id": "fer",
+      "handle": "fer",
+      "real_name": "Fernando Alvarenga",
+      "nationality": "Brazil",
+      "birth_date": "1991-10-30",
+      "photo_url": "https://img-cdn.hltv.org/playerbodyshot/0wByIKmMndjpZZS9V6_485.png?ixlib=java-2.1.0&w=400&s=c405eb54d75015b10b2dca87231b04b6",
+      "year": 2016,
+      "total_score": 1754.0,
+      "average_score": 109.62,
+      "tournaments_count": 16,
+      "teams": [
+        "Luminosity Gaming",
+        "SK Gaming"
+      ],
+      "roles": [
+        "Entry"
+      ],
+      "primary_role": "Entry",
+      "breakdown": {
+        "team_summary": {
+          "Luminosity Gaming": {
+            "tournaments": 8,
+            "score": 1010.0,
+            "placements": [
+              "3-4",
+              "2",
+              "5-8",
+              "2",
+              "1",
+              "9-12",
+              "1",
+              "2"
+            ]
+          },
+          "SK Gaming": {
+            "tournaments": 8,
+            "score": 744.0,
+            "placements": [
+              "dq",
+              "5-8",
+              "3-4",
+              "3-4",
+              "3-4",
+              "2",
+              "2",
+              "3-4"
+            ]
+          }
+        },
+        "tournaments": [
+          {
+            "tournament_id": "starladder/i-league_starseries/xiv",
+            "tournament_name": "StarLadder i-League StarSeries XIV",
+            "tier": "S-Tier",
+            "team": "Luminosity Gaming",
+            "role": "Rifler",
+            "placement": "3-4",
+            "score": 100.0
+          },
+          {
+            "tournament_id": "dreamhack/2016/leipzig",
+            "tournament_name": "DreamHack Open Leipzig 2016",
+            "tier": "S-Tier",
+            "team": "Luminosity Gaming",
+            "role": "Rifler",
+            "placement": "2",
+            "score": 140.0
+          },
+          {
+            "tournament_id": "esl/pro_league/season_3/north_america",
+            "tournament_name": "ESL Pro League Season 3 - North America",
+            "tier": "S-Tier",
+            "team": "Luminosity Gaming",
+            "role": "Rifler",
+            "placement": "5-8",
+            "score": 60.0
+          },
+          {
+            "tournament_id": "intel_extreme_masters/season_x/world_championship",
+            "tournament_name": "Intel Extreme Masters X - World Championship",
+            "tier": "S-Tier",
+            "team": "Luminosity Gaming",
+            "role": "Rifler",
+            "placement": "2",
+            "score": 140.0
+          },
+          {
+            "tournament_id": "mlg/2016/columbus",
+            "tournament_name": "MLG Major Championship: Columbus 2016",
+            "tier": "S-Tier",
+            "team": "Luminosity Gaming",
+            "role": "Rifler",
+            "placement": "1",
+            "score": 200.0
+          },
+          {
+            "tournament_id": "dreamhack/2016/malmö",
+            "tournament_name": "DreamHack Masters Malmö&nbsp;2016",
+            "tier": "S-Tier",
+            "team": "Luminosity Gaming",
+            "role": "Rifler",
+            "placement": "9-12",
+            "score": 30.0
+          },
+          {
+            "tournament_id": "esl/pro_league/season_3/finals",
+            "tournament_name": "ESL Pro League Season 3 - Finals",
+            "tier": "S-Tier",
+            "team": "Luminosity Gaming",
+            "role": "Rifler",
+            "placement": "1",
+            "score": 200.0
+          },
+          {
+            "tournament_id": "eleague/season_1",
+            "tournament_name": "ELEAGUE Season 1",
+            "tier": "S-Tier",
+            "team": "SK Gaming",
+            "role": "Rifler",
+            "placement": "dq",
+            "score": 4.0
+          },
+          {
+            "tournament_id": "esports_championship_series/season_1",
+            "tournament_name": "Esports Championship Series Season 1 - Finals",
+            "tier": "S-Tier",
+            "team": "Luminosity Gaming",
+            "role": "Rifler",
+            "placement": "2",
+            "score": 140.0
+          },
+          {
+            "tournament_id": "esl/pro_league/season_4/north_america",
+            "tournament_name": "ESL Pro League Season 4 - North America",
+            "tier": "S-Tier",
+            "team": "SK Gaming",
+            "role": "Rifler",
+            "placement": "5-8",
+            "score": 60.0
+          },
+          {
+            "tournament_id": "esl/one/2016/new_york",
+            "tournament_name": "ESL One: New York 2016",
+            "tier": "S-Tier",
+            "team": "SK Gaming",
+            "role": "Rifler",
+            "placement": "3-4",
+            "score": 100.0
+          },
+          {
+            "tournament_id": "epicenter/2016",
+            "tournament_name": "EPICENTER 2016",
+            "tier": "S-Tier",
+            "team": "SK Gaming",
+            "role": "Rifler",
+            "placement": "3-4",
+            "score": 100.0
+          },
+          {
+            "tournament_id": "eleague/season_2",
+            "tournament_name": "ELEAGUE Season 2",
+            "tier": "S-Tier",
+            "team": "SK Gaming",
+            "role": "Rifler",
+            "placement": "3-4",
+            "score": 100.0
+          },
+          {
+            "tournament_id": "esl/pro_league/season_4/finals",
+            "tournament_name": "ESL Pro League Season 4 - Finals",
+            "tier": "S-Tier",
+            "team": "SK Gaming",
+            "role": "Rifler",
+            "placement": "2",
+            "score": 140.0
+          },
+          {
+            "tournament_id": "intel_extreme_masters/season_xi/oakland",
+            "tournament_name": "Intel Extreme Masters XI - Oakland",
+            "tier": "S-Tier",
+            "team": "SK Gaming",
+            "role": "Rifler",
+            "placement": "2",
+            "score": 140.0
+          },
+          {
+            "tournament_id": "esports_championship_series/season_2",
+            "tournament_name": "Esports Championship Series Season 2 - Finals",
+            "tier": "S-Tier",
+            "team": "SK Gaming",
+            "role": "Rifler",
+            "placement": "3-4",
+            "score": 100.0
+          }
+        ]
+      }
+    },
+    {
+      "id": "taco_2016",
+      "player_id": "taco",
+      "handle": "TACO",
+      "real_name": "Epitácio Pessoa de Melo Filho",
+      "nationality": "Brazil",
+      "birth_date": "1995-1-24",
+      "photo_url": "https://img-cdn.hltv.org/playerbodyshot/oVlLgpSsMu8ZBc-iAWuzZ3.png?bg=3e4c54&h=100&ixlib=java-2.1.0&rect=121%2C8%2C467%2C467&w=100&s=e5ebe692f4104c15870e31b79ed8a4e5",
+      "year": 2016,
+      "total_score": 1754.0,
+      "average_score": 109.62,
+      "tournaments_count": 16,
+      "teams": [
+        "Luminosity Gaming",
+        "SK Gaming"
+      ],
+      "roles": [
+        "Lurker"
+      ],
+      "primary_role": "Lurker",
+      "breakdown": {
+        "team_summary": {
+          "Luminosity Gaming": {
+            "tournaments": 8,
+            "score": 1010.0,
+            "placements": [
+              "3-4",
+              "2",
+              "5-8",
+              "2",
+              "1",
+              "9-12",
+              "1",
+              "2"
+            ]
+          },
+          "SK Gaming": {
+            "tournaments": 8,
+            "score": 744.0,
+            "placements": [
+              "dq",
+              "5-8",
+              "3-4",
+              "3-4",
+              "3-4",
+              "2",
+              "2",
+              "3-4"
+            ]
+          }
+        },
+        "tournaments": [
+          {
+            "tournament_id": "starladder/i-league_starseries/xiv",
+            "tournament_name": "StarLadder i-League StarSeries XIV",
+            "tier": "S-Tier",
+            "team": "Luminosity Gaming",
+            "role": "Rifler",
+            "placement": "3-4",
+            "score": 100.0
+          },
+          {
+            "tournament_id": "dreamhack/2016/leipzig",
+            "tournament_name": "DreamHack Open Leipzig 2016",
+            "tier": "S-Tier",
+            "team": "Luminosity Gaming",
+            "role": "Rifler",
+            "placement": "2",
+            "score": 140.0
+          },
+          {
+            "tournament_id": "esl/pro_league/season_3/north_america",
+            "tournament_name": "ESL Pro League Season 3 - North America",
+            "tier": "S-Tier",
+            "team": "Luminosity Gaming",
+            "role": "Rifler",
+            "placement": "5-8",
+            "score": 60.0
+          },
+          {
+            "tournament_id": "intel_extreme_masters/season_x/world_championship",
+            "tournament_name": "Intel Extreme Masters X - World Championship",
+            "tier": "S-Tier",
+            "team": "Luminosity Gaming",
+            "role": "Rifler",
+            "placement": "2",
+            "score": 140.0
+          },
+          {
+            "tournament_id": "mlg/2016/columbus",
+            "tournament_name": "MLG Major Championship: Columbus 2016",
+            "tier": "S-Tier",
+            "team": "Luminosity Gaming",
+            "role": "Rifler",
+            "placement": "1",
+            "score": 200.0
+          },
+          {
+            "tournament_id": "dreamhack/2016/malmö",
+            "tournament_name": "DreamHack Masters Malmö&nbsp;2016",
+            "tier": "S-Tier",
+            "team": "Luminosity Gaming",
+            "role": "Rifler",
+            "placement": "9-12",
+            "score": 30.0
+          },
+          {
+            "tournament_id": "esl/pro_league/season_3/finals",
+            "tournament_name": "ESL Pro League Season 3 - Finals",
+            "tier": "S-Tier",
+            "team": "Luminosity Gaming",
+            "role": "Rifler",
+            "placement": "1",
+            "score": 200.0
+          },
+          {
+            "tournament_id": "eleague/season_1",
+            "tournament_name": "ELEAGUE Season 1",
+            "tier": "S-Tier",
+            "team": "SK Gaming",
+            "role": "Rifler",
+            "placement": "dq",
+            "score": 4.0
+          },
+          {
+            "tournament_id": "esports_championship_series/season_1",
+            "tournament_name": "Esports Championship Series Season 1 - Finals",
+            "tier": "S-Tier",
+            "team": "Luminosity Gaming",
+            "role": "Rifler",
+            "placement": "2",
+            "score": 140.0
+          },
+          {
+            "tournament_id": "esl/pro_league/season_4/north_america",
+            "tournament_name": "ESL Pro League Season 4 - North America",
+            "tier": "S-Tier",
+            "team": "SK Gaming",
+            "role": "Rifler",
+            "placement": "5-8",
+            "score": 60.0
+          },
+          {
+            "tournament_id": "esl/one/2016/new_york",
+            "tournament_name": "ESL One: New York 2016",
+            "tier": "S-Tier",
+            "team": "SK Gaming",
+            "role": "Rifler",
+            "placement": "3-4",
+            "score": 100.0
+          },
+          {
+            "tournament_id": "epicenter/2016",
+            "tournament_name": "EPICENTER 2016",
+            "tier": "S-Tier",
+            "team": "SK Gaming",
+            "role": "Rifler",
+            "placement": "3-4",
+            "score": 100.0
+          },
+          {
+            "tournament_id": "eleague/season_2",
+            "tournament_name": "ELEAGUE Season 2",
+            "tier": "S-Tier",
+            "team": "SK Gaming",
+            "role": "Rifler",
+            "placement": "3-4",
+            "score": 100.0
+          },
+          {
+            "tournament_id": "esl/pro_league/season_4/finals",
+            "tournament_name": "ESL Pro League Season 4 - Finals",
+            "tier": "S-Tier",
+            "team": "SK Gaming",
+            "role": "Rifler",
+            "placement": "2",
+            "score": 140.0
+          },
+          {
+            "tournament_id": "intel_extreme_masters/season_xi/oakland",
+            "tournament_name": "Intel Extreme Masters XI - Oakland",
+            "tier": "S-Tier",
+            "team": "SK Gaming",
+            "role": "Rifler",
+            "placement": "2",
+            "score": 140.0
+          },
+          {
+            "tournament_id": "esports_championship_series/season_2",
+            "tournament_name": "Esports Championship Series Season 2 - Finals",
+            "tier": "S-Tier",
+            "team": "SK Gaming",
+            "role": "Rifler",
+            "placement": "3-4",
+            "score": 100.0
+          }
+        ]
+      }
+    }
+  ]
+}

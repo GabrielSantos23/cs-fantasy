@@ -1,0 +1,27 @@
+# Dependencies & Build
+node_modules/
+.next/
+bun.lock
+out/
+build/
+dist/
+
+# Environment & Caches
+.env
+.env*.local
+.pytest_cache/
+__pycache__/
+*.log
+
+# Databases & Large Data Files
+*.db
+data/cs_data.db
+data/cs_eras.db
+data/raw/
+data/img_raw/
+
+# Existing markdown documentation (exclude except README.md)
+CHEMISTRY_FORMULA.md
+DECISIONS.md
+*.md
+!README.md

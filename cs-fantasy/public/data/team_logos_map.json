@@ -1,0 +1,2587 @@
+{
+  ".Russia": {
+    "local_path": null,
+    "remote_url": null,
+    "downloaded": false
+  },
+  ".Ukraine": {
+    "local_path": null,
+    "remote_url": null,
+    "downloaded": false
+  },
+  "/10/": {
+    "local_path": null,
+    "remote_url": null,
+    "downloaded": false
+  },
+  "00 Nation": {
+    "local_path": "/data/team_logos/00_nation.png",
+    "remote_url": "https://liquipedia.net/commons/images/0/02/00_Nation_2023_allmode.png",
+    "downloaded": true
+  },
+  "01 Esports": {
+    "local_path": null,
+    "remote_url": null,
+    "downloaded": false
+  },
+  "100 Thieves": {
+    "local_path": "/data/team_logos/100_thieves.png",
+    "remote_url": "https://liquipedia.net/commons/images/4/49/100_Thieves_full_lightmode.png",
+    "downloaded": true
+  },
+  "3DMAX": {
+    "local_path": "/data/team_logos/3dmax.png",
+    "remote_url": "https://liquipedia.net/commons/images/e/ee/3DMAX_2024_allmode.png",
+    "downloaded": true
+  },
+  "500": {
+    "local_path": "/data/team_logos/500.png",
+    "remote_url": "https://liquipedia.net/commons/images/9/97/500_Esports_2024_allmode.png",
+    "downloaded": true
+  },
+  "5Power Gaming": {
+    "local_path": "/data/team_logos/5power_gaming.png",
+    "remote_url": "https://liquipedia.net/commons/images/d/d1/5Power_Gaming_allmode.png",
+    "downloaded": true
+  },
+  "5yclone": {
+    "local_path": "/data/team_logos/5yclone.png",
+    "remote_url": "https://liquipedia.net/commons/images/4/40/5yclone_allmode.png",
+    "downloaded": true
+  },
+  "9INE": {
+    "local_path": "/data/team_logos/9ine.png",
+    "remote_url": "https://liquipedia.net/commons/images/c/c9/9INE_2025_lightmode.png",
+    "downloaded": true
+  },
+  "9Pandas": {
+    "local_path": "/data/team_logos/9pandas.png",
+    "remote_url": "https://liquipedia.net/commons/images/a/a5/9Pandas_CS_2023_allmode.png",
+    "downloaded": true
+  },
+  "9z Team": {
+    "local_path": "/data/team_logos/9z_team.png",
+    "remote_url": "https://liquipedia.net/commons/images/7/7f/9z_Team_2024_lightmode.png",
+    "downloaded": true
+  },
+  "AGAiN": {
+    "local_path": null,
+    "remote_url": null,
+    "downloaded": false
+  },
+  "AGO": {
+    "local_path": "/data/team_logos/ago.png",
+    "remote_url": "https://liquipedia.net/commons/images/a/af/AGO_esports_2023_sept_allmode.png",
+    "downloaded": true
+  },
+  "AGO Esports": {
+    "local_path": "/data/team_logos/ago_esports.png",
+    "remote_url": "https://liquipedia.net/commons/images/a/af/AGO_esports_2023_sept_allmode.png",
+    "downloaded": true
+  },
+  "ALPHA Red": {
+    "local_path": "/data/team_logos/alpha_red.png",
+    "remote_url": "https://liquipedia.net/commons/images/1/12/ALPHA_Red_allmode.png",
+    "downloaded": true
+  },
+  "ALTERNATE aTTaX": {
+    "local_path": "/data/team_logos/alternate_attax.png",
+    "remote_url": "https://liquipedia.net/commons/images/0/06/ALTERNATE_aTTaX_2020_allmode.png",
+    "downloaded": true
+  },
+  "AMKAL ESPORTS": {
+    "local_path": "/data/team_logos/amkal_esports.png",
+    "remote_url": "https://liquipedia.net/commons/images/4/4a/AMKAL_ESPORTS_2024_lightmode.png",
+    "downloaded": true
+  },
+  "ATE Gaming": {
+    "local_path": null,
+    "remote_url": null,
+    "downloaded": false
+  },
+  "ATK": {
+    "local_path": "/data/team_logos/atk.png",
+    "remote_url": "https://liquipedia.net/commons/images/6/6b/ATK_2020_infobox.png",
+    "downloaded": true
+  },
+  "ATOX Esports": {
+    "local_path": "/data/team_logos/atox_esports.png",
+    "remote_url": "https://liquipedia.net/commons/images/8/89/ATOX_Esports_2024_lightmode.png",
+    "downloaded": true
+  },
+  "AVANGAR": {
+    "local_path": "/data/team_logos/avangar.png",
+    "remote_url": "https://liquipedia.net/commons/images/6/68/AVANGAR_2019_full_lightmode.png",
+    "downloaded": true
+  },
+  "AVEZ": {
+    "local_path": "/data/team_logos/avez.png",
+    "remote_url": "https://liquipedia.net/commons/images/8/8b/AVEZ_allmode.png",
+    "downloaded": true
+  },
+  "Absolute": {
+    "local_path": "/data/team_logos/absolute.png",
+    "remote_url": "https://liquipedia.net/commons/images/5/50/Absolute_2019_lightmode.png",
+    "downloaded": true
+  },
+  "Absolute Legends": {
+    "local_path": "/data/team_logos/absolute_legends.png",
+    "remote_url": "https://liquipedia.net/commons/images/4/4b/Absolute_Legends_full_allmode.png",
+    "downloaded": true
+  },
+  "AliGon": {
+    "local_path": "/data/team_logos/aligon.png",
+    "remote_url": "https://liquipedia.net/commons/images/d/df/AliGon_lightmode.png",
+    "downloaded": true
+  },
+  "All-Stars #2": {
+    "local_path": null,
+    "remote_url": null,
+    "downloaded": false
+  },
+  "All-Stars Europe": {
+    "local_path": null,
+    "remote_url": null,
+    "downloaded": false
+  },
+  "All-Stars North America": {
+    "local_path": null,
+    "remote_url": null,
+    "downloaded": false
+  },
+  "Alliance": {
+    "local_path": "/data/team_logos/alliance.png",
+    "remote_url": "https://liquipedia.net/commons/images/a/a9/Alliance_2024_full_allmode.png",
+    "downloaded": true
+  },
+  "Alpha Red": {
+    "local_path": "/data/team_logos/alpha_red.png",
+    "remote_url": "https://liquipedia.net/commons/images/1/12/ALPHA_Red_allmode.png",
+    "downloaded": true
+  },
+  "Altima": {
+    "local_path": null,
+    "remote_url": null,
+    "downloaded": false
+  },
+  "Amazing Gaming": {
+    "local_path": "/data/team_logos/amazing_gaming.png",
+    "remote_url": "https://liquipedia.net/commons/images/6/6e/Amazing_Gaming_lightmode.png",
+    "downloaded": true
+  },
+  "Anexis eSports": {
+    "local_path": "/data/team_logos/anexis_esports.png",
+    "remote_url": "https://liquipedia.net/commons/images/8/8f/Anexis_eSports_full_lightmode.png",
+    "downloaded": true
+  },
+  "Anonymo Esports": {
+    "local_path": "/data/team_logos/anonymo_esports.png",
+    "remote_url": "https://liquipedia.net/commons/images/d/da/Anonymo_Esports_2021_allmode.png",
+    "downloaded": true
+  },
+  "Apeks": {
+    "local_path": "/data/team_logos/apeks.png",
+    "remote_url": "https://liquipedia.net/commons/images/d/dc/Apeks_2021_full_darkmode.png",
+    "downloaded": true
+  },
+  "Arcade eSports": {
+    "local_path": "/data/team_logos/arcade_esports.png",
+    "remote_url": "https://liquipedia.net/commons/images/c/c6/Arcade_eSports_lightmode.png",
+    "downloaded": true
+  },
+  "Aristocracy": {
+    "local_path": "/data/team_logos/aristocracy.png",
+    "remote_url": "https://liquipedia.net/commons/images/f/fc/ARCY_lightmode.png",
+    "downloaded": true
+  },
+  "Astana Dragons": {
+    "local_path": "/data/team_logos/astana_dragons.png",
+    "remote_url": "https://liquipedia.net/commons/images/9/94/Astana_Dragons_allmode.png",
+    "downloaded": true
+  },
+  "Astralis": {
+    "local_path": "/data/team_logos/astralis.png",
+    "remote_url": "https://liquipedia.net/commons/images/b/b5/Astralis_2020_full_allmode.png",
+    "downloaded": true
+  },
+  "Aurora Gaming": {
+    "local_path": "/data/team_logos/aurora_gaming.png",
+    "remote_url": "https://liquipedia.net/commons/images/3/32/Aurora_Gaming_2025_full_allmode.png",
+    "downloaded": true
+  },
+  "Avant Gaming": {
+    "local_path": "/data/team_logos/avant_gaming.png",
+    "remote_url": "https://liquipedia.net/commons/images/7/79/AVANT_2019_full_lightmode.png",
+    "downloaded": true
+  },
+  "Awsomniac": {
+    "local_path": "/data/team_logos/awsomniac.png",
+    "remote_url": "https://liquipedia.net/commons/images/f/f2/Awsomniac.png",
+    "downloaded": true
+  },
+  "B.O.O.T-dream[S]cape": {
+    "local_path": null,
+    "remote_url": null,
+    "downloaded": false
+  },
+  "B8": {
+    "local_path": "/data/team_logos/b8.png",
+    "remote_url": "https://liquipedia.net/commons/images/c/c6/B8_lightmode.png",
+    "downloaded": true
+  },
+  "BC.Game": {
+    "local_path": null,
+    "remote_url": null,
+    "downloaded": false
+  },
+  "BC.Game Esports": {
+    "local_path": "/data/team_logos/bcgame_esports.png",
+    "remote_url": "https://liquipedia.net/commons/images/6/6e/BC.Game_Esports_nov_2025_full_lightmode.png",
+    "downloaded": true
+  },
+  "BIG": {
+    "local_path": "/data/team_logos/big.png",
+    "remote_url": "https://liquipedia.net/commons/images/8/80/BIG_2020_full_lightmode.png",
+    "downloaded": true
+  },
+  "BLAST Dream Team": {
+    "local_path": null,
+    "remote_url": null,
+    "downloaded": false
+  },
+  "BLEED Esports": {
+    "local_path": "/data/team_logos/bleed_esports.png",
+    "remote_url": "https://liquipedia.net/commons/images/0/06/Bleed_Esports_2024_full_lightmode.png",
+    "downloaded": true
+  },
+  "BLUEJAYS": {
+    "local_path": "/data/team_logos/bluejays.png",
+    "remote_url": "https://liquipedia.net/commons/images/1/1e/BLUEJAYS_2015_allmode.png",
+    "downloaded": true
+  },
+  "BOOM Esports": {
+    "local_path": "/data/team_logos/boom_esports.png",
+    "remote_url": "https://liquipedia.net/commons/images/d/d0/Boom_Esports_allmode.png",
+    "downloaded": true
+  },
+  "BOSS": {
+    "local_path": "/data/team_logos/boss.png",
+    "remote_url": "https://liquipedia.net/commons/images/9/92/Boss_CS2_allmode.png",
+    "downloaded": true
+  },
+  "BX3 eSports Club": {
+    "local_path": "/data/team_logos/bx3_esports_club.png",
+    "remote_url": "https://liquipedia.net/commons/images/d/da/Nordavind_full_lightmode.png",
+    "downloaded": true
+  },
+  "Bad Monkey Gaming": {
+    "local_path": "/data/team_logos/bad_monkey_gaming.png",
+    "remote_url": "https://liquipedia.net/commons/images/e/e3/Bad_Monkey_Gaming.png",
+    "downloaded": true
+  },
+  "Bad News Bears": {
+    "local_path": "/data/team_logos/bad_news_bears.png",
+    "remote_url": "https://liquipedia.net/commons/images/3/32/Bad_News_Bears_2021_lightmode.png",
+    "downloaded": true
+  },
+  "Bad News Eagles": {
+    "local_path": "/data/team_logos/bad_news_eagles.png",
+    "remote_url": "https://liquipedia.net/commons/images/9/93/Bad_News_Eagles_allmode.png",
+    "downloaded": true
+  },
+  "Bad News Kangaroos": {
+    "local_path": null,
+    "remote_url": null,
+    "downloaded": false
+  },
+  "Beantown Bandits": {
+    "local_path": null,
+    "remote_url": null,
+    "downloaded": false
+  },
+  "Belgium": {
+    "local_path": "/data/team_logos/belgium.png",
+    "remote_url": "https://liquipedia.net/commons/images/6/65/Flag_of_Belgium.svg",
+    "downloaded": true
+  },
+  "Berzerk": {
+    "local_path": "/data/team_logos/berzerk.png",
+    "remote_url": "https://liquipedia.net/commons/images/7/7f/Berzerk2017.png",
+    "downloaded": true
+  },
+  "BetBoom Team": {
+    "local_path": "/data/team_logos/betboom_team.png",
+    "remote_url": "https://liquipedia.net/commons/images/5/5b/BetBoom_Team_2024_allmode.png",
+    "downloaded": true
+  },
+  "Betclic Apogee Esports": {
+    "local_path": "/data/team_logos/betclic_apogee_esports.png",
+    "remote_url": "https://liquipedia.net/commons/images/9/93/Betclic_Apogee_Esports_full_lightmode.png",
+    "downloaded": true
+  },
+  "Beyond Esports": {
+    "local_path": "/data/team_logos/beyond_esports.png",
+    "remote_url": "https://liquipedia.net/commons/images/2/20/Beyond_Esports_2020_allmode.png",
+    "downloaded": true
+  },
+  "Boreal eSports": {
+    "local_path": null,
+    "remote_url": null,
+    "downloaded": false
+  },
+  "Bravado Gaming": {
+    "local_path": "/data/team_logos/bravado_gaming.png",
+    "remote_url": "https://liquipedia.net/commons/images/b/b4/Bravado_Gaming_2021_full_allmode.png",
+    "downloaded": true
+  },
+  "Budapest Five": {
+    "local_path": "/data/team_logos/budapest_five.png",
+    "remote_url": "https://liquipedia.net/commons/images/d/d6/Budapest_Five_full_lightmode.png",
+    "downloaded": true
+  },
+  "C3 Gaming": {
+    "local_path": null,
+    "remote_url": null,
+    "downloaded": false
+  },
+  "CLG": {
+    "local_path": "/data/team_logos/clg.png",
+    "remote_url": "https://liquipedia.net/commons/images/8/86/CLG-logo.png",
+    "downloaded": true
+  },
+  "CPH Flames": {
+    "local_path": "/data/team_logos/cph_flames.png",
+    "remote_url": "https://liquipedia.net/commons/images/d/dc/Copenhagen_Flames_2018_full_lightmode.png",
+    "downloaded": true
+  },
+  "CR4ZY": {
+    "local_path": "/data/team_logos/cr4zy.png",
+    "remote_url": "https://liquipedia.net/commons/images/c/c0/CR4ZY_allmode.png",
+    "downloaded": true
+  },
+  "CS:GOetter": {
+    "local_path": null,
+    "remote_url": null,
+    "downloaded": false
+  },
+  "Canada": {
+    "local_path": "/data/team_logos/canada.png",
+    "remote_url": "https://liquipedia.net/commons/images/c/cf/Flag_of_Canada.svg",
+    "downloaded": true
+  },
+  "Chaos EC": {
+    "local_path": null,
+    "remote_url": null,
+    "downloaded": false
+  },
+  "Chaos Esports Club": {
+    "local_path": "/data/team_logos/chaos_esports_club.png",
+    "remote_url": "https://liquipedia.net/commons/images/d/da/Chaos_Esports_Club_2019_acid_lightmode.png",
+    "downloaded": true
+  },
+  "Chiefs ESC": {
+    "local_path": "/data/team_logos/chiefs_esc.png",
+    "remote_url": "https://liquipedia.net/commons/images/9/9d/Chiefs_Esports_Club_allmode.png",
+    "downloaded": true
+  },
+  "Chiefs Esports Club": {
+    "local_path": "/data/team_logos/chiefs_esports_club.png",
+    "remote_url": "https://liquipedia.net/commons/images/9/9d/Chiefs_Esports_Club_allmode.png",
+    "downloaded": true
+  },
+  "Chiefs eSports Club": {
+    "local_path": "/data/team_logos/chiefs_esports_club.png",
+    "remote_url": "https://liquipedia.net/commons/images/9/9d/Chiefs_Esports_Club_allmode.png",
+    "downloaded": true
+  },
+  "Chinggis Warriors": {
+    "local_path": "/data/team_logos/chinggis_warriors.png",
+    "remote_url": "https://liquipedia.net/commons/images/7/71/CW_allmode.png",
+    "downloaded": true
+  },
+  "Cipangu.GO": {
+    "local_path": null,
+    "remote_url": null,
+    "downloaded": false
+  },
+  "Clan-Mystik": {
+    "local_path": "/data/team_logos/clan_mystik.png",
+    "remote_url": "https://liquipedia.net/commons/images/3/38/Clan-Mystik_lightmode.png",
+    "downloaded": true
+  },
+  "Cloud9": {
+    "local_path": "/data/team_logos/cloud9.png",
+    "remote_url": "https://liquipedia.net/commons/images/a/a2/Cloud9_2023_full_allmode.png",
+    "downloaded": true
+  },
+  "Coastless": {
+    "local_path": null,
+    "remote_url": null,
+    "downloaded": false
+  },
+  "Complexity": {
+    "local_path": "/data/team_logos/complexity.png",
+    "remote_url": "https://liquipedia.net/commons/images/c/c7/Complexity_2025_full_allmode.png",
+    "downloaded": true
+  },
+  "Complexity Gaming": {
+    "local_path": "/data/team_logos/complexity_gaming.png",
+    "remote_url": "https://liquipedia.net/commons/images/c/c7/Complexity_2025_full_allmode.png",
+    "downloaded": true
+  },
+  "Conquest": {
+    "local_path": "/data/team_logos/conquest.png",
+    "remote_url": "https://liquipedia.net/commons/images/c/c1/Team_Conquest_logo.png",
+    "downloaded": true
+  },
+  "Copenhagen Flames": {
+    "local_path": "/data/team_logos/copenhagen_flames.png",
+    "remote_url": "https://liquipedia.net/commons/images/d/dc/Copenhagen_Flames_2018_full_lightmode.png",
+    "downloaded": true
+  },
+  "Copenhagen Wolves": {
+    "local_path": "/data/team_logos/copenhagen_wolves.png",
+    "remote_url": "https://liquipedia.net/commons/images/7/75/Copenhagen_Wolves_2012_allmode.png",
+    "downloaded": true
+  },
+  "Counter Logic Gaming": {
+    "local_path": "/data/team_logos/counter_logic_gaming.png",
+    "remote_url": "https://liquipedia.net/commons/images/8/86/CLG-logo.png",
+    "downloaded": true
+  },
+  "Curse Gaming": {
+    "local_path": "/data/team_logos/curse_gaming.png",
+    "remote_url": "https://liquipedia.net/commons/images/d/d8/Curse_full_lightmode.png",
+    "downloaded": true
+  },
+  "CyberZen": {
+    "local_path": "/data/team_logos/cyberzen.png",
+    "remote_url": "https://liquipedia.net/commons/images/7/72/CyberZen_allmode.png",
+    "downloaded": true
+  },
+  "DEMGUNZ": {
+    "local_path": null,
+    "remote_url": null,
+    "downloaded": false
+  },
+  "DETONA Gaming": {
+    "local_path": "/data/team_logos/detona_gaming.png",
+    "remote_url": "https://liquipedia.net/commons/images/7/72/DETONA_Gaming_2019_allmode_full.png",
+    "downloaded": true
+  },
+  "Danish Squad": {
+    "local_path": null,
+    "remote_url": null,
+    "downloaded": false
+  },
+  "Dark Passage": {
+    "local_path": "/data/team_logos/dark_passage.png",
+    "remote_url": "https://liquipedia.net/commons/images/a/af/Dark_Passage_allmode.png",
+    "downloaded": true
+  },
+  "Denial Esports": {
+    "local_path": "/data/team_logos/denial_esports.png",
+    "remote_url": "https://liquipedia.net/commons/images/c/c2/Denial_eSports_full_lightmode.png",
+    "downloaded": true
+  },
+  "Denial eSports": {
+    "local_path": "/data/team_logos/denial_esports.png",
+    "remote_url": "https://liquipedia.net/commons/images/c/c2/Denial_eSports_full_lightmode.png",
+    "downloaded": true
+  },
+  "Dignitas": {
+    "local_path": "/data/team_logos/dignitas.png",
+    "remote_url": "https://liquipedia.net/commons/images/3/3a/Dignitas_2021_full_lightmode.png",
+    "downloaded": true
+  },
+  "Dirty Peek Petes": {
+    "local_path": null,
+    "remote_url": null,
+    "downloaded": false
+  },
+  "Dobry&Gaming": {
+    "local_path": "/data/team_logos/dobrygaming.png",
+    "remote_url": "https://liquipedia.net/commons/images/d/d6/Dobry%26Gaming_lightmode.png",
+    "downloaded": true
+  },
+  "Double Poney": {
+    "local_path": "/data/team_logos/double_poney.png",
+    "remote_url": "https://liquipedia.net/commons/images/9/94/DBL_Poney_allmode.png",
+    "downloaded": true
+  },
+  "DreamEaters": {
+    "local_path": "/data/team_logos/dreameaters.png",
+    "remote_url": "https://liquipedia.net/commons/images/e/ef/DreamEaters_2020_lightmode.png",
+    "downloaded": true
+  },
+  "E-Frag Gaming": {
+    "local_path": "/data/team_logos/e_frag_gaming.png",
+    "remote_url": "https://liquipedia.net/commons/images/c/cd/E-Frag_Gaming_lightmode.png",
+    "downloaded": true
+  },
+  "E-Frag.net Esports Club": {
+    "local_path": "/data/team_logos/e_fragnet_esports_club.png",
+    "remote_url": "https://liquipedia.net/commons/images/7/70/E-Frag_Esports_Club.png",
+    "downloaded": true
+  },
+  "ECSTATIC": {
+    "local_path": "/data/team_logos/ecstatic.png",
+    "remote_url": "https://liquipedia.net/commons/images/9/93/ECSTATIC_2023_allmode.png",
+    "downloaded": true
+  },
+  "EHOME": {
+    "local_path": "/data/team_logos/ehome.png",
+    "remote_url": "https://liquipedia.net/commons/images/0/0c/EHOME_lightmode_full.png",
+    "downloaded": true
+  },
+  "ENCE": {
+    "local_path": "/data/team_logos/ence.png",
+    "remote_url": "https://liquipedia.net/commons/images/b/ba/ENCE_2020_full_lightmode.png",
+    "downloaded": true
+  },
+  "ENCE eSports": {
+    "local_path": "/data/team_logos/ence_esports.png",
+    "remote_url": "https://liquipedia.net/commons/images/b/ba/ENCE_2020_full_lightmode.png",
+    "downloaded": true
+  },
+  "ENCORE": {
+    "local_path": "/data/team_logos/encore.png",
+    "remote_url": "https://liquipedia.net/commons/images/0/0f/ENCORE.png",
+    "downloaded": true
+  },
+  "ENZO": {
+    "local_path": null,
+    "remote_url": null,
+    "downloaded": false
+  },
+  "ESC Gaming": {
+    "local_path": "/data/team_logos/esc_gaming.png",
+    "remote_url": "https://liquipedia.net/commons/images/b/be/ESC_Gaming_2023_full_allmode.png",
+    "downloaded": true
+  },
+  "ESG!": {
+    "local_path": null,
+    "remote_url": null,
+    "downloaded": false
+  },
+  "ETERNiTY": {
+    "local_path": null,
+    "remote_url": null,
+    "downloaded": false
+  },
+  "EYES ON U": {
+    "local_path": "/data/team_logos/eyes_on_u.png",
+    "remote_url": "https://liquipedia.net/commons/images/5/58/EYES_ON_U_2020_allmode.png",
+    "downloaded": true
+  },
+  "EZSkins.com": {
+    "local_path": "/data/team_logos/ezskinscom.png",
+    "remote_url": "https://liquipedia.net/commons/images/e/e0/EZskins.com_full_lightmode.png",
+    "downloaded": true
+  },
+  "Eastern Giants": {
+    "local_path": null,
+    "remote_url": null,
+    "downloaded": false
+  },
+  "Echo Fox": {
+    "local_path": "/data/team_logos/echo_fox.png",
+    "remote_url": "https://liquipedia.net/commons/images/e/e5/Echo_Fox_full_lightmode.png",
+    "downloaded": true
+  },
+  "EnRo GRIFFINS": {
+    "local_path": null,
+    "remote_url": null,
+    "downloaded": false
+  },
+  "Encore ESC": {
+    "local_path": null,
+    "remote_url": null,
+    "downloaded": false
+  },
+  "Endpoint": {
+    "local_path": "/data/team_logos/endpoint.png",
+    "remote_url": "https://liquipedia.net/commons/images/d/da/Endpoint_2020_full_lightmode.png",
+    "downloaded": true
+  },
+  "Enemy": {
+    "local_path": "/data/team_logos/enemy.png",
+    "remote_url": "https://liquipedia.net/commons/images/f/fd/EnemyGG_allmode.png",
+    "downloaded": true
+  },
+  "Energy eSports": {
+    "local_path": "/data/team_logos/energy_esports.png",
+    "remote_url": "https://liquipedia.net/commons/images/0/06/Energy_Esports_full_lightmode.png",
+    "downloaded": true
+  },
+  "Entropiq": {
+    "local_path": "/data/team_logos/entropiq.png",
+    "remote_url": "https://liquipedia.net/commons/images/f/f7/Entropiq_full_allmode.png",
+    "downloaded": true
+  },
+  "Epiphany Bolt": {
+    "local_path": "/data/team_logos/epiphany_bolt.png",
+    "remote_url": "https://liquipedia.net/commons/images/f/fe/Epiphany_Bolt_allmode.png",
+    "downloaded": true
+  },
+  "Epsilon eSports": {
+    "local_path": "/data/team_logos/epsilon_esports.png",
+    "remote_url": "https://liquipedia.net/commons/images/c/c7/Epsilon_Esports_full_lightmode.png",
+    "downloaded": true
+  },
+  "Esports LSU": {
+    "local_path": null,
+    "remote_url": null,
+    "downloaded": false
+  },
+  "Eternal Fire": {
+    "local_path": "/data/team_logos/eternal_fire.png",
+    "remote_url": "https://liquipedia.net/commons/images/e/ec/Eternal_Fire_2023_allmode.png",
+    "downloaded": true
+  },
+  "Eternity Gaming": {
+    "local_path": null,
+    "remote_url": null,
+    "downloaded": false
+  },
+  "Evil Geniuses": {
+    "local_path": "/data/team_logos/evil_geniuses.png",
+    "remote_url": "https://liquipedia.net/commons/images/a/a2/Evil_Geniuses_2020_full_lightmode.png",
+    "downloaded": true
+  },
+  "Expert Gaming": {
+    "local_path": "/data/team_logos/expert_gaming.png",
+    "remote_url": "https://liquipedia.net/commons/images/6/64/Expert_Gaming_allmode.png",
+    "downloaded": true
+  },
+  "Extra Salt": {
+    "local_path": "/data/team_logos/extra_salt.png",
+    "remote_url": "https://liquipedia.net/commons/images/c/cb/Extra_Salt_2021_allmode.png",
+    "downloaded": true
+  },
+  "FATE Esports": {
+    "local_path": "/data/team_logos/fate_esports.png",
+    "remote_url": "https://liquipedia.net/commons/images/d/da/FATE_Esports_2019_full_lightmode.png",
+    "downloaded": true
+  },
+  "FIVE eSports Club": {
+    "local_path": "/data/team_logos/five_esports_club.png",
+    "remote_url": "https://liquipedia.net/commons/images/e/ed/FIVE.png",
+    "downloaded": true
+  },
+  "FORZE Esports": {
+    "local_path": "/data/team_logos/forze_esports.png",
+    "remote_url": "https://liquipedia.net/commons/images/9/99/FORZE_Esports_2023_february_full_lightmode.png",
+    "downloaded": true
+  },
+  "FURIA": {
+    "local_path": "/data/team_logos/furia.png",
+    "remote_url": "https://liquipedia.net/commons/images/b/bd/FURIA_Esports_full_lightmode.png",
+    "downloaded": true
+  },
+  "FURIA Esports": {
+    "local_path": "/data/team_logos/furia_esports.png",
+    "remote_url": "https://liquipedia.net/commons/images/b/bd/FURIA_Esports_full_lightmode.png",
+    "downloaded": true
+  },
+  "FaZe Clan": {
+    "local_path": "/data/team_logos/faze_clan.png",
+    "remote_url": "https://liquipedia.net/commons/images/0/04/FaZe_Esports_2026_full_lightmode.png",
+    "downloaded": true
+  },
+  "Fan Team B": {
+    "local_path": null,
+    "remote_url": null,
+    "downloaded": false
+  },
+  "Faze Clan": {
+    "local_path": null,
+    "remote_url": null,
+    "downloaded": false
+  },
+  "Flash Gaming": {
+    "local_path": "/data/team_logos/flash_gaming.png",
+    "remote_url": "https://liquipedia.net/commons/images/0/0e/Flash_Gaming_lightmode.png",
+    "downloaded": true
+  },
+  "FlipSid3 Tactics": {
+    "local_path": "/data/team_logos/flipsid3_tactics.png",
+    "remote_url": "https://liquipedia.net/commons/images/0/00/FlipSid3_Tactics_full_lightmode.png",
+    "downloaded": true
+  },
+  "Flipsid3 Tactics": {
+    "local_path": "/data/team_logos/flipsid3_tactics.png",
+    "remote_url": "https://liquipedia.net/commons/images/0/00/FlipSid3_Tactics_full_lightmode.png",
+    "downloaded": true
+  },
+  "Fluxo": {
+    "local_path": "/data/team_logos/fluxo.png",
+    "remote_url": "https://liquipedia.net/commons/images/e/e3/Fluxo_lightmode.png",
+    "downloaded": true
+  },
+  "FlyQuest": {
+    "local_path": "/data/team_logos/flyquest.png",
+    "remote_url": "https://liquipedia.net/commons/images/b/b2/FlyQuest_2024_full_lightmode.png",
+    "downloaded": true
+  },
+  "Fnatic": {
+    "local_path": "/data/team_logos/fnatic.png",
+    "remote_url": "https://liquipedia.net/commons/images/1/10/Fnatic_2020_full_lightmode.png",
+    "downloaded": true
+  },
+  "For The Win": {
+    "local_path": null,
+    "remote_url": null,
+    "downloaded": false
+  },
+  "Forfeited Slot": {
+    "local_path": null,
+    "remote_url": null,
+    "downloaded": false
+  },
+  "Forsaken": {
+    "local_path": "/data/team_logos/forsaken.png",
+    "remote_url": "https://liquipedia.net/commons/images/9/98/Forsaken_at_eXTREMESLAND_2018.JPG",
+    "downloaded": true
+  },
+  "Fragsters": {
+    "local_path": "/data/team_logos/fragsters.png",
+    "remote_url": "https://liquipedia.net/commons/images/5/53/Fragsters_2018_allmode.png",
+    "downloaded": true
+  },
+  "France": {
+    "local_path": "/data/team_logos/france.png",
+    "remote_url": "https://liquipedia.net/commons/images/c/c3/Flag_of_France.svg",
+    "downloaded": true
+  },
+  "From Another World": {
+    "local_path": null,
+    "remote_url": null,
+    "downloaded": false
+  },
+  "Frost Gaming": {
+    "local_path": null,
+    "remote_url": null,
+    "downloaded": false
+  },
+  "FrostFire": {
+    "local_path": "/data/team_logos/frostfire.png",
+    "remote_url": "https://liquipedia.net/commons/images/f/f1/FrostFire_lightmode_full.png",
+    "downloaded": true
+  },
+  "FunPlus Phoenix": {
+    "local_path": "/data/team_logos/funplus_phoenix.png",
+    "remote_url": "https://liquipedia.net/commons/images/2/20/FunPlus_Phoenix_2021_allmode.png",
+    "downloaded": true
+  },
+  "Furious Gaming": {
+    "local_path": "/data/team_logos/furious_gaming.png",
+    "remote_url": "https://liquipedia.net/commons/images/c/c7/Furious_Gaming_2021_full_lightmode.png",
+    "downloaded": true
+  },
+  "G2 Esports": {
+    "local_path": "/data/team_logos/g2_esports.png",
+    "remote_url": "https://liquipedia.net/commons/images/2/27/G2_Esports_2020_full_lightmode.png",
+    "downloaded": true
+  },
+  "GGWP.pro": {
+    "local_path": null,
+    "remote_url": null,
+    "downloaded": false
+  },
+  "GODSENT": {
+    "local_path": "/data/team_logos/godsent.png",
+    "remote_url": "https://liquipedia.net/commons/images/6/6e/GODSENT_full_allmode.png",
+    "downloaded": true
+  },
+  "GPlay.bg": {
+    "local_path": "/data/team_logos/gplaybg.png",
+    "remote_url": "https://liquipedia.net/commons/images/5/5d/GPlay_lightmode.png",
+    "downloaded": true
+  },
+  "Gaimin Gladiators": {
+    "local_path": "/data/team_logos/gaimin_gladiators.png",
+    "remote_url": "https://liquipedia.net/commons/images/7/78/Gladiators_2022_allmode.png",
+    "downloaded": true
+  },
+  "Gambit Esports": {
+    "local_path": "/data/team_logos/gambit_esports.png",
+    "remote_url": "https://liquipedia.net/commons/images/f/fa/Gambit_Esports_2020_full_allmode.png",
+    "downloaded": true
+  },
+  "Gambit Gaming": {
+    "local_path": "/data/team_logos/gambit_gaming.png",
+    "remote_url": "https://liquipedia.net/commons/images/f/fa/Gambit_Esports_2020_full_allmode.png",
+    "downloaded": true
+  },
+  "GamePub": {
+    "local_path": "/data/team_logos/gamepub.png",
+    "remote_url": "https://liquipedia.net/commons/images/5/56/GamePub_lightmode.png",
+    "downloaded": true
+  },
+  "GamerLegion": {
+    "local_path": "/data/team_logos/gamerlegion.png",
+    "remote_url": "https://liquipedia.net/commons/images/2/21/GamerLegion_2026_allmode.png",
+    "downloaded": true
+  },
+  "Gamers2": {
+    "local_path": "/data/team_logos/gamers2.png",
+    "remote_url": "https://liquipedia.net/commons/images/2/27/G2_Esports_2020_full_lightmode.png",
+    "downloaded": true
+  },
+  "Gen.G Esports": {
+    "local_path": "/data/team_logos/geng_esports.png",
+    "remote_url": "https://liquipedia.net/commons/images/0/0b/Gen.G_Esports_2019_full_lightmode.png",
+    "downloaded": true
+  },
+  "Gentle Mates": {
+    "local_path": "/data/team_logos/gentle_mates.png",
+    "remote_url": "https://liquipedia.net/commons/images/c/c0/Gentle_Mates_2024_lightmode.png",
+    "downloaded": true
+  },
+  "Germany": {
+    "local_path": "/data/team_logos/germany.png",
+    "remote_url": "https://liquipedia.net/commons/images/b/ba/Flag_of_Germany.svg",
+    "downloaded": true
+  },
+  "Ghost Gaming": {
+    "local_path": "/data/team_logos/ghost_gaming.png",
+    "remote_url": "https://liquipedia.net/commons/images/0/0e/Ghost_Gaming_2017_full_lightmode.png",
+    "downloaded": true
+  },
+  "Grayhound Gaming": {
+    "local_path": "/data/team_logos/grayhound_gaming.png",
+    "remote_url": "https://liquipedia.net/commons/images/5/5a/Grayhound_Gaming_allmode.png",
+    "downloaded": true
+  },
+  "Guild Eagles": {
+    "local_path": "/data/team_logos/guild_eagles.png",
+    "remote_url": "https://liquipedia.net/commons/images/3/30/Guild_Eagles_full_allmode.png",
+    "downloaded": true
+  },
+  "H2k Gaming": {
+    "local_path": "/data/team_logos/h2k_gaming.png",
+    "remote_url": "https://liquipedia.net/commons/images/2/27/H2k_Gaming_2016_allmode.png",
+    "downloaded": true
+  },
+  "H2k Gaming.Mix": {
+    "local_path": null,
+    "remote_url": null,
+    "downloaded": false
+  },
+  "HAVU Gaming": {
+    "local_path": "/data/team_logos/havu_gaming.png",
+    "remote_url": "https://liquipedia.net/commons/images/e/e7/HAVU_2025_full_allmode.png",
+    "downloaded": true
+  },
+  "HEADSHOTBG": {
+    "local_path": "/data/team_logos/headshotbg.png",
+    "remote_url": "https://liquipedia.net/commons/images/a/a6/HEADSHOTBG_2017.png",
+    "downloaded": true
+  },
+  "HEET": {
+    "local_path": "/data/team_logos/heet.png",
+    "remote_url": "https://liquipedia.net/commons/images/c/cf/HEET_2022_allmode.png",
+    "downloaded": true
+  },
+  "HEROIC": {
+    "local_path": "/data/team_logos/heroic.png",
+    "remote_url": "https://liquipedia.net/commons/images/e/e5/HEROIC_2024_full_lightmode.png",
+    "downloaded": true
+  },
+  "HOTU": {
+    "local_path": "/data/team_logos/hotu.png",
+    "remote_url": "https://liquipedia.net/commons/images/6/62/HOTU_2022_full_lightmode.png",
+    "downloaded": true
+  },
+  "HYENAS": {
+    "local_path": null,
+    "remote_url": null,
+    "downloaded": false
+  },
+  "Heat eSports": {
+    "local_path": null,
+    "remote_url": null,
+    "downloaded": false
+  },
+  "HellRaisers": {
+    "local_path": "/data/team_logos/hellraisers.png",
+    "remote_url": "https://liquipedia.net/commons/images/3/3d/HellRaisers_2020_full_lightmode.png",
+    "downloaded": true
+  },
+  "Heroic": {
+    "local_path": "/data/team_logos/heroic.png",
+    "remote_url": "https://liquipedia.net/commons/images/e/e5/HEROIC_2024_full_lightmode.png",
+    "downloaded": true
+  },
+  "Homeless": {
+    "local_path": null,
+    "remote_url": null,
+    "downloaded": false
+  },
+  "Housebets": {
+    "local_path": null,
+    "remote_url": null,
+    "downloaded": false
+  },
+  "IGotGame": {
+    "local_path": null,
+    "remote_url": null,
+    "downloaded": false
+  },
+  "IHC Esports": {
+    "local_path": "/data/team_logos/ihc_esports.png",
+    "remote_url": "https://liquipedia.net/commons/images/9/9a/IHC_ESPORTS_allmode_full.png",
+    "downloaded": true
+  },
+  "INSHOCK": {
+    "local_path": "/data/team_logos/inshock.png",
+    "remote_url": "https://liquipedia.net/commons/images/e/e7/Inshock.png",
+    "downloaded": true
+  },
+  "INTZ eSports": {
+    "local_path": "/data/team_logos/intz_esports.png",
+    "remote_url": "https://liquipedia.net/commons/images/b/bf/INTZ_2019_allmode.png",
+    "downloaded": true
+  },
+  "Imaginary Gaming": {
+    "local_path": "/data/team_logos/imaginary_gaming.png",
+    "remote_url": "https://liquipedia.net/commons/images/b/b8/Imaginary_Gaming-logo.png",
+    "downloaded": true
+  },
+  "Immortals": {
+    "local_path": "/data/team_logos/immortals.png",
+    "remote_url": "https://liquipedia.net/commons/images/3/3b/Immortals_2020_allmode.png",
+    "downloaded": true
+  },
+  "Imperial Esports": {
+    "local_path": "/data/team_logos/imperial_esports.png",
+    "remote_url": "https://liquipedia.net/commons/images/8/82/Imperial_Esports_2025_allmode.png",
+    "downloaded": true
+  },
+  "Imperial Female": {
+    "local_path": "/data/team_logos/imperial_female.png",
+    "remote_url": "https://liquipedia.net/commons/images/8/82/Imperial_Esports_2025_allmode.png",
+    "downloaded": true
+  },
+  "Indonesia": {
+    "local_path": "/data/team_logos/indonesia.png",
+    "remote_url": "https://liquipedia.net/commons/images/9/9f/Flag_of_Indonesia.svg",
+    "downloaded": true
+  },
+  "Infinity Esports": {
+    "local_path": "/data/team_logos/infinity_esports.png",
+    "remote_url": "https://liquipedia.net/commons/images/b/bc/Infinity_2021_lightmode.png",
+    "downloaded": true
+  },
+  "Inner Circle Esports": {
+    "local_path": "/data/team_logos/inner_circle_esports.png",
+    "remote_url": "https://liquipedia.net/commons/images/c/c6/Inner_Circle_2025_allmode.png",
+    "downloaded": true
+  },
+  "Into The Breach": {
+    "local_path": "/data/team_logos/into_the_breach.png",
+    "remote_url": "https://liquipedia.net/commons/images/4/4e/Into_The_Breach_Purple_2024_allmode.png",
+    "downloaded": true
+  },
+  "Invictus Gaming": {
+    "local_path": "/data/team_logos/invictus_gaming.png",
+    "remote_url": "https://liquipedia.net/commons/images/c/ce/Invictus_Gaming_full_lightmode.png",
+    "downloaded": true
+  },
+  "Isak-eSport": {
+    "local_path": null,
+    "remote_url": null,
+    "downloaded": false
+  },
+  "Isurus Gaming": {
+    "local_path": "/data/team_logos/isurus_gaming.png",
+    "remote_url": "https://liquipedia.net/commons/images/0/09/Isurus_2025_allmode.png",
+    "downloaded": true
+  },
+  "JYP Gaming": {
+    "local_path": "/data/team_logos/jyp_gaming.png",
+    "remote_url": "https://liquipedia.net/commons/images/8/81/JYP_Gaming_allmode.png",
+    "downloaded": true
+  },
+  "JiJieHao": {
+    "local_path": "/data/team_logos/jijiehao.png",
+    "remote_url": "https://liquipedia.net/commons/images/3/30/JiJieHao_International_allmode.png",
+    "downloaded": true
+  },
+  "K1ck eSports": {
+    "local_path": "/data/team_logos/k1ck_esports.png",
+    "remote_url": "https://liquipedia.net/commons/images/9/9d/K1ck_eSports_Club_2020_lightmode.png",
+    "downloaded": true
+  },
+  "KILLERFISH eSport": {
+    "local_path": "/data/team_logos/killerfish_esport.png",
+    "remote_url": "https://liquipedia.net/commons/images/9/9d/Killerfish_allmode.png",
+    "downloaded": true
+  },
+  "KKona": {
+    "local_path": "/data/team_logos/kkona.png",
+    "remote_url": "https://liquipedia.net/commons/images/2/21/KKona.png",
+    "downloaded": true
+  },
+  "KOI": {
+    "local_path": "/data/team_logos/koi.png",
+    "remote_url": "https://liquipedia.net/commons/images/d/d8/KOI_2024_blue_allmode.png",
+    "downloaded": true
+  },
+  "KZG": {
+    "local_path": null,
+    "remote_url": null,
+    "downloaded": false
+  },
+  "KaBuM! e-Sports": {
+    "local_path": "/data/team_logos/kabum_e_sports.png",
+    "remote_url": "https://liquipedia.net/commons/images/1/19/KaBuM-logo.png",
+    "downloaded": true
+  },
+  "KaBuM.TD": {
+    "local_path": "/data/team_logos/kabumtd.png",
+    "remote_url": "https://liquipedia.net/commons/images/1/19/KaBuM-logo.png",
+    "downloaded": true
+  },
+  "KerchNET": {
+    "local_path": "/data/team_logos/kerchnet.png",
+    "remote_url": "https://liquipedia.net/commons/images/0/07/KerchNET.png",
+    "downloaded": true
+  },
+  "Key-Preisvergleich.de": {
+    "local_path": "/data/team_logos/key_preisvergleichde.png",
+    "remote_url": "https://liquipedia.net/commons/images/b/be/MyKPV.de-logo.png",
+    "downloaded": true
+  },
+  "Keyd Stars": {
+    "local_path": "/data/team_logos/keyd_stars.png",
+    "remote_url": "https://liquipedia.net/commons/images/a/ab/Keyd_Stars_2022_full_lightmode.png",
+    "downloaded": true
+  },
+  "Kyrgyzstan": {
+    "local_path": "/data/team_logos/kyrgyzstan.png",
+    "remote_url": "https://liquipedia.net/commons/images/c/c7/Flag_of_Kyrgyzstan.svg",
+    "downloaded": true
+  },
+  "LGB eSports": {
+    "local_path": "/data/team_logos/lgb_esports.png",
+    "remote_url": "https://liquipedia.net/commons/images/b/b4/LGB_eSports_allmode.png",
+    "downloaded": true
+  },
+  "LIONS": {
+    "local_path": "/data/team_logos/lions.png",
+    "remote_url": "https://liquipedia.net/commons/images/1/16/Oslo_Lions_2016_allmode.svg",
+    "downloaded": true
+  },
+  "LOS + oNe": {
+    "local_path": "/data/team_logos/los_one.png",
+    "remote_url": "https://liquipedia.net/commons/images/1/1d/LOS_Grandes_2023_allmode.png",
+    "downloaded": true
+  },
+  "Lazarus Esports": {
+    "local_path": "/data/team_logos/lazarus_esports.png",
+    "remote_url": "https://liquipedia.net/commons/images/8/8a/Lazarus_full_allmode.png",
+    "downloaded": true
+  },
+  "Legacy": {
+    "local_path": "/data/team_logos/legacy.png",
+    "remote_url": "https://liquipedia.net/commons/images/9/98/Legacy_full_lightmode.png",
+    "downloaded": true
+  },
+  "Legacy Esports": {
+    "local_path": "/data/team_logos/legacy_esports.png",
+    "remote_url": "https://liquipedia.net/commons/images/e/e9/Legacy_eSports_allmode.png",
+    "downloaded": true
+  },
+  "Legacy eSports": {
+    "local_path": "/data/team_logos/legacy_esports.png",
+    "remote_url": "https://liquipedia.net/commons/images/e/e9/Legacy_eSports_allmode.png",
+    "downloaded": true
+  },
+  "Lemondogs": {
+    "local_path": "/data/team_logos/lemondogs.png",
+    "remote_url": "https://liquipedia.net/commons/images/b/bf/Lemondogs_2018_full_allmode.png",
+    "downloaded": true
+  },
+  "Lilmix": {
+    "local_path": "/data/team_logos/lilmix.png",
+    "remote_url": "https://liquipedia.net/commons/images/e/ea/Lilmix_lightmode.png",
+    "downloaded": true
+  },
+  "Limitless Addict": {
+    "local_path": null,
+    "remote_url": null,
+    "downloaded": false
+  },
+  "London Conspiracy": {
+    "local_path": "/data/team_logos/london_conspiracy.png",
+    "remote_url": "https://liquipedia.net/commons/images/9/98/London_Conspiracy_allmode.png",
+    "downloaded": true
+  },
+  "LookingForOrg": {
+    "local_path": null,
+    "remote_url": null,
+    "downloaded": false
+  },
+  "Lounge Gaming": {
+    "local_path": "/data/team_logos/lounge_gaming.png",
+    "remote_url": "https://liquipedia.net/commons/images/d/d9/Lounge_Gaming.png",
+    "downloaded": true
+  },
+  "LowLandLions": {
+    "local_path": "/data/team_logos/lowlandlions.png",
+    "remote_url": "https://liquipedia.net/commons/images/b/b5/LowLandLions_2021_allmode.png",
+    "downloaded": true
+  },
+  "Lucid Dream": {
+    "local_path": "/data/team_logos/lucid_dream.png",
+    "remote_url": "https://liquipedia.net/commons/images/1/1a/Lucid_Dream_2019_allmode.png",
+    "downloaded": true
+  },
+  "Luminosity": {
+    "local_path": "/data/team_logos/luminosity.png",
+    "remote_url": "https://liquipedia.net/commons/images/5/57/Luminosity_Gaming_2018_full_lightmode.png",
+    "downloaded": true
+  },
+  "Luminosity Gaming": {
+    "local_path": "/data/team_logos/luminosity_gaming.png",
+    "remote_url": "https://liquipedia.net/commons/images/5/57/Luminosity_Gaming_2018_full_lightmode.png",
+    "downloaded": true
+  },
+  "Lynn Vision": {
+    "local_path": "/data/team_logos/lynn_vision.png",
+    "remote_url": "https://liquipedia.net/commons/images/b/b5/Lynn_Vision_Gaming_2024_full_allmode.png",
+    "downloaded": true
+  },
+  "Lynn Vision Gaming": {
+    "local_path": "/data/team_logos/lynn_vision_gaming.png",
+    "remote_url": "https://liquipedia.net/commons/images/b/b5/Lynn_Vision_Gaming_2024_full_allmode.png",
+    "downloaded": true
+  },
+  "M80": {
+    "local_path": "/data/team_logos/m80.png",
+    "remote_url": "https://liquipedia.net/commons/images/5/55/M80_2023_allmode.png",
+    "downloaded": true
+  },
+  "MAD Lions": {
+    "local_path": "/data/team_logos/mad_lions.png",
+    "remote_url": "https://liquipedia.net/commons/images/a/a9/MAD_Lions_2019_full_allmode.png",
+    "downloaded": true
+  },
+  "MAXISAUCISSE": {
+    "local_path": "/data/team_logos/maxisaucisse.png",
+    "remote_url": "https://liquipedia.net/commons/images/0/01/MaxiSaucisse.png",
+    "downloaded": true
+  },
+  "MIBR": {
+    "local_path": "/data/team_logos/mibr.png",
+    "remote_url": "https://liquipedia.net/commons/images/8/85/MIBR_2018_lightmode.png",
+    "downloaded": true
+  },
+  "MOUZ": {
+    "local_path": "/data/team_logos/mouz.png",
+    "remote_url": "https://liquipedia.net/commons/images/a/a5/MOUZ_2021_full_allmode.png",
+    "downloaded": true
+  },
+  "MVP PK": {
+    "local_path": "/data/team_logos/mvp_pk.png",
+    "remote_url": "https://liquipedia.net/commons/images/5/53/MVP_allmode.png",
+    "downloaded": true
+  },
+  "MVP Project": {
+    "local_path": "/data/team_logos/mvp_project.png",
+    "remote_url": "https://liquipedia.net/commons/images/5/53/MVP_allmode.png",
+    "downloaded": true
+  },
+  "Manajuma": {
+    "local_path": null,
+    "remote_url": null,
+    "downloaded": false
+  },
+  "Meet Your Makers": {
+    "local_path": "/data/team_logos/meet_your_makers.png",
+    "remote_url": "https://liquipedia.net/commons/images/9/99/Meet_Your_Makers_allmode.png",
+    "downloaded": true
+  },
+  "Method": {
+    "local_path": "/data/team_logos/method.png",
+    "remote_url": "https://liquipedia.net/commons/images/2/27/Method_2018_full_lightmode.png",
+    "downloaded": true
+  },
+  "Metizport": {
+    "local_path": "/data/team_logos/metizport.png",
+    "remote_url": "https://liquipedia.net/commons/images/d/d9/Metizport_2025_allmode.png",
+    "downloaded": true
+  },
+  "Mindfreak": {
+    "local_path": "/data/team_logos/mindfreak.png",
+    "remote_url": "https://liquipedia.net/commons/images/f/f9/PRX_mindfreak_at_the_VCT_Masters_Tokyo.jpg",
+    "downloaded": true
+  },
+  "Minttu": {
+    "local_path": "/data/team_logos/minttu.png",
+    "remote_url": "https://liquipedia.net/commons/images/f/f5/Minttu_lightmode.png",
+    "downloaded": true
+  },
+  "Misfits": {
+    "local_path": "/data/team_logos/misfits.png",
+    "remote_url": "https://liquipedia.net/commons/images/1/14/Misfits_Gaming_2019_full_allmode.png",
+    "downloaded": true
+  },
+  "Misfits Gaming": {
+    "local_path": "/data/team_logos/misfits_gaming.png",
+    "remote_url": "https://liquipedia.net/commons/images/1/14/Misfits_Gaming_2019_full_allmode.png",
+    "downloaded": true
+  },
+  "Monomaniac eSports": {
+    "local_path": "/data/team_logos/monomaniac_esports.png",
+    "remote_url": "https://liquipedia.net/commons/images/a/ad/Monomaniac_logo.png",
+    "downloaded": true
+  },
+  "Monte": {
+    "local_path": "/data/team_logos/monte.png",
+    "remote_url": "https://liquipedia.net/commons/images/2/22/Monte_2022_allmode.png",
+    "downloaded": true
+  },
+  "Movistar Riders": {
+    "local_path": "/data/team_logos/movistar_riders.png",
+    "remote_url": "https://liquipedia.net/commons/images/b/ba/Movistar_Riders_2023_full_allmode.png",
+    "downloaded": true
+  },
+  "NA Talent": {
+    "local_path": null,
+    "remote_url": null,
+    "downloaded": false
+  },
+  "NASR Esports": {
+    "local_path": "/data/team_logos/nasr_esports.png",
+    "remote_url": "https://liquipedia.net/commons/images/f/fd/NASR_Esports_allmode.png",
+    "downloaded": true
+  },
+  "NRG": {
+    "local_path": "/data/team_logos/nrg.png",
+    "remote_url": "https://liquipedia.net/commons/images/5/57/NRG_2024_lightmode.png",
+    "downloaded": true
+  },
+  "NRG Esports": {
+    "local_path": "/data/team_logos/nrg_esports.png",
+    "remote_url": "https://liquipedia.net/commons/images/5/57/NRG_2024_lightmode.png",
+    "downloaded": true
+  },
+  "NRG eSports": {
+    "local_path": "/data/team_logos/nrg_esports.png",
+    "remote_url": "https://liquipedia.net/commons/images/5/57/NRG_2024_lightmode.png",
+    "downloaded": true
+  },
+  "Natus Vincere": {
+    "local_path": "/data/team_logos/natus_vincere.png",
+    "remote_url": "https://liquipedia.net/commons/images/3/3f/Natus_Vincere_2021_lightmode.png",
+    "downloaded": true
+  },
+  "Nemiga Gaming": {
+    "local_path": "/data/team_logos/nemiga_gaming.png",
+    "remote_url": "https://liquipedia.net/commons/images/5/53/Nemiga_Gaming_2020_red_full_allmode.png",
+    "downloaded": true
+  },
+  "NetcodeGuides.com": {
+    "local_path": "/data/team_logos/netcodeguidescom.png",
+    "remote_url": "https://liquipedia.net/commons/images/0/02/NetcodeGuides_logo.png",
+    "downloaded": true
+  },
+  "Netherlands": {
+    "local_path": "/data/team_logos/netherlands.png",
+    "remote_url": "https://liquipedia.net/commons/images/2/20/Flag_of_the_Netherlands.svg",
+    "downloaded": true
+  },
+  "Nexus Gaming": {
+    "local_path": "/data/team_logos/nexus_gaming.png",
+    "remote_url": "https://liquipedia.net/commons/images/1/1e/Nexus_Gaming_2020_allmode.png",
+    "downloaded": true
+  },
+  "NiP": {
+    "local_path": "/data/team_logos/nip.png",
+    "remote_url": "https://liquipedia.net/commons/images/4/42/Ninjas_in_Pyjamas_2021_full_lightmode.png",
+    "downloaded": true
+  },
+  "Nihilum Gaming": {
+    "local_path": "/data/team_logos/nihilum_gaming.png",
+    "remote_url": "https://liquipedia.net/commons/images/9/92/Nihilum_Gaming.png",
+    "downloaded": true
+  },
+  "Ninjas in Pyjamas": {
+    "local_path": "/data/team_logos/ninjas_in_pyjamas.png",
+    "remote_url": "https://liquipedia.net/commons/images/4/42/Ninjas_in_Pyjamas_2021_full_lightmode.png",
+    "downloaded": true
+  },
+  "North": {
+    "local_path": "/data/team_logos/north.png",
+    "remote_url": "https://liquipedia.net/commons/images/4/4a/North_2020_full_lightmode.png",
+    "downloaded": true
+  },
+  "Norway": {
+    "local_path": "/data/team_logos/norway.png",
+    "remote_url": "https://liquipedia.net/commons/images/d/d9/Flag_of_Norway.svg",
+    "downloaded": true
+  },
+  "Nouns Esports": {
+    "local_path": "/data/team_logos/nouns_esports.png",
+    "remote_url": "https://liquipedia.net/commons/images/e/ea/Nouns_Esports_CSGO_allmode.png",
+    "downloaded": true
+  },
+  "Não Tem Como": {
+    "local_path": "/data/team_logos/não_tem_como.png",
+    "remote_url": "https://liquipedia.net/commons/images/6/6f/N%C3%A3o_Tem_Como_allmode_full.png",
+    "downloaded": true
+  },
+  "ODDIK": {
+    "local_path": "/data/team_logos/oddik.png",
+    "remote_url": "https://liquipedia.net/commons/images/f/ff/ODDIK_full_lightmode.png",
+    "downloaded": true
+  },
+  "OG": {
+    "local_path": "/data/team_logos/og.png",
+    "remote_url": "https://liquipedia.net/commons/images/7/7b/OG_2026_allmode.png",
+    "downloaded": true
+  },
+  "ORDER": {
+    "local_path": "/data/team_logos/order.png",
+    "remote_url": "https://liquipedia.net/commons/images/3/37/ORDER_2022_full_lightmode.png",
+    "downloaded": true
+  },
+  "ORKS": {
+    "local_path": null,
+    "remote_url": null,
+    "downloaded": false
+  },
+  "Olgod Efterskole": {
+    "local_path": null,
+    "remote_url": null,
+    "downloaded": false
+  },
+  "OneShot": {
+    "local_path": null,
+    "remote_url": null,
+    "downloaded": false
+  },
+  "OpTic Gaming": {
+    "local_path": "/data/team_logos/optic_gaming.png",
+    "remote_url": "https://liquipedia.net/commons/images/7/79/OpTic_Gaming_lightmode.png",
+    "downloaded": true
+  },
+  "Orgless": {
+    "local_path": null,
+    "remote_url": null,
+    "downloaded": false
+  },
+  "Outsiders": {
+    "local_path": "/data/team_logos/outsiders.png",
+    "remote_url": "https://liquipedia.net/commons/images/9/9b/Outsiders_CSGO_allmode.png",
+    "downloaded": true
+  },
+  "OverGaming": {
+    "local_path": "/data/team_logos/overgaming.png",
+    "remote_url": "https://liquipedia.net/commons/images/c/c4/OverGaming_allmode.png",
+    "downloaded": true
+  },
+  "PANTERS": {
+    "local_path": null,
+    "remote_url": null,
+    "downloaded": false
+  },
+  "PARIVISION": {
+    "local_path": "/data/team_logos/parivision.png",
+    "remote_url": "https://liquipedia.net/commons/images/9/9d/PARIVISION_allmode.png",
+    "downloaded": true
+  },
+  "PENTA Sports": {
+    "local_path": "/data/team_logos/penta_sports.png",
+    "remote_url": "https://liquipedia.net/commons/images/1/1f/PENTA_Sports_lightmode.png",
+    "downloaded": true
+  },
+  "POW": {
+    "local_path": null,
+    "remote_url": null,
+    "downloaded": false
+  },
+  "Panda Gaming": {
+    "local_path": "/data/team_logos/panda_gaming.png",
+    "remote_url": "https://liquipedia.net/commons/images/d/dd/Panda_Gaming_CSGO_allmode.png",
+    "downloaded": true
+  },
+  "Parallax": {
+    "local_path": "/data/team_logos/parallax.png",
+    "remote_url": "https://liquipedia.net/commons/images/a/a3/Parallax.png",
+    "downloaded": true
+  },
+  "Partizan Esports": {
+    "local_path": "/data/team_logos/partizan_esports.png",
+    "remote_url": "https://liquipedia.net/commons/images/0/08/Partizan_Esports_2024_lightmode.png",
+    "downloaded": true
+  },
+  "Party Astronauts": {
+    "local_path": "/data/team_logos/party_astronauts.png",
+    "remote_url": "https://liquipedia.net/commons/images/e/ef/Party_Astronauts_2020_lightmode.png",
+    "downloaded": true
+  },
+  "Passion UA": {
+    "local_path": "/data/team_logos/passion_ua.png",
+    "remote_url": "https://liquipedia.net/commons/images/4/49/Passion_UA_2025_lightmode.png",
+    "downloaded": true
+  },
+  "Pera Esports": {
+    "local_path": "/data/team_logos/pera_esports.png",
+    "remote_url": "https://liquipedia.net/commons/images/c/c7/Pera_Esports_allmode.png",
+    "downloaded": true
+  },
+  "Permitta Esports": {
+    "local_path": "/data/team_logos/permitta_esports.png",
+    "remote_url": "https://liquipedia.net/commons/images/4/49/Permitta_Esports_2024_lightmode.png",
+    "downloaded": true
+  },
+  "PiTER": {
+    "local_path": "/data/team_logos/piter.png",
+    "remote_url": "https://liquipedia.net/commons/images/6/69/PiTER.png",
+    "downloaded": true
+  },
+  "Planetkey Dynamics": {
+    "local_path": "/data/team_logos/planetkey_dynamics.png",
+    "remote_url": "https://liquipedia.net/commons/images/6/6e/Planetkey_Dynamics2017.png",
+    "downloaded": true
+  },
+  "Platinium-eSport": {
+    "local_path": "/data/team_logos/platinium_esport.png",
+    "remote_url": "https://liquipedia.net/commons/images/4/4d/Platinium_2016_allmode.png",
+    "downloaded": true
+  },
+  "Players": {
+    "local_path": null,
+    "remote_url": null,
+    "downloaded": false
+  },
+  "Poland": {
+    "local_path": "/data/team_logos/poland.png",
+    "remote_url": "https://liquipedia.net/commons/images/1/12/Flag_of_Poland.svg",
+    "downloaded": true
+  },
+  "Portugal": {
+    "local_path": "/data/team_logos/portugal.png",
+    "remote_url": "https://liquipedia.net/commons/images/5/5c/Flag_of_Portugal.svg",
+    "downloaded": true
+  },
+  "Preasy Esport": {
+    "local_path": "/data/team_logos/preasy_esport.png",
+    "remote_url": "https://liquipedia.net/commons/images/6/62/Esport_Academy_Copenhagen_allmode.png",
+    "downloaded": true
+  },
+  "Publiclir.se": {
+    "local_path": "/data/team_logos/publiclirse.png",
+    "remote_url": "https://liquipedia.net/commons/images/d/de/Publiclir.png",
+    "downloaded": true
+  },
+  "QeeYou": {
+    "local_path": "/data/team_logos/qeeyou.png",
+    "remote_url": "https://liquipedia.net/commons/images/9/9b/QeeYou.png",
+    "downloaded": true
+  },
+  "Quantic Gaming": {
+    "local_path": "/data/team_logos/quantic_gaming.png",
+    "remote_url": "https://liquipedia.net/commons/images/7/7f/Quantic_Gaming_allmode.png",
+    "downloaded": true
+  },
+  "Quantum Bellator Fire": {
+    "local_path": "/data/team_logos/quantum_bellator_fire.png",
+    "remote_url": "https://liquipedia.net/commons/images/e/ee/Quantum_Bellator_Fire.png",
+    "downloaded": true
+  },
+  "RAIDERS": {
+    "local_path": null,
+    "remote_url": null,
+    "downloaded": false
+  },
+  "RED Canids": {
+    "local_path": "/data/team_logos/red_canids.png",
+    "remote_url": "https://liquipedia.net/commons/images/3/3b/Red_Canids_allmode.png",
+    "downloaded": true
+  },
+  "RMU Eagles": {
+    "local_path": null,
+    "remote_url": null,
+    "downloaded": false
+  },
+  "Rare Atom": {
+    "local_path": "/data/team_logos/rare_atom.png",
+    "remote_url": "https://liquipedia.net/commons/images/5/5d/Rare_Atom_full_allmode.png",
+    "downloaded": true
+  },
+  "Reason Gaming": {
+    "local_path": "/data/team_logos/reason_gaming.png",
+    "remote_url": "https://liquipedia.net/commons/images/a/ab/Reason_Gaming_full_lightmode.png",
+    "downloaded": true
+  },
+  "Rebels Gaming": {
+    "local_path": "/data/team_logos/rebels_gaming.png",
+    "remote_url": "https://liquipedia.net/commons/images/3/3a/Rebels_Gaming_2021_full_lightmode.png",
+    "downloaded": true
+  },
+  "Recca Esports": {
+    "local_path": "/data/team_logos/recca_esports.png",
+    "remote_url": "https://liquipedia.net/commons/images/a/a1/Recca_Esports_2017_allmode.png",
+    "downloaded": true
+  },
+  "Recursive eSports": {
+    "local_path": "/data/team_logos/recursive_esports.png",
+    "remote_url": "https://liquipedia.net/commons/images/a/a5/Recursive_eSports_2016_allmode.png",
+    "downloaded": true
+  },
+  "Redcoats": {
+    "local_path": null,
+    "remote_url": null,
+    "downloaded": false
+  },
+  "Renegades": {
+    "local_path": "/data/team_logos/renegades.png",
+    "remote_url": "https://liquipedia.net/commons/images/5/5f/Renegades_2019_full_allmode.png",
+    "downloaded": true
+  },
+  "Revolution": {
+    "local_path": "/data/team_logos/revolution.png",
+    "remote_url": "https://liquipedia.net/commons/images/7/7e/Team_Revolution_%28Vietnamese_team%29_allmode.png",
+    "downloaded": true
+  },
+  "Rogue": {
+    "local_path": "/data/team_logos/rogue.png",
+    "remote_url": "https://liquipedia.net/commons/images/c/c3/Rogue_allmode_full.png",
+    "downloaded": true
+  },
+  "Rooster": {
+    "local_path": "/data/team_logos/rooster.png",
+    "remote_url": "https://liquipedia.net/commons/images/3/3d/Rooster_allmode.png",
+    "downloaded": true
+  },
+  "Rush": {
+    "local_path": "/data/team_logos/rush.png",
+    "remote_url": "https://liquipedia.net/commons/images/5/5e/RUSH_%40_PGL_Major_Antwerp_2022_Americas_RMR.jpg",
+    "downloaded": true
+  },
+  "Russia": {
+    "local_path": "/data/team_logos/russia.png",
+    "remote_url": "https://liquipedia.net/commons/images/f/f3/Flag_of_Russia.svg",
+    "downloaded": true
+  },
+  "SAW": {
+    "local_path": "/data/team_logos/saw.png",
+    "remote_url": "https://liquipedia.net/commons/images/3/3e/SAW_2021_full_lightmode.png",
+    "downloaded": true
+  },
+  "SCARZ Absolute": {
+    "local_path": "/data/team_logos/scarz_absolute.png",
+    "remote_url": "https://liquipedia.net/commons/images/3/36/SCARZ_full_logo.png",
+    "downloaded": true
+  },
+  "SINNERS Esports": {
+    "local_path": "/data/team_logos/sinners_esports.png",
+    "remote_url": "https://liquipedia.net/commons/images/0/09/SINNERS_Esports_full_allmode.png",
+    "downloaded": true
+  },
+  "SK Gaming": {
+    "local_path": "/data/team_logos/sk_gaming.png",
+    "remote_url": "https://liquipedia.net/commons/images/9/90/SK_Gaming_2003_full_lightmode.png",
+    "downloaded": true
+  },
+  "Sangal Esports": {
+    "local_path": "/data/team_logos/sangal_esports.png",
+    "remote_url": "https://liquipedia.net/commons/images/7/7a/Sangal_Esports_2020_allmode.png",
+    "downloaded": true
+  },
+  "SapphireKelownaDotCom": {
+    "local_path": "/data/team_logos/sapphirekelownadotcom.png",
+    "remote_url": "https://liquipedia.net/commons/images/c/c6/SapphireKelownaDotCom.png",
+    "downloaded": true
+  },
+  "Sashi Esport": {
+    "local_path": "/data/team_logos/sashi_esport.png",
+    "remote_url": "https://liquipedia.net/commons/images/e/e3/Sashi_Esport_2023_allmode.png",
+    "downloaded": true
+  },
+  "Selfless Gaming": {
+    "local_path": "/data/team_logos/selfless_gaming.png",
+    "remote_url": "https://liquipedia.net/commons/images/c/c5/Selfless_Gaming_2016_allmode.png",
+    "downloaded": true
+  },
+  "Sharks Esports": {
+    "local_path": "/data/team_logos/sharks_esports.png",
+    "remote_url": "https://liquipedia.net/commons/images/8/87/DENDELE_CS_allmode.png",
+    "downloaded": true
+  },
+  "Signature Gaming": {
+    "local_path": "/data/team_logos/signature_gaming.png",
+    "remote_url": "https://liquipedia.net/commons/images/c/c7/Signature_Gaming_allmode.png",
+    "downloaded": true
+  },
+  "Singapore": {
+    "local_path": "/data/team_logos/singapore.png",
+    "remote_url": "https://liquipedia.net/commons/images/4/48/Flag_of_Singapore.svg",
+    "downloaded": true
+  },
+  "Skyred": {
+    "local_path": "/data/team_logos/skyred.png",
+    "remote_url": "https://liquipedia.net/commons/images/8/88/Skyred.png",
+    "downloaded": true
+  },
+  "Space Soldiers": {
+    "local_path": "/data/team_logos/space_soldiers.png",
+    "remote_url": "https://liquipedia.net/commons/images/2/28/Space_Soldierslogo.png",
+    "downloaded": true
+  },
+  "Splyce": {
+    "local_path": "/data/team_logos/splyce.png",
+    "remote_url": "https://liquipedia.net/commons/images/4/43/Splyce_2017_allmode.png",
+    "downloaded": true
+  },
+  "Sprintfox": {
+    "local_path": null,
+    "remote_url": null,
+    "downloaded": false
+  },
+  "Sprout": {
+    "local_path": "/data/team_logos/sprout.png",
+    "remote_url": "https://liquipedia.net/commons/images/6/67/Sprout_full_lightmode.png",
+    "downloaded": true
+  },
+  "Spunjbusters": {
+    "local_path": null,
+    "remote_url": null,
+    "downloaded": false
+  },
+  "Steel Helmet": {
+    "local_path": "/data/team_logos/steel_helmet.png",
+    "remote_url": "https://liquipedia.net/commons/images/5/5d/Steel_helmet_allmode.png",
+    "downloaded": true
+  },
+  "Stream Team": {
+    "local_path": null,
+    "remote_url": null,
+    "downloaded": false
+  },
+  "Sweden": {
+    "local_path": "/data/team_logos/sweden.png",
+    "remote_url": "https://liquipedia.net/commons/images/4/4c/Flag_of_Sweden.svg",
+    "downloaded": true
+  },
+  "Swogger": {
+    "local_path": null,
+    "remote_url": null,
+    "downloaded": false
+  },
+  "Swole Patrol": {
+    "local_path": "/data/team_logos/swole_patrol.png",
+    "remote_url": "https://liquipedia.net/commons/images/5/5a/Swole_Patrol_2019_infoboximage.png",
+    "downloaded": true
+  },
+  "Syman Gaming": {
+    "local_path": "/data/team_logos/syman_gaming.png",
+    "remote_url": "https://liquipedia.net/commons/images/5/50/K23_2020_lightmode.png",
+    "downloaded": true
+  },
+  "TC": {
+    "local_path": null,
+    "remote_url": null,
+    "downloaded": false
+  },
+  "TNC Pro Team": {
+    "local_path": null,
+    "remote_url": null,
+    "downloaded": false
+  },
+  "TYLOO": {
+    "local_path": "/data/team_logos/tyloo.png",
+    "remote_url": "https://liquipedia.net/commons/images/5/5f/TyLoo_2016_allmode.png",
+    "downloaded": true
+  },
+  "Tardz.org": {
+    "local_path": null,
+    "remote_url": null,
+    "downloaded": false
+  },
+  "Team AGENT": {
+    "local_path": "/data/team_logos/team_agent.png",
+    "remote_url": "https://liquipedia.net/commons/images/f/f9/Team_AGENT.png",
+    "downloaded": true
+  },
+  "Team ALTERNATE": {
+    "local_path": "/data/team_logos/team_alternate.png",
+    "remote_url": "https://liquipedia.net/commons/images/0/06/ALTERNATE_aTTaX_2020_allmode.png",
+    "downloaded": true
+  },
+  "Team Alientech": {
+    "local_path": "/data/team_logos/team_alientech.png",
+    "remote_url": "https://liquipedia.net/commons/images/c/ce/Team_Alientech_allmode.png",
+    "downloaded": true
+  },
+  "Team BYE": {
+    "local_path": null,
+    "remote_url": null,
+    "downloaded": false
+  },
+  "Team Brazil": {
+    "local_path": "/data/team_logos/team_brazil.png",
+    "remote_url": "https://liquipedia.net/commons/images/0/05/Flag_of_Brazil.svg",
+    "downloaded": true
+  },
+  "Team Buster": {
+    "local_path": null,
+    "remote_url": null,
+    "downloaded": false
+  },
+  "Team Curse": {
+    "local_path": "/data/team_logos/team_curse.png",
+    "remote_url": "https://liquipedia.net/commons/images/d/d8/Curse_full_lightmode.png",
+    "downloaded": true
+  },
+  "Team Cursive": {
+    "local_path": "/data/team_logos/team_cursive.png",
+    "remote_url": "https://liquipedia.net/commons/images/9/9d/Team_Cursive_2016.png",
+    "downloaded": true
+  },
+  "Team Dignitas": {
+    "local_path": "/data/team_logos/team_dignitas.png",
+    "remote_url": "https://liquipedia.net/commons/images/3/3a/Dignitas_2021_full_lightmode.png",
+    "downloaded": true
+  },
+  "Team Dynamic": {
+    "local_path": "/data/team_logos/team_dynamic.png",
+    "remote_url": "https://liquipedia.net/commons/images/0/02/Dynamic-logo.png",
+    "downloaded": true
+  },
+  "Team EnVyUs": {
+    "local_path": "/data/team_logos/team_envyus.png",
+    "remote_url": "https://liquipedia.net/commons/images/d/d9/Team_Envy_2018_full_lightmode.png",
+    "downloaded": true
+  },
+  "Team England": {
+    "local_path": null,
+    "remote_url": null,
+    "downloaded": false
+  },
+  "Team Envy": {
+    "local_path": "/data/team_logos/team_envy.png",
+    "remote_url": "https://liquipedia.net/commons/images/d/d9/Team_Envy_2018_full_lightmode.png",
+    "downloaded": true
+  },
+  "Team Europe": {
+    "local_path": null,
+    "remote_url": null,
+    "downloaded": false
+  },
+  "Team Falcons": {
+    "local_path": "/data/team_logos/team_falcons.png",
+    "remote_url": "https://liquipedia.net/commons/images/e/e9/Team_Falcons_2022_full_lightmode.png",
+    "downloaded": true
+  },
+  "Team Fiend": {
+    "local_path": "/data/team_logos/team_fiend.png",
+    "remote_url": "https://liquipedia.net/commons/images/6/63/Team_Fiend_2021_darkmode.png",
+    "downloaded": true
+  },
+  "Team Flash": {
+    "local_path": null,
+    "remote_url": null,
+    "downloaded": false
+  },
+  "Team GOAT": {
+    "local_path": null,
+    "remote_url": null,
+    "downloaded": false
+  },
+  "Team GamerLegion": {
+    "local_path": "/data/team_logos/team_gamerlegion.png",
+    "remote_url": "https://liquipedia.net/commons/images/2/21/GamerLegion_2026_allmode.png",
+    "downloaded": true
+  },
+  "Team GeT_RiGhT": {
+    "local_path": null,
+    "remote_url": null,
+    "downloaded": false
+  },
+  "Team HAI": {
+    "local_path": null,
+    "remote_url": null,
+    "downloaded": false
+  },
+  "Team Heretics": {
+    "local_path": "/data/team_logos/team_heretics.png",
+    "remote_url": "https://liquipedia.net/commons/images/6/6d/Team_Heretics_2020_lightmode.png",
+    "downloaded": true
+  },
+  "Team Horseshoe": {
+    "local_path": null,
+    "remote_url": null,
+    "downloaded": false
+  },
+  "Team IEM Veterans": {
+    "local_path": null,
+    "remote_url": null,
+    "downloaded": false
+  },
+  "Team Immunity": {
+    "local_path": "/data/team_logos/team_immunity.png",
+    "remote_url": "https://liquipedia.net/commons/images/1/13/Team_Immunity_allmode.png",
+    "downloaded": true
+  },
+  "Team Infused": {
+    "local_path": "/data/team_logos/team_infused.png",
+    "remote_url": "https://liquipedia.net/commons/images/e/e5/Infused-logos.png",
+    "downloaded": true
+  },
+  "Team Killz": {
+    "local_path": null,
+    "remote_url": null,
+    "downloaded": false
+  },
+  "Team Kinguin": {
+    "local_path": "/data/team_logos/team_kinguin.png",
+    "remote_url": "https://liquipedia.net/commons/images/a/a3/Devils.one_full_lightmode.png",
+    "downloaded": true
+  },
+  "Team Kit": {
+    "local_path": null,
+    "remote_url": null,
+    "downloaded": false
+  },
+  "Team LDLC": {
+    "local_path": "/data/team_logos/team_ldlc.png",
+    "remote_url": "https://liquipedia.net/commons/images/8/8c/LDLC_2020_full_allmode.png",
+    "downloaded": true
+  },
+  "Team LDLC.com": {
+    "local_path": "/data/team_logos/team_ldlccom.png",
+    "remote_url": "https://liquipedia.net/commons/images/8/8c/LDLC_2020_full_allmode.png",
+    "downloaded": true
+  },
+  "Team LDLC.com White": {
+    "local_path": "/data/team_logos/team_ldlccom_white.png",
+    "remote_url": "https://liquipedia.net/commons/images/e/e4/Team_LDLC_lightmode.png",
+    "downloaded": true
+  },
+  "Team Liquid": {
+    "local_path": "/data/team_logos/team_liquid.png",
+    "remote_url": "https://liquipedia.net/commons/images/f/f5/Team_Liquid_2024_full_lightmode.png",
+    "downloaded": true
+  },
+  "Team MAX": {
+    "local_path": "/data/team_logos/team_max.png",
+    "remote_url": "https://liquipedia.net/commons/images/5/52/Team_MAX_%28Chinese_team%29_lightmode.png",
+    "downloaded": true
+  },
+  "Team MENA": {
+    "local_path": null,
+    "remote_url": null,
+    "downloaded": false
+  },
+  "Team NKT": {
+    "local_path": "/data/team_logos/team_nkt.png",
+    "remote_url": "https://liquipedia.net/commons/images/d/df/Team_NKT_2021_full_lightmode.png",
+    "downloaded": true
+  },
+  "Team Orbit": {
+    "local_path": "/data/team_logos/team_orbit.png",
+    "remote_url": "https://liquipedia.net/commons/images/4/4c/Orbit_2023_full_lightmode.png",
+    "downloaded": true
+  },
+  "Team Pakistan": {
+    "local_path": "/data/team_logos/team_pakistan.png",
+    "remote_url": "https://liquipedia.net/commons/images/3/32/Flag_of_Pakistan.svg",
+    "downloaded": true
+  },
+  "Team Plan-B": {
+    "local_path": null,
+    "remote_url": null,
+    "downloaded": false
+  },
+  "Team Poland": {
+    "local_path": "/data/team_logos/team_poland.png",
+    "remote_url": "https://liquipedia.net/commons/images/1/12/Flag_of_Poland.svg",
+    "downloaded": true
+  },
+  "Team Prodigy": {
+    "local_path": null,
+    "remote_url": null,
+    "downloaded": false
+  },
+  "Team Property": {
+    "local_path": "/data/team_logos/team_property.png",
+    "remote_url": "https://liquipedia.net/commons/images/f/f0/Property_2015_allmode.png",
+    "downloaded": true
+  },
+  "Team Quetzal": {
+    "local_path": "/data/team_logos/team_quetzal.png",
+    "remote_url": "https://liquipedia.net/commons/images/a/ac/Team_Quetzal_allmode.png",
+    "downloaded": true
+  },
+  "Team ROCCAT": {
+    "local_path": "/data/team_logos/team_roccat.png",
+    "remote_url": "https://liquipedia.net/commons/images/7/72/Team_ROCCAT_allmode_full.png",
+    "downloaded": true
+  },
+  "Team Refuse": {
+    "local_path": "/data/team_logos/team_refuse.png",
+    "remote_url": "https://liquipedia.net/commons/images/9/9d/Team_Refuse.png",
+    "downloaded": true
+  },
+  "Team Renewal": {
+    "local_path": "/data/team_logos/team_renewal.png",
+    "remote_url": "https://liquipedia.net/commons/images/c/c5/Team_Renewal_full_lightmode.png",
+    "downloaded": true
+  },
+  "Team Rest of The World": {
+    "local_path": null,
+    "remote_url": null,
+    "downloaded": false
+  },
+  "Team Russia": {
+    "local_path": "/data/team_logos/team_russia.png",
+    "remote_url": "https://liquipedia.net/commons/images/f/f3/Flag_of_Russia.svg",
+    "downloaded": true
+  },
+  "Team SPUNJ": {
+    "local_path": null,
+    "remote_url": null,
+    "downloaded": false
+  },
+  "Team Secret": {
+    "local_path": "/data/team_logos/team_secret.png",
+    "remote_url": "https://liquipedia.net/commons/images/4/45/Team_Secret_full_lightmode.png",
+    "downloaded": true
+  },
+  "Team Singularity": {
+    "local_path": "/data/team_logos/team_singularity.png",
+    "remote_url": "https://liquipedia.net/commons/images/f/f5/Team_Singularity_2022_lightmode.png",
+    "downloaded": true
+  },
+  "Team Smoke": {
+    "local_path": null,
+    "remote_url": null,
+    "downloaded": false
+  },
+  "Team SoloMid": {
+    "local_path": "/data/team_logos/team_solomid.png",
+    "remote_url": "https://liquipedia.net/commons/images/c/c8/TSM_2019_lightmode.png",
+    "downloaded": true
+  },
+  "Team Spirit": {
+    "local_path": "/data/team_logos/team_spirit.png",
+    "remote_url": "https://liquipedia.net/commons/images/f/f2/Team_Spirit_2022_full_lightmode.png",
+    "downloaded": true
+  },
+  "Team Squeaky": {
+    "local_path": null,
+    "remote_url": null,
+    "downloaded": false
+  },
+  "Team Sweden": {
+    "local_path": "/data/team_logos/team_sweden.png",
+    "remote_url": "https://liquipedia.net/commons/images/4/4c/Flag_of_Sweden.svg",
+    "downloaded": true
+  },
+  "Team Thorin": {
+    "local_path": null,
+    "remote_url": null,
+    "downloaded": false
+  },
+  "Team UK": {
+    "local_path": null,
+    "remote_url": null,
+    "downloaded": false
+  },
+  "Team USA": {
+    "local_path": "/data/team_logos/team_usa.png",
+    "remote_url": "https://liquipedia.net/commons/images/a/a4/Flag_of_the_United_States.svg",
+    "downloaded": true
+  },
+  "Team Ukraine": {
+    "local_path": "/data/team_logos/team_ukraine.png",
+    "remote_url": "https://liquipedia.net/commons/images/4/49/Flag_of_Ukraine.svg",
+    "downloaded": true
+  },
+  "Team VACO": {
+    "local_path": null,
+    "remote_url": null,
+    "downloaded": false
+  },
+  "Team Vitality": {
+    "local_path": "/data/team_logos/team_vitality.png",
+    "remote_url": "https://liquipedia.net/commons/images/4/4f/Team_Vitality_2026_full_allmode.png",
+    "downloaded": true
+  },
+  "Team Winline": {
+    "local_path": null,
+    "remote_url": null,
+    "downloaded": false
+  },
+  "Team Wolf": {
+    "local_path": null,
+    "remote_url": null,
+    "downloaded": false
+  },
+  "Team World": {
+    "local_path": null,
+    "remote_url": null,
+    "downloaded": false
+  },
+  "Team X": {
+    "local_path": null,
+    "remote_url": null,
+    "downloaded": false
+  },
+  "Team captainMo": {
+    "local_path": null,
+    "remote_url": null,
+    "downloaded": false
+  },
+  "Team ddk": {
+    "local_path": null,
+    "remote_url": null,
+    "downloaded": false
+  },
+  "Team eBettle": {
+    "local_path": "/data/team_logos/team_ebettle.png",
+    "remote_url": "https://liquipedia.net/commons/images/5/5c/Team_eBettle_allmode.png",
+    "downloaded": true
+  },
+  "Team gamed!de": {
+    "local_path": "/data/team_logos/team_gamedde.png",
+    "remote_url": "https://liquipedia.net/commons/images/1/12/Gamed.png",
+    "downloaded": true
+  },
+  "Team iBUYPOWER": {
+    "local_path": "/data/team_logos/team_ibuypower.png",
+    "remote_url": "https://liquipedia.net/commons/images/2/20/IBUYPOWER_full_lightmode.png",
+    "downloaded": true
+  },
+  "Team juliano": {
+    "local_path": null,
+    "remote_url": null,
+    "downloaded": false
+  },
+  "Team oNe eSports": {
+    "local_path": "/data/team_logos/team_one_esports.png",
+    "remote_url": "https://liquipedia.net/commons/images/4/4b/Team_oNe_eSports_2019_full_allmode.png",
+    "downloaded": true
+  },
+  "Team pashaBiceps": {
+    "local_path": null,
+    "remote_url": null,
+    "downloaded": false
+  },
+  "Team rain": {
+    "local_path": null,
+    "remote_url": null,
+    "downloaded": false
+  },
+  "Team rigoN": {
+    "local_path": null,
+    "remote_url": null,
+    "downloaded": false
+  },
+  "Team smooya": {
+    "local_path": null,
+    "remote_url": null,
+    "downloaded": false
+  },
+  "Team solemn": {
+    "local_path": null,
+    "remote_url": null,
+    "downloaded": false
+  },
+  "Team swag": {
+    "local_path": null,
+    "remote_url": null,
+    "downloaded": false
+  },
+  "Team zhokiNg": {
+    "local_path": null,
+    "remote_url": null,
+    "downloaded": false
+  },
+  "Tempo Storm": {
+    "local_path": "/data/team_logos/tempo_storm.png",
+    "remote_url": "https://liquipedia.net/commons/images/d/d3/Tempo_Storm_2018_allmode.png",
+    "downloaded": true
+  },
+  "Tessa": {
+    "local_path": null,
+    "remote_url": null,
+    "downloaded": false
+  },
+  "Texas A&M University": {
+    "local_path": null,
+    "remote_url": null,
+    "downloaded": false
+  },
+  "The Beta Boys": {
+    "local_path": null,
+    "remote_url": null,
+    "downloaded": false
+  },
+  "The Elder Gods": {
+    "local_path": "/data/team_logos/the_elder_gods.png",
+    "remote_url": "https://liquipedia.net/commons/images/e/ec/The_Elder_Gods.png",
+    "downloaded": true
+  },
+  "The Foundation": {
+    "local_path": null,
+    "remote_url": null,
+    "downloaded": false
+  },
+  "The Huns Esports": {
+    "local_path": "/data/team_logos/the_huns_esports.png",
+    "remote_url": "https://liquipedia.net/commons/images/3/35/The_Huns_Esports_2025_allmode.png",
+    "downloaded": true
+  },
+  "The Imperial": {
+    "local_path": "/data/team_logos/the_imperial.png",
+    "remote_url": "https://liquipedia.net/commons/images/6/68/The_Imperial_2018_full_lightmode.png",
+    "downloaded": true
+  },
+  "The Lone Rangers": {
+    "local_path": null,
+    "remote_url": null,
+    "downloaded": false
+  },
+  "The MongolZ": {
+    "local_path": "/data/team_logos/the_mongolz.png",
+    "remote_url": "https://liquipedia.net/commons/images/2/2b/The_MongolZ_2024_03_allmode.png",
+    "downloaded": true
+  },
+  "The Onliners": {
+    "local_path": null,
+    "remote_url": null,
+    "downloaded": false
+  },
+  "The Universe": {
+    "local_path": null,
+    "remote_url": null,
+    "downloaded": false
+  },
+  "Titan": {
+    "local_path": "/data/team_logos/titan.png",
+    "remote_url": "https://liquipedia.net/commons/images/9/90/Titan_full_lightmode.png",
+    "downloaded": true
+  },
+  "Titan eSports": {
+    "local_path": "/data/team_logos/titan_esports.png",
+    "remote_url": "https://liquipedia.net/commons/images/9/90/Titan_full_lightmode.png",
+    "downloaded": true
+  },
+  "Triumph": {
+    "local_path": "/data/team_logos/triumph.png",
+    "remote_url": "https://liquipedia.net/commons/images/0/0c/Triumph_2021.png",
+    "downloaded": true
+  },
+  "Tunisia": {
+    "local_path": "/data/team_logos/tunisia.png",
+    "remote_url": "https://liquipedia.net/commons/images/c/ce/Flag_of_Tunisia.svg",
+    "downloaded": true
+  },
+  "USA": {
+    "local_path": "/data/team_logos/usa.png",
+    "remote_url": "https://liquipedia.net/commons/images/a/a4/Flag_of_the_United_States.svg",
+    "downloaded": true
+  },
+  "USSR Team": {
+    "local_path": "/data/team_logos/ussr_team.png",
+    "remote_url": "https://liquipedia.net/commons/images/9/9c/USSR_Team.png",
+    "downloaded": true
+  },
+  "UYA": {
+    "local_path": "/data/team_logos/uya.png",
+    "remote_url": "https://liquipedia.net/commons/images/8/86/UYA_darkmode.png",
+    "downloaded": true
+  },
+  "United5": {
+    "local_path": "/data/team_logos/united5.png",
+    "remote_url": "https://liquipedia.net/commons/images/0/05/United5.png",
+    "downloaded": true
+  },
+  "Universal Soldiers": {
+    "local_path": "/data/team_logos/universal_soldiers.png",
+    "remote_url": "https://liquipedia.net/commons/images/4/4c/Universal_Soldiers_allmode.png",
+    "downloaded": true
+  },
+  "VAULT": {
+    "local_path": "/data/team_logos/vault.png",
+    "remote_url": "https://liquipedia.net/commons/images/d/de/VAULTLOGO-Notext.png",
+    "downloaded": true
+  },
+  "VERTEX Esports Club": {
+    "local_path": "/data/team_logos/vertex_esports_club.png",
+    "remote_url": "https://liquipedia.net/commons/images/4/4d/Vertex_Esports_Club_full_lightmode.png",
+    "downloaded": true
+  },
+  "VG.CyberZen": {
+    "local_path": "/data/team_logos/vgcyberzen.png",
+    "remote_url": "https://liquipedia.net/commons/images/c/ce/VICI_Gaming_allmode.png",
+    "downloaded": true
+  },
+  "VG.FlashGaming": {
+    "local_path": "/data/team_logos/vgflashgaming.png",
+    "remote_url": "https://liquipedia.net/commons/images/3/3d/VG.FlashGaming.png",
+    "downloaded": true
+  },
+  "VITAVI": {
+    "local_path": null,
+    "remote_url": null,
+    "downloaded": false
+  },
+  "Valiance": {
+    "local_path": "/data/team_logos/valiance.png",
+    "remote_url": "https://liquipedia.net/commons/images/c/c0/CR4ZY_allmode.png",
+    "downloaded": true
+  },
+  "Vega Squadron": {
+    "local_path": "/data/team_logos/vega_squadron.png",
+    "remote_url": "https://liquipedia.net/commons/images/4/42/Vega_Squadron_2016_full_allmode.png",
+    "downloaded": true
+  },
+  "VeryGames": {
+    "local_path": "/data/team_logos/verygames.png",
+    "remote_url": "https://liquipedia.net/commons/images/6/6a/VeryGames_allmode_full.png",
+    "downloaded": true
+  },
+  "Vexed Gaming": {
+    "local_path": "/data/team_logos/vexed_gaming.png",
+    "remote_url": "https://liquipedia.net/commons/images/b/b1/Vexed_Gaming_2018_full_allmode.png",
+    "downloaded": true
+  },
+  "ViCi Gaming": {
+    "local_path": "/data/team_logos/vici_gaming.png",
+    "remote_url": "https://liquipedia.net/commons/images/2/24/VICI_Gaming_full_allmode.png",
+    "downloaded": true
+  },
+  "Virtual Impact": {
+    "local_path": null,
+    "remote_url": null,
+    "downloaded": false
+  },
+  "Virtus.pro": {
+    "local_path": "/data/team_logos/virtuspro.png",
+    "remote_url": "https://liquipedia.net/commons/images/c/c0/Virtus.pro_2019_allmode.png",
+    "downloaded": true
+  },
+  "Vitality Croissant": {
+    "local_path": null,
+    "remote_url": null,
+    "downloaded": false
+  },
+  "Viva Algeria": {
+    "local_path": null,
+    "remote_url": null,
+    "downloaded": false
+  },
+  "Vox Eminor": {
+    "local_path": "/data/team_logos/vox_eminor.png",
+    "remote_url": "https://liquipedia.net/commons/images/4/46/Vox_Eminor_allmode.png",
+    "downloaded": true
+  },
+  "WARDELL N Friends": {
+    "local_path": null,
+    "remote_url": null,
+    "downloaded": false
+  },
+  "WE GOT GAME": {
+    "local_path": "/data/team_logos/we_got_game.png",
+    "remote_url": "https://liquipedia.net/commons/images/b/b2/We_Got_Game_full_lightmode.png",
+    "downloaded": true
+  },
+  "Western Wolves": {
+    "local_path": "/data/team_logos/western_wolves.png",
+    "remote_url": "https://liquipedia.net/commons/images/e/ec/Western_Wolves.png",
+    "downloaded": true
+  },
+  "WiLD MultiGaming": {
+    "local_path": null,
+    "remote_url": null,
+    "downloaded": false
+  },
+  "Wildcard": {
+    "local_path": "/data/team_logos/wildcard.png",
+    "remote_url": "https://liquipedia.net/commons/images/4/40/Wildcard_2024_full_lightmode.png",
+    "downloaded": true
+  },
+  "Wildcard Gaming": {
+    "local_path": "/data/team_logos/wildcard_gaming.png",
+    "remote_url": "https://liquipedia.net/commons/images/4/40/Wildcard_2024_full_lightmode.png",
+    "downloaded": true
+  },
+  "Windigo Gaming": {
+    "local_path": "/data/team_logos/windigo_gaming.png",
+    "remote_url": "https://liquipedia.net/commons/images/1/12/Windigo_Gaming_allmode_full.png",
+    "downloaded": true
+  },
+  "Wings Up Gaming": {
+    "local_path": "/data/team_logos/wings_up_gaming.png",
+    "remote_url": "https://liquipedia.net/commons/images/6/68/Wings_Up_Gaming_full_lightmode.png",
+    "downloaded": true
+  },
+  "Winstrike Team": {
+    "local_path": "/data/team_logos/winstrike_team.png",
+    "remote_url": "https://liquipedia.net/commons/images/f/ff/Winstrike_Team_2019_allmode_full.png",
+    "downloaded": true
+  },
+  "Winterfox": {
+    "local_path": "/data/team_logos/winterfox.png",
+    "remote_url": "https://liquipedia.net/commons/images/e/e2/Winterfox_allmode.png",
+    "downloaded": true
+  },
+  "Wisła Kraków": {
+    "local_path": "/data/team_logos/wisła_kraków.png",
+    "remote_url": "https://liquipedia.net/commons/images/3/39/Wis%C5%82a_Krak%C3%B3w_allmode_full.png",
+    "downloaded": true
+  },
+  "Wizards": {
+    "local_path": "/data/team_logos/wizards.png",
+    "remote_url": "https://liquipedia.net/commons/images/d/d7/Wizards_Esports_Club_2020_lightmode.png",
+    "downloaded": true
+  },
+  "Wololos": {
+    "local_path": "/data/team_logos/wololos.png",
+    "remote_url": "https://liquipedia.net/commons/images/4/4c/Wololos.png",
+    "downloaded": true
+  },
+  "Worst Players": {
+    "local_path": "/data/team_logos/worst_players.png",
+    "remote_url": "https://liquipedia.net/commons/images/8/8f/Worst_Players_allmode.png",
+    "downloaded": true
+  },
+  "Xapso": {
+    "local_path": "/data/team_logos/xapso.png",
+    "remote_url": "https://liquipedia.net/commons/images/e/eb/Xapso_allmode.png",
+    "downloaded": true
+  },
+  "ZET eSports": {
+    "local_path": null,
+    "remote_url": null,
+    "downloaded": false
+  },
+  "Zero Tenacity": {
+    "local_path": "/data/team_logos/zero_tenacity.png",
+    "remote_url": "https://liquipedia.net/commons/images/e/e8/Zero_Tenacity_2025_lightmode.png",
+    "downloaded": true
+  },
+  "affNity": {
+    "local_path": null,
+    "remote_url": null,
+    "downloaded": false
+  },
+  "c0ntact Gaming": {
+    "local_path": "/data/team_logos/c0ntact_gaming.png",
+    "remote_url": "https://liquipedia.net/commons/images/a/af/C0ntact_Gaming_full_lightmode.png",
+    "downloaded": true
+  },
+  "compLexity": {
+    "local_path": "/data/team_logos/complexity.png",
+    "remote_url": "https://liquipedia.net/commons/images/c/c7/Complexity_2025_full_allmode.png",
+    "downloaded": true
+  },
+  "compLexity Gaming": {
+    "local_path": "/data/team_logos/complexity_gaming.png",
+    "remote_url": "https://liquipedia.net/commons/images/c/c7/Complexity_2025_full_allmode.png",
+    "downloaded": true
+  },
+  "cuLtivation": {
+    "local_path": null,
+    "remote_url": null,
+    "downloaded": false
+  },
+  "dAT Team": {
+    "local_path": "/data/team_logos/dat_team.png",
+    "remote_url": "https://liquipedia.net/commons/images/2/24/DAT_Team_allmode.png",
+    "downloaded": true
+  },
+  "dotpiXels e.V.": {
+    "local_path": "/data/team_logos/dotpixels_ev.png",
+    "remote_url": "https://liquipedia.net/commons/images/1/19/DotpiXels.png",
+    "downloaded": true
+  },
+  "eLevate": {
+    "local_path": "/data/team_logos/elevate.png",
+    "remote_url": "https://liquipedia.net/commons/images/3/35/Elevate_2020_full_lightmode.png",
+    "downloaded": true
+  },
+  "eUnited": {
+    "local_path": "/data/team_logos/eunited.png",
+    "remote_url": "https://liquipedia.net/commons/images/f/f9/EUnited_full.png",
+    "downloaded": true
+  },
+  "ex-3DMAX": {
+    "local_path": null,
+    "remote_url": null,
+    "downloaded": false
+  },
+  "ex-Space Soldiers": {
+    "local_path": null,
+    "remote_url": null,
+    "downloaded": false
+  },
+  "ex-Titan": {
+    "local_path": null,
+    "remote_url": null,
+    "downloaded": false
+  },
+  "fm!TOXiC": {
+    "local_path": "/data/team_logos/fmtoxic.png",
+    "remote_url": "https://liquipedia.net/commons/images/d/d0/FMESPORTS_2017_lightmode.png",
+    "downloaded": true
+  },
+  "fm-eSports": {
+    "local_path": "/data/team_logos/fm_esports.png",
+    "remote_url": "https://liquipedia.net/commons/images/d/d0/FMESPORTS_2017_lightmode.png",
+    "downloaded": true
+  },
+  "fnatic": {
+    "local_path": "/data/team_logos/fnatic.png",
+    "remote_url": "https://liquipedia.net/commons/images/1/10/Fnatic_2020_full_lightmode.png",
+    "downloaded": true
+  },
+  "forZe": {
+    "local_path": "/data/team_logos/forze.png",
+    "remote_url": "https://liquipedia.net/commons/images/9/99/FORZE_Esports_2023_february_full_lightmode.png",
+    "downloaded": true
+  },
+  "highgrade": {
+    "local_path": null,
+    "remote_url": null,
+    "downloaded": false
+  },
+  "iGame.com": {
+    "local_path": "/data/team_logos/igamecom.png",
+    "remote_url": "https://liquipedia.net/commons/images/7/7c/IGame_lightmode.png",
+    "downloaded": true
+  },
+  "iNation": {
+    "local_path": "/data/team_logos/ination.png",
+    "remote_url": "https://liquipedia.net/commons/images/8/8b/INation_2021_allmode.png",
+    "downloaded": true
+  },
+  "k1ck eSports": {
+    "local_path": "/data/team_logos/k1ck_esports.png",
+    "remote_url": "https://liquipedia.net/commons/images/9/9d/K1ck_eSports_Club_2020_lightmode.png",
+    "downloaded": true
+  },
+  "k1ck eSports Club": {
+    "local_path": "/data/team_logos/k1ck_esports_club.png",
+    "remote_url": "https://liquipedia.net/commons/images/9/9d/K1ck_eSports_Club_2020_lightmode.png",
+    "downloaded": true
+  },
+  "k1ck eSports.hu": {
+    "local_path": "/data/team_logos/k1ck_esportshu.png",
+    "remote_url": "https://liquipedia.net/commons/images/d/d8/K1ck-logo.png",
+    "downloaded": true
+  },
+  "k23": {
+    "local_path": "/data/team_logos/k23.png",
+    "remote_url": "https://liquipedia.net/commons/images/5/50/K23_2020_lightmode.png",
+    "downloaded": true
+  },
+  "logiX e.V.": {
+    "local_path": "/data/team_logos/logix_ev.png",
+    "remote_url": "https://liquipedia.net/commons/images/a/a9/LogiX_lightmode.png",
+    "downloaded": true
+  },
+  "mTw": {
+    "local_path": "/data/team_logos/mtw.png",
+    "remote_url": "https://liquipedia.net/commons/images/2/24/MTw_allmode.png",
+    "downloaded": true
+  },
+  "mediokert": {
+    "local_path": null,
+    "remote_url": null,
+    "downloaded": false
+  },
+  "mouseSpaz": {
+    "local_path": "/data/team_logos/mousespaz.png",
+    "remote_url": "https://liquipedia.net/commons/images/2/27/MouseSpaz_full_lightmode.png",
+    "downloaded": true
+  },
+  "mousesports": {
+    "local_path": "/data/team_logos/mousesports.png",
+    "remote_url": "https://liquipedia.net/commons/images/a/a5/MOUZ_2021_full_allmode.png",
+    "downloaded": true
+  },
+  "myDGB.net": {
+    "local_path": "/data/team_logos/mydgbnet.png",
+    "remote_url": "https://liquipedia.net/commons/images/e/e0/MyDGB.png",
+    "downloaded": true
+  },
+  "myXMG": {
+    "local_path": "/data/team_logos/myxmg.png",
+    "remote_url": "https://liquipedia.net/commons/images/f/fb/MyXMG_allmode.png",
+    "downloaded": true
+  },
+  "n!faculty": {
+    "local_path": "/data/team_logos/nfaculty.png",
+    "remote_url": "https://liquipedia.net/commons/images/8/89/N%21faculty_allmode.png",
+    "downloaded": true
+  },
+  "neXtPlease!": {
+    "local_path": null,
+    "remote_url": null,
+    "downloaded": false
+  },
+  "o4o": {
+    "local_path": null,
+    "remote_url": null,
+    "downloaded": false
+  },
+  "paiN Gaming": {
+    "local_path": "/data/team_logos/pain_gaming.png",
+    "remote_url": "https://liquipedia.net/commons/images/6/6f/PaiN_Gaming_2023_lightmode.png",
+    "downloaded": true
+  },
+  "rEAK": {
+    "local_path": "/data/team_logos/reak.png",
+    "remote_url": "https://liquipedia.net/commons/images/5/58/Reak.png",
+    "downloaded": true
+  },
+  "sAw": {
+    "local_path": "/data/team_logos/saw.png",
+    "remote_url": "https://liquipedia.net/commons/images/9/92/SAw_at_Roman_Imperium_Cup_VII.jpg",
+    "downloaded": true
+  },
+  "ss5$": {
+    "local_path": null,
+    "remote_url": null,
+    "downloaded": false
+  },
+  "subtLe": {
+    "local_path": null,
+    "remote_url": null,
+    "downloaded": false
+  },
+  "sunday school": {
+    "local_path": null,
+    "remote_url": null,
+    "downloaded": false
+  },
+  "tomtebloss": {
+    "local_path": null,
+    "remote_url": null,
+    "downloaded": false
+  },
+  "unu.AiN": {
+    "local_path": null,
+    "remote_url": null,
+    "downloaded": false
+  },
+  "x6tence": {
+    "local_path": "/data/team_logos/x6tence.png",
+    "remote_url": "https://liquipedia.net/commons/images/d/d0/X6tence_2015_full_lightmode.png",
+    "downloaded": true
+  },
+  "über G33KZ": {
+    "local_path": "/data/team_logos/über_g33kz.png",
+    "remote_url": "https://liquipedia.net/commons/images/4/47/%C3%9Cber_G33KZ_Logo.png",
+    "downloaded": true
+  }
+}
