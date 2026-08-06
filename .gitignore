@@ -2,9 +2,8 @@
 node_modules/
 .next/
 bun.lock
-out/
-build/
-dist/
+/out/
+/dist/
 
 # Environment & Caches
 .env
