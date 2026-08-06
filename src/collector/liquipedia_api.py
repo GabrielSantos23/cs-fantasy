@@ -4,13 +4,10 @@ import requests
 from typing import Dict, List, Any, Optional
 from src.config import LIQUIPEDIA_API_URL, DEFAULT_USER_AGENT, API_REQUEST_DELAY
 from src.collector.rate_limiter import RateLimiter
-
 logger = logging.getLogger(__name__)
-
 class LiquipediaAPIClient:
     """
     Client for Liquipedia Counter-Strike MediaWiki API.
-    
     Uses ONLY action=query endpoints (lightweight, 2s rate limit).
     Avoids action=parse (heavy, 30s rate limit) entirely.
     """
@@ -23,14 +20,12 @@ class LiquipediaAPIClient:
             "Accept-Encoding": "gzip",
             "Accept": "application/json"
         })
-
     def _make_request(self, params: Dict[str, Any], max_retries: int = 5) -> Dict[str, Any]:
         """
         Executes an HTTP request to the MediaWiki API, waiting for rate limit window.
         Uses exponential backoff (30s, 60s, 90s...) when HTTP 429 is encountered.
         """
         params["format"] = "json"
-        
         for attempt in range(1, max_retries + 1):
             self.rate_limiter.wait()
             try:
@@ -51,9 +46,7 @@ class LiquipediaAPIClient:
                 if attempt == max_retries:
                     raise
                 time.sleep(attempt * 5)
-
         return {}
-
     def fetch_category_members(self, category_name: str, limit: int = 500) -> List[Dict[str, Any]]:
         """
         Fetch all page titles in a Liquipedia category.
@@ -62,7 +55,6 @@ class LiquipediaAPIClient:
         cat_title = category_name if category_name.startswith("Category:") else f"Category:{category_name}"
         all_members = []
         cm_continue = None
-
         while True:
             params = {
                 "action": "query",
@@ -73,20 +65,14 @@ class LiquipediaAPIClient:
             }
             if cm_continue:
                 params["cmcontinue"] = cm_continue
-
             data = self._make_request(params)
             members = data.get("query", {}).get("categorymembers", [])
             all_members.extend(members)
-
-            # Check if there are more pages
             cont = data.get("continue", {})
             cm_continue = cont.get("cmcontinue")
-
             if not cm_continue or len(all_members) >= limit:
                 break
-
         return all_members
-
     def fetch_page_wikitext(self, page_title: str) -> Optional[str]:
         """
         Fetch raw wikitext via action=query + prop=revisions.

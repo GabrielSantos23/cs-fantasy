@@ -3,7 +3,6 @@ import json
 from pathlib import Path
 from typing import Dict, List, Any, Optional
 from src.config import DB_PATH
-
 class DatabaseManager:
     """
     Manages SQLite database connections, schema initialization, and operations.
@@ -11,25 +10,19 @@ class DatabaseManager:
     def __init__(self, db_path: Path = DB_PATH):
         self.db_path = db_path
         self.init_db()
-
     def get_connection(self) -> sqlite3.Connection:
         conn = sqlite3.connect(self.db_path)
         conn.row_factory = sqlite3.Row
         return conn
-
     def init_db(self):
         schema_path = Path(__file__).resolve().parent / "schema.sql"
         if not schema_path.exists():
             raise FileNotFoundError(f"Schema file not found at {schema_path}")
-        
         with open(schema_path, "r", encoding="utf-8") as f:
             sql_script = f.read()
-
         with self.get_connection() as conn:
             conn.executescript(sql_script)
             conn.commit()
-
-    # --- Players ---
     def upsert_player(self, player_data: Dict[str, Any]) -> str:
         player_id = player_data["id"].lower()
         handle = player_data.get("handle") or player_data.get("id")
@@ -57,15 +50,12 @@ class DatabaseManager:
             conn.execute(sql, params)
             conn.commit()
         return player_id
-
     def get_player(self, player_id: str) -> Optional[Dict[str, Any]]:
         sql = "SELECT * FROM players WHERE id = ?"
         with self.get_connection() as conn:
             cur = conn.execute(sql, (player_id.lower(),))
             row = cur.fetchone()
             return dict(row) if row else None
-
-    # --- Tournaments & Results ---
     def upsert_tournament(self, tourney: Dict[str, Any]) -> str:
         tourney_id = tourney["id"].lower()
         sql = """
@@ -96,7 +86,6 @@ class DatabaseManager:
             conn.execute(sql, params)
             conn.commit()
         return tourney_id
-
     def add_tournament_result(self, result: Dict[str, Any]):
         sql = """
             INSERT INTO tournament_results (tournament_id, team_name, placement, placement_numeric, prize_money)
@@ -105,8 +94,6 @@ class DatabaseManager:
         with self.get_connection() as conn:
             conn.execute(sql, result)
             conn.commit()
-
-    # --- Appearances ---
     def add_appearance(self, appearance: Dict[str, Any]):
         sql = """
             INSERT INTO player_tournament_appearances (player_id, tournament_id, team_name, role, placement, year)
@@ -123,7 +110,6 @@ class DatabaseManager:
         with self.get_connection() as conn:
             conn.execute(sql, params)
             conn.commit()
-
     def get_player_appearances(self, player_id: str, year: Optional[int] = None) -> List[Dict[str, Any]]:
         if year:
             sql = """
@@ -143,12 +129,9 @@ class DatabaseManager:
                 ORDER BY a.year ASC, t.start_date ASC
             """
             args = (player_id.lower(),)
-
         with self.get_connection() as conn:
             cur = conn.execute(sql, args)
             return [dict(row) for row in cur.fetchall()]
-
-    # --- Eras ---
     def upsert_player_era(self, era: Dict[str, Any]):
         sql = """
             INSERT INTO player_eras (id, player_id, year, total_score, average_score, tournaments_count, teams_json, roles_json, breakdown_json)
@@ -176,7 +159,6 @@ class DatabaseManager:
         with self.get_connection() as conn:
             conn.execute(sql, params)
             conn.commit()
-
     def get_player_era(self, player_id: str, year: int) -> Optional[Dict[str, Any]]:
         era_id = f"{player_id.lower()}_{year}"
         sql = "SELECT * FROM player_eras WHERE id = ?"

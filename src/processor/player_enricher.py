@@ -4,9 +4,7 @@ from src.collector.liquipedia_api import LiquipediaAPIClient
 from src.collector.raw_storage import RawStorageManager
 from src.collector.wikitext_parser import WikitextParser, build_liquipedia_image_url
 from src.database.db_manager import DatabaseManager
-
 logger = logging.getLogger(__name__)
-
 class PlayerEnricher:
     """
     Enriches player profile data (Fase 4: foto, nome real, data de nascimento, nacionalidade).
@@ -15,23 +13,17 @@ class PlayerEnricher:
     def __init__(self, db_manager: DatabaseManager, api_client: Optional[LiquipediaAPIClient] = None):
         self.db = db_manager
         self.api_client = api_client or LiquipediaAPIClient()
-
     def enrich_player(self, player_id: str, force_refresh: bool = False) -> Dict[str, Any]:
         """
         Fetches and updates bio metadata for a player by reading their Liquipedia page wikitext.
         Tries multiple title variants (original handle from DB, player_id, capitalized) to find the page.
         """
         player_id_clean = player_id.lower()
-        
-        # Check raw cache first
         raw_data = None if force_refresh else RawStorageManager.load_player_raw(player_id_clean)
-
         if not raw_data:
             logger.info(f"Fetching bio for player '{player_id}' from Liquipedia API...")
-
             existing = self.db.get_player(player_id_clean)
             handle = existing.get("handle", player_id) if existing else player_id
-
             title_variants = []
             if handle and handle not in title_variants:
                 title_variants.append(handle)
@@ -40,7 +32,6 @@ class PlayerEnricher:
             capitalized = player_id.capitalize()
             if capitalized not in title_variants:
                 title_variants.append(capitalized)
-
             wikitext = None
             for variant in title_variants:
                 wikitext = self.api_client.fetch_page_wikitext(variant)
@@ -48,7 +39,6 @@ class PlayerEnricher:
                     logger.info(f"Found player page with title variant '{variant}'")
                     break
                 wikitext = None
-
             if wikitext:
                 parsed = WikitextParser.parse_infobox_player(wikitext, player_id)
                 raw_data = {
@@ -61,7 +51,6 @@ class PlayerEnricher:
                     "role": parsed.get("role"),
                 }
                 RawStorageManager.save_player_raw(player_id_clean, raw_data)
-
         if not raw_data:
             logger.warning(f"Could not find biographical details for player '{player_id}'")
             basic_player = {
@@ -75,13 +64,10 @@ class PlayerEnricher:
             }
             self.db.upsert_player(basic_player)
             return basic_player
-
-        # Convert photo_url if it uses old Special:FilePath format
         photo_url = raw_data.get("photo_url")
         if photo_url and "Special:FilePath/" in photo_url:
             image_filename = photo_url.split("Special:FilePath/")[-1]
             photo_url = build_liquipedia_image_url(image_filename)
-
         player_record = {
             "id": player_id_clean,
             "handle": raw_data.get("handle") or player_id,
@@ -91,6 +77,5 @@ class PlayerEnricher:
             "photo_url": photo_url,
             "liquipedia_url": f"https://liquipedia.net/counterstrike/{raw_data.get('handle', player_id)}"
         }
-
         self.db.upsert_player(player_record)
         return player_record

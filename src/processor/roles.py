@@ -1,7 +1,4 @@
-# Comprehensive mapping of CS:GO and CS2 professional players to their primary roles
-
 KNOWN_PLAYER_ROLES = {
-    # ── AWPers (Snipers) ──────────────────────────────────────
     "s1mple": "AWPer",
     "fallen": "AWPer",
     "device": "AWPer",
@@ -54,8 +51,6 @@ KNOWN_PLAYER_ROLES = {
     "shox": "AWPer",
     "cajunb": "AWPer",
     "shz": "AWPer",
-
-    # ── IGLs (In-Game Leaders) ────────────────────────────────
     "gla1ve": "IGL",
     "karrigan": "IGL",
     "zeus": "IGL",
@@ -101,8 +96,6 @@ KNOWN_PLAYER_ROLES = {
     "xeqtr": "IGL",
     "zonic": "IGL",
     "luiz": "IGL",
-
-    # ── Entry Fraggers ────────────────────────────────────────
     "rain": "Entry",
     "dupreeh": "Entry",
     "elige": "Entry",
@@ -134,8 +127,6 @@ KNOWN_PLAYER_ROLES = {
     "interz": "Entry",
     "yandar": "Entry",
     "karrigan": "IGL",
-
-    # ── Lurkers ───────────────────────────────────────────────
     "get_right": "Lurker",
     "flusha": "Lurker",
     "ropz": "Lurker",
@@ -153,8 +144,6 @@ KNOWN_PLAYER_ROLES = {
     "REZ": "Lurker",
     "hobbitt": "Lurker",
     "mir": "Lurker",
-
-    # ── Support ───────────────────────────────────────────────
     "xyp9x": "Support",
     "sanji": "Support",
     "tiziaN": "Support",

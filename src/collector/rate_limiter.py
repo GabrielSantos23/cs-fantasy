@@ -1,6 +1,5 @@
 import time
 import threading
-
 class RateLimiter:
     """
     Enforces a strict minimum time interval between consecutive executions/requests.
@@ -10,7 +9,6 @@ class RateLimiter:
         self.min_interval = min_interval
         self.last_call_timestamp = 0.0
         self._lock = threading.Lock()
-
     def wait(self):
         """
         Blocks the calling thread until min_interval seconds have elapsed since last call.

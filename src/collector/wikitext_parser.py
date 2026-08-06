@@ -1,7 +1,6 @@
 import re
 import hashlib
 from typing import Dict, List, Any, Optional
-
 def build_liquipedia_image_url(image_name: str) -> Optional[str]:
     """
     Generates direct MediaWiki CDN image URL using MD5 hashing scheme.
@@ -15,7 +14,6 @@ def build_liquipedia_image_url(image_name: str) -> Optional[str]:
         return None
     md5_hash = hashlib.md5(clean_name.encode("utf-8")).hexdigest()
     return f"https://liquipedia.net/commons/images/{md5_hash[0]}/{md5_hash[0:2]}/{clean_name}"
-
 def safe_split_params(block: str) -> List[str]:
     """
     Splits a template block by '|' while respecting nested [[links]] and {{templates}}.
@@ -24,7 +22,6 @@ def safe_split_params(block: str) -> List[str]:
     current = []
     bracket_depth = 0
     brace_depth = 0
-    
     for char in block:
         if char == '[':
             bracket_depth += 1
@@ -43,12 +40,9 @@ def safe_split_params(block: str) -> List[str]:
             current = []
         else:
             current.append(char)
-
     if current:
         tokens.append("".join(current).strip())
-
     return [t for t in tokens if t]
-
 def get_team_placement(team_name: str, prize_map: Dict[str, str]) -> str:
     """
     Robustly matches a team name against a prize pool placement map.
@@ -56,14 +50,11 @@ def get_team_placement(team_name: str, prize_map: Dict[str, str]) -> str:
     """
     if not prize_map:
         return "5-8"
-
     t_clean = team_name.lower()
     if t_clean in prize_map:
         return prize_map[t_clean]
-
     initials = "".join(w[0] for w in t_clean.split() if w[0].isalnum())
     words = [w for w in t_clean.split() if w.isalnum()]
-    
     for key, place in prize_map.items():
         key_clean = key.lower()
         if key_clean == t_clean:
@@ -78,14 +69,11 @@ def get_team_placement(team_name: str, prize_map: Dict[str, str]) -> str:
             return place
         if key_clean in t_clean or t_clean in key_clean:
             return place
-
     return "5-8"
-
 class WikitextParser:
     """
     Parses Liquipedia MediaWiki wikitext templates (Infobox league, TeamCard, PrizePoolSlot, Infobox player).
     """
-
     @staticmethod
     def _split_template_params(block: str) -> Dict[str, str]:
         """
@@ -104,7 +92,6 @@ class WikitextParser:
             if k and v:
                 params[k] = v
         return params
-
     @staticmethod
     def parse_infobox_league(wikitext: str, fallback_title: str) -> Dict[str, Any]:
         info = {
@@ -114,11 +101,9 @@ class WikitextParser:
             "tier": "A-Tier",
             "format": None
         }
-        
         match = re.search(r"\{\{Infobox league(.*?)\n\}\}", wikitext, re.DOTALL | re.IGNORECASE)
         if match:
             params = WikitextParser._split_template_params(match.group(1))
-            
             if params.get("name"):
                 v = re.sub(r"\[\[(?:[^|]*\|)?([^\]]+)\]\]", r"\1", params["name"]).strip()
                 if v:
@@ -137,32 +122,25 @@ class WikitextParser:
                     break
             if params.get("format"):
                 info["format"] = params["format"]
-
         return info
-
     @staticmethod
     def parse_team_cards(wikitext: str) -> List[Dict[str, Any]]:
         teams = []
         cards = re.findall(r"\{\{TeamCard\b(.*?)(?:\n\}\}|\n\{\{TeamCard\b)", wikitext, re.DOTALL | re.IGNORECASE)
-        
         for card_body in cards:
             params = WikitextParser._split_template_params(card_body)
-            
             team_name = params.get("team")
             if not team_name:
                 continue
             team_name = re.sub(r"\[\[(?:[^|]*\|)?([^\]]+)\]\]", r"\1", team_name).strip()
             if not team_name:
                 continue
-
             players = []
             player_links = {}
-
             for k, v in params.items():
                 link_match = re.match(r"^p(\d+)link$", k)
                 if link_match:
                     player_links[int(link_match.group(1))] = v.strip()
-
             for k, v in params.items():
                 player_match = re.match(r"^p(\d+)$", k)
                 if player_match:
@@ -170,27 +148,21 @@ class WikitextParser:
                     handle = v.strip()
                     if not handle:
                         continue
-
                     page_name = player_links.get(p_idx, handle)
-
                     players.append({
                         "idx": p_idx,
                         "player_id": page_name.lower(),
                         "handle": handle,
                         "role": "Rifler"
                     })
-
             coach = params.get("c") or params.get("coach")
-
             if players:
                 teams.append({
                     "team_name": team_name,
                     "players": sorted(players, key=lambda x: x["idx"]),
                     "coach": coach
                 })
-
         return teams
-
     @staticmethod
     def parse_prize_pool(wikitext: str) -> Dict[str, str]:
         """
@@ -199,12 +171,10 @@ class WikitextParser:
         """
         placements: Dict[str, str] = {}
         slots = re.findall(r"\{\{Prize pool slot(.*?)\}\}", wikitext, re.DOTALL | re.IGNORECASE)
-        
         for slot in slots:
             tokens = safe_split_params(slot)
             place = None
             team = None
-            
             for token in tokens:
                 if "=" in token:
                     k, v = token.split("=", 1)
@@ -215,16 +185,12 @@ class WikitextParser:
                     elif k in ("team", "opponent1", "lastvs1") and v_clean and not team:
                         team = v_clean
                 else:
-                    # Unnamed positional token (e.g. |lg, |navi, |astralis)
                     clean_tok = re.sub(r"\[\[(?:[^|]*\|)?([^\]]+)\]\]", r"\1", token).strip()
                     if clean_tok.lower() not in ("prize pool slot", "") and not team:
                         team = clean_tok
-
             if place and team:
                 placements[team.lower()] = place
-
         return placements
-
     @staticmethod
     def parse_infobox_player(wikitext: str, fallback_handle: str) -> Dict[str, Any]:
         info = {
@@ -235,13 +201,10 @@ class WikitextParser:
             "photo_url": None,
             "role": None
         }
-
         match = re.search(r"\{\{Infobox player(.*?)(?:\n\}\}|\n\{\{)", wikitext, re.DOTALL | re.IGNORECASE)
         if not match:
             return info
-
         params = WikitextParser._split_template_params(match.group(1))
-
         if params.get("id"):
             info["handle"] = params["id"]
         if params.get("name"):
@@ -262,5 +225,4 @@ class WikitextParser:
             info["role"] = params["role"]
         elif params.get("roles"):
             info["role"] = params["roles"]
-
         return info
