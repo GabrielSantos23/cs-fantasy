@@ -1,6 +1,6 @@
 # CS Fantasy Major
 
-Simulador interativo de torneios Major de Counter-Strike com dados históricos reais (2000–2026).
+Simulador interativo de torneios Major de Counter-Strike com dados históricos reais (2013–2026).
 
 ## 🚀 Sobre o Projeto
 
@@ -16,7 +16,7 @@ O **CS Fantasy Major** permite que você monte seu *Dream Team* dos sonhos escol
 
 ## 📌 Funcionalidades
 
-- **Team Builder**: Pesquisa e seleção de pro players por era (2000–2026), função (IGL, AWPer, Rifler, Entry, Support, Lurker) e pontuação.
+- **Team Builder**: Pesquisa e seleção de pro players por era (2013–2026), função (IGL, AWPer, Rifler, Entry, Support, Lurker) e pontuação.
 - **Cálculo de Química Real**: Algoritmo matemático que ajusta a força do time baseado em compatibilidade histórica e tática.
 - **Simulador de Major**: Fase de Grupos (BO1) + Playoffs em Árvore (BO3/BO5) com variância estocástica e upsets.
 - **Design System Dark Cinematic**: Interface moderna, minimalista e responsiva.
