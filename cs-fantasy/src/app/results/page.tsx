@@ -9,7 +9,10 @@ import {
   calculateChemistry,
   calculateVarianceMultiplier,
 } from "../../lib/engine/chemistry";
-import { selectOpponents, seedIntoGroups } from "../../lib/engine/opponent-pool";
+import {
+  selectOpponents,
+  seedIntoGroups,
+} from "../../lib/engine/opponent-pool";
 import { simulateBracket } from "../../lib/engine/bracket";
 import { createRNG } from "../../lib/utils/random";
 import type {
@@ -48,7 +51,6 @@ function ResultsContent() {
   const coachParam = searchParams.get("coach");
   const seedParam = searchParams.get("seed");
 
-  // Run simulation
   const simulationResult = useMemo(() => {
     if (!dataset || !playersParam || !coachParam) return null;
 
@@ -57,14 +59,12 @@ function ResultsContent() {
     const seed = seedParam ? parseInt(seedParam, 10) : 42;
 
     try {
-      // 1. Build user team
       const team = buildFantasyTeam(playerEraIds, coachEraId, dataset);
 
-      // 2. Chemistry
       const chemistry = calculateChemistry(
         team.players,
         team.coach,
-        dataset.coPlayMatrix
+        dataset.coPlayMatrix,
       );
       const varianceMultiplier = calculateVarianceMultiplier(team.players);
 
@@ -72,7 +72,6 @@ function ResultsContent() {
       team.varianceMultiplier = varianceMultiplier;
       team.finalPower = team.basePower * (1 + chemistry.totalModifier);
 
-      // 3. Select opponents
       const rng = createRNG(seed);
       const userPlayerIds = [
         ...team.players.map((p) => p.player_id),
@@ -80,7 +79,6 @@ function ResultsContent() {
       ];
       const opponents = selectOpponents(dataset, userPlayerIds, 15, rng);
 
-      // 4. Match teams & groups
       const userMatchTeam: MatchTeam = {
         id: "user-team",
         name: "Seu Dream Team",
@@ -96,12 +94,11 @@ function ResultsContent() {
           finalPower: opp.finalPower,
           varianceMultiplier: opp.varianceMultiplier,
           isUserTeam: false,
-        })
+        }),
       );
 
       const groups = seedIntoGroups(userMatchTeam, opponentMatchTeams, rng);
 
-      // 5. Simulate bracket
       const bracket: BracketResult = simulateBracket(groups, rng, "user-team");
 
       return {
@@ -115,10 +112,9 @@ function ResultsContent() {
     }
   }, [dataset, playersParam, coachParam, seedParam]);
 
-  // Animation state
   const [revealedCount, setRevealedCount] = useState<number>(0);
   const [isPlaying, setIsPlaying] = useState<boolean>(true);
-  const [speedMultiplier, setSpeedMultiplier] = useState<number>(1); // 1x, 2x, 5x
+  const [speedMultiplier, setSpeedMultiplier] = useState<number>(1);
 
   const allMatches = useMemo(() => {
     if (!simulationResult) return [];
@@ -127,7 +123,6 @@ function ResultsContent() {
 
   const totalMatches = allMatches.length;
 
-  // Reset animation state whenever simulation result changes
   useEffect(() => {
     if (simulationResult) {
       setRevealedCount(0);
@@ -135,11 +130,12 @@ function ResultsContent() {
     }
   }, [simulationResult]);
 
-  // Interval timer for step-by-step match reveal
   useEffect(() => {
-    if (!isPlaying || totalMatches === 0 || revealedCount >= totalMatches) return;
+    if (!isPlaying || totalMatches === 0 || revealedCount >= totalMatches)
+      return;
 
-    const delay = speedMultiplier === 5 ? 50 : speedMultiplier === 2 ? 150 : 400;
+    const delay =
+      speedMultiplier === 5 ? 50 : speedMultiplier === 2 ? 150 : 400;
 
     const timer = setTimeout(() => {
       setRevealedCount((prev) => {
@@ -214,7 +210,10 @@ function ResultsContent() {
         <p className="text-xs text-text-muted">
           Verifique se o seu time contém 5 jogadores válidos e 1 coach.
         </p>
-        <Button render={<Link href="/build" />} className="bg-hi hover:bg-hi/90 text-white font-bold">
+        <Button
+          render={<Link href="/build" />}
+          className="bg-hi hover:bg-hi/90 text-white font-bold"
+        >
           Voltar ao Team Builder
         </Button>
       </div>
@@ -225,20 +224,19 @@ function ResultsContent() {
   const isChampion = bracket.champion.id === "user-team";
 
   const revealedUserTeamPath = bracket.userTeamPath.filter((m) =>
-    revealedMatchIds.has(m.matchId)
+    revealedMatchIds.has(m.matchId),
   );
 
   const handleResimulateNewSeed = () => {
     const newSeed = Math.floor(Math.random() * 1000000);
     router.push(
-      `/results?players=${playersParam}&coach=${coachParam}&seed=${newSeed}`
+      `/results?players=${playersParam}&coach=${coachParam}&seed=${newSeed}`,
     );
   };
 
   return (
     <div className="min-h-screen flex flex-col justify-between bg-[#0A0A0A]">
-      {/* Navigation Header */}
-      <header className="sticky top-0 z-50 border-b border-white/[0.06] backdrop-blur-xl bg-[#0A0A0A]/90">
+      <header className="sticky top-0 z-50 border-b border-white/6 backdrop-blur-xl bg-[#0A0A0A]/90">
         <div className="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
           <Link href="/" className="flex items-center gap-2">
             <Crosshair className="size-5 text-white/50" />
@@ -257,7 +255,11 @@ function ResultsContent() {
               <RefreshCw className="size-3.5" />
               Novo Seed
             </Button>
-            <Button size="sm" render={<Link href="/build" />} className="bg-white text-[#0A0A0A] font-bold gap-1.5 hover:bg-white/90">
+            <Button
+              size="sm"
+              render={<Link href="/build" />}
+              className="bg-white text-[#0A0A0A] font-bold gap-1.5 hover:bg-white/90"
+            >
               <Pencil className="size-3.5" />
               Editar Time
             </Button>
@@ -265,12 +267,9 @@ function ResultsContent() {
         </div>
       </header>
 
-      {/* Main Results Container */}
       <main className="max-w-7xl mx-auto w-full px-4 py-6 space-y-8 flex-1">
-        {/* Simulation Animation Control Bar */}
-        <section className="rounded-xl p-4 border border-white/[0.06] space-y-3 bg-[#111111]/60 shadow-lg">
+        <section className="rounded-xl p-4 border border-white/6 space-y-3 bg-[#111111]/60 shadow-lg">
           <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
-            {/* Left Status & Live Match Ticker */}
             <div className="flex items-center gap-3 w-full sm:w-auto">
               <div className="p-2.5 rounded-xl bg-white/5 border border-white/10 shrink-0">
                 {isAnimationFinished ? (
@@ -309,7 +308,6 @@ function ResultsContent() {
               </div>
             </div>
 
-            {/* Right Buttons: Play/Pause, Speed, Skip */}
             <div className="flex items-center gap-2 shrink-0">
               <Button
                 variant="outline"
@@ -358,10 +356,9 @@ function ResultsContent() {
             </div>
           </div>
 
-          {/* Progress Bar */}
           <div className="w-full bg-white/5 h-1.5 rounded-full overflow-hidden border border-white/5">
             <div
-              className="bg-gradient-to-r from-hi/70 to-hi h-full transition-all duration-200"
+              className="bg-linear-to-r from-hi/70 to-hi h-full transition-all duration-200"
               style={{
                 width: `${totalMatches > 0 ? (revealedCount / totalMatches) * 100 : 0}%`,
               }}
@@ -369,14 +366,13 @@ function ResultsContent() {
           </div>
         </section>
 
-        {/* Banner: Champion / Result */}
         <section
           className={`rounded-xl bg-[#111111]/60 p-8 border text-center relative overflow-hidden transition-all ${
             isAnimationFinished && isChampion
-              ? "border-hi card-glow-gold bg-gradient-to-b from-hi/15 to-transparent animate-fade-in"
+              ? "border-hi card-glow-gold bg-linear-to-b from-hi/15 to-transparent animate-fade-in"
               : isAnimationFinished
-              ? "border-border bg-white/5 animate-fade-in"
-              : "border-white/10 bg-white/5"
+                ? "border-border bg-white/5 animate-fade-in"
+                : "border-white/10 bg-white/5"
           }`}
         >
           <div className="relative z-10 space-y-3">
@@ -402,24 +398,25 @@ function ResultsContent() {
               {isAnimationFinished ? (
                 <>
                   Vice-campeão:{" "}
-                  <strong className="text-white">{bracket.runnerUp.name}</strong> •
-                  RNG Seed: {seed}
+                  <strong className="text-white">
+                    {bracket.runnerUp.name}
+                  </strong>{" "}
+                  • RNG Seed: {seed}
                 </>
               ) : (
                 <>
                   Acompanhe a revelação das partidas abaixo ou clique em{" "}
-                  <strong className="text-hi">Pular Animação</strong> para ver a final imediatamente.
+                  <strong className="text-hi">Pular Animação</strong> para ver a
+                  final imediatamente.
                 </>
               )}
             </p>
           </div>
         </section>
 
-        {/* User Team Journey & Chemistry Summary */}
         <section className="grid grid-cols-1 lg:grid-cols-3 gap-6">
-          {/* User Roster & Chemistry */}
           <div className="lg:col-span-1 space-y-4">
-            <div className="rounded-xl bg-[#111111]/60 p-5 border border-white/[0.06] space-y-3">
+            <div className="rounded-xl bg-[#111111]/60 p-5 border border-white/6 space-y-3">
               <h3 className="font-display text-xl font-bold uppercase tracking-wide text-white">
                 Seu Roster
               </h3>
@@ -428,7 +425,7 @@ function ResultsContent() {
                 {team.players.map((p) => (
                   <div
                     key={p.id}
-                    className="flex items-center justify-between p-2.5 rounded-lg bg-white/[0.03] border border-white/[0.05] hover:bg-white/[0.06] transition-colors"
+                    className="flex items-center justify-between p-2.5 rounded-lg bg-white/3 border border-white/5 hover:bg-white/6 transition-colors"
                   >
                     <div className="flex items-center gap-2.5">
                       <div className="w-8 h-8 rounded-full overflow-hidden border border-white/10 bg-white/5 shrink-0">
@@ -457,13 +454,19 @@ function ResultsContent() {
                         </span>
                       </div>
                     </div>
-                    <span className="font-mono text-sm font-semibold text-white/60" style={{ fontFamily: "var(--font-outfit)" }}>
-                      {p.total_score.toFixed(0)} <span className="text-[9px] text-white/30 font-normal">PTS</span>
+                    <span
+                      className="font-mono text-sm font-semibold text-white/60"
+                      style={{ fontFamily: "var(--font-outfit)" }}
+                    >
+                      {p.total_score.toFixed(0)}{" "}
+                      <span className="text-[9px] text-white/30 font-normal">
+                        PTS
+                      </span>
                     </span>
                   </div>
                 ))}
 
-                <div className="flex items-center justify-between p-2.5 rounded-lg bg-white/[0.05] border border-white/10">
+                <div className="flex items-center justify-between p-2.5 rounded-lg bg-white/5 border border-white/10">
                   <div className="flex items-center gap-2.5">
                     <div className="w-8 h-8 rounded-full overflow-hidden border border-white/15 bg-white/10 shrink-0 flex items-center justify-center">
                       <span className="text-xs font-bold text-white/70">★</span>
@@ -477,12 +480,13 @@ function ResultsContent() {
                       </span>
                     </div>
                   </div>
-                  <span className="text-[10px] font-semibold text-white/40 uppercase tracking-wider bg-white/5 border border-white/10 px-2 py-0.5 rounded">Coach</span>
+                  <span className="text-[10px] font-semibold text-white/40 uppercase tracking-wider bg-white/5 border border-white/10 px-2 py-0.5 rounded">
+                    Coach
+                  </span>
                 </div>
               </div>
             </div>
 
-            {/* Chemistry Breakdown */}
             <ChemistryBar
               chemistry={team.chemistry}
               basePower={team.basePower}
@@ -491,21 +495,18 @@ function ResultsContent() {
             />
           </div>
 
-          {/* User Team Match History */}
-          <div className="lg:col-span-2 rounded-xl bg-[#111111]/60 p-6 border border-white/[0.06] space-y-4">
+          <div className="lg:col-span-2 rounded-xl bg-[#111111]/60 p-6 border border-white/6 space-y-4">
             <h3 className="font-display text-xl font-bold uppercase tracking-wide text-white flex items-center justify-between">
               <span>Jornada do seu Time</span>
               <span className="text-xs text-text-dim font-normal font-mono">
                 {
-                  revealedUserTeamPath.filter(
-                    (m) => m.winner === "user-team"
-                  ).length
+                  revealedUserTeamPath.filter((m) => m.winner === "user-team")
+                    .length
                 }
                 V -{" "}
                 {
-                  revealedUserTeamPath.filter(
-                    (m) => m.winner !== "user-team"
-                  ).length
+                  revealedUserTeamPath.filter((m) => m.winner !== "user-team")
+                    .length
                 }
                 D
               </span>
@@ -520,9 +521,7 @@ function ResultsContent() {
                 {revealedUserTeamPath.map((match) => {
                   const isWinner = match.winner === "user-team";
                   const opponent =
-                    match.teamA.id === "user-team"
-                      ? match.teamB
-                      : match.teamA;
+                    match.teamA.id === "user-team" ? match.teamB : match.teamA;
 
                   return (
                     <div
@@ -565,9 +564,7 @@ function ResultsContent() {
                         </div>
                         <div className="text-[11px] text-text-dim">
                           {match.maps
-                            .map(
-                              (m) => `${m.winnerRounds}-${m.loserRounds}`
-                            )
+                            .map((m) => `${m.winnerRounds}-${m.loserRounds}`)
                             .join(", ")}
                         </div>
                       </div>
@@ -579,7 +576,6 @@ function ResultsContent() {
           </div>
         </section>
 
-        {/* Group Stage Overview */}
         <section className="space-y-4">
           <h2 className="font-display text-2xl font-bold uppercase tracking-wide text-white">
             Fase de Grupos (BO1)
@@ -595,12 +591,11 @@ function ResultsContent() {
           </div>
         </section>
 
-        {/* Playoff Bracket Tree */}
         <section className="space-y-4">
           <h2 className="font-display text-2xl font-bold uppercase tracking-wide text-white">
             Playoffs
           </h2>
-          <div className="rounded-xl bg-[#111111]/60 p-6 border border-white/[0.06]">
+          <div className="rounded-xl bg-[#111111]/60 p-6 border border-white/6">
             <BracketView
               playoffs={bracket.playoffs}
               userTeamId="user-team"
@@ -610,8 +605,7 @@ function ResultsContent() {
         </section>
       </main>
 
-      {/* Footer */}
-      <footer className="max-w-7xl mx-auto w-full p-4 text-center text-xs text-white/15 border-t border-white/[0.06]">
+      <footer className="max-w-7xl mx-auto w-full p-4 text-center text-xs text-white/15 border-t border-white/6">
         CS Fantasy Major Engine • Todos os resultados simulados com base nas
         estatísticas reais das eras.
       </footer>

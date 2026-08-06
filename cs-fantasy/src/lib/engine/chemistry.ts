@@ -3,7 +3,7 @@ import { getCoPlayHistory } from "../data/types";
 import type { ChemistryBreakdown, ChemistryFactor } from "./types";
 
 export function calculateChemistry(
-  players: PlayerEra[], // exactly 5
+  players: PlayerEra[],
   coach: PlayerEra,
   coPlayMatrix: Map<string, CoPlayEntry>,
 ): ChemistryBreakdown {
@@ -15,7 +15,6 @@ export function calculateChemistry(
     totalModifier += modifier;
   };
 
-  // Factor 1: Language (LANGUAGE_BONUS)
   const langCounts = new Map<string, number>();
   for (const p of [...players, coach]) {
     langCounts.set(p.language, (langCounts.get(p.language) || 0) + 1);
@@ -38,11 +37,14 @@ export function calculateChemistry(
     addFactor("LANGUAGE_BONUS", 0, "Mixed languages");
   }
 
-  // Factor 2: Co-Play History (COPLAY_BONUS)
   let coPlayMod = 0;
   for (let i = 0; i < players.length; i++) {
     for (let j = i + 1; j < players.length; j++) {
-      const entry = getCoPlayHistory(coPlayMatrix, players[i].player_id, players[j].player_id);
+      const entry = getCoPlayHistory(
+        coPlayMatrix,
+        players[i].player_id,
+        players[j].player_id,
+      );
       if (entry && entry.tournaments_together > 0) {
         coPlayMod += Math.min(0.05, entry.tournaments_together * 0.01);
       }
@@ -51,7 +53,6 @@ export function calculateChemistry(
   coPlayMod = Math.min(0.15, coPlayMod);
   addFactor("COPLAY_BONUS", coPlayMod, "Co-play history among players");
 
-  // Factor 3: Role Balance (ROLE_BALANCE)
   let iglCount = 0;
   let awperCount = 0;
   const roleCounts = new Map<string, number>();
@@ -91,7 +92,6 @@ export function calculateChemistry(
   }
   addFactor("ROLE_BALANCE", roleMod, "Role balance evaluation");
 
-  // Factor 4: Era Compatibility (ERA_COMPAT)
   let minYear = Infinity;
   let maxYear = -Infinity;
   for (const p of players) {
@@ -106,14 +106,16 @@ export function calculateChemistry(
   else if (yearGap > 12) eraMod = -0.08;
   addFactor("ERA_COMPAT", eraMod, `Era gap: ${yearGap} years`);
 
-  // Factor 5: Tier Experience (TIER_EXPERIENCE)
   addFactor("TIER_EXPERIENCE", 0, "Tier experience sets variance multiplier");
 
-  // Factor 6: Roster Stability (ROSTER_STABILITY)
   let pairsWithHistory = 0;
   for (let i = 0; i < players.length; i++) {
     for (let j = i + 1; j < players.length; j++) {
-      const entry = getCoPlayHistory(coPlayMatrix, players[i].player_id, players[j].player_id);
+      const entry = getCoPlayHistory(
+        coPlayMatrix,
+        players[i].player_id,
+        players[j].player_id,
+      );
       if (entry && entry.tournaments_together > 0) {
         pairsWithHistory++;
       }
@@ -125,9 +127,12 @@ export function calculateChemistry(
   else if (pairsWithHistory >= 4 && pairsWithHistory <= 6) stabilityMod = 0.02;
   else if (pairsWithHistory >= 7 && pairsWithHistory <= 9) stabilityMod = 0.04;
   else if (pairsWithHistory === 10) stabilityMod = 0.08;
-  addFactor("ROSTER_STABILITY", stabilityMod, `Roster stability: ${pairsWithHistory} known pairs`);
+  addFactor(
+    "ROSTER_STABILITY",
+    stabilityMod,
+    `Roster stability: ${pairsWithHistory} known pairs`,
+  );
 
-  // Factor 7: Coach History (COACH_HISTORY)
   let coachMod = 0;
   for (const p of players) {
     const entry = getCoPlayHistory(coPlayMatrix, coach.player_id, p.player_id);
@@ -138,7 +143,6 @@ export function calculateChemistry(
   coachMod = Math.min(0.08, coachMod);
   addFactor("COACH_HISTORY", coachMod, "Coach familiarity with players");
 
-  // Factor 8: Generation Gap (GENERATION_GAP)
   let minBirthYear = Infinity;
   let maxBirthYear = -Infinity;
   let skipGenGap = false;

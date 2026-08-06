@@ -1,8 +1,3 @@
-// ─────────────────────────────────────────────────────────────
-// Bracket Simulation — runs a complete Major-style tournament
-// from group stage to grand final.
-// ─────────────────────────────────────────────────────────────
-
 import type {
   MatchTeam,
   MatchResult,
@@ -12,12 +7,6 @@ import type {
 } from "./types";
 import { simulateMatch, generateMatchId } from "./match-sim";
 
-// ── Group Stage ──────────────────────────────────────────────
-
-/**
- * Simulate a single group (4 teams, round-robin, BO1).
- * Each team plays 3 matches. Top 2 advance.
- */
 function simulateGroup(
   groupName: string,
   teams: MatchTeam[],
@@ -35,8 +24,6 @@ function simulateGroup(
 
   const matches: MatchResult[] = [];
 
-  // Round-robin: every team plays every other team (6 matches per group)
-  // Matchups: 0v1, 2v3, 0v2, 1v3, 0v3, 1v2
   const pairings: [number, number][] = [
     [0, 1],
     [2, 3],
@@ -55,7 +42,6 @@ function simulateGroup(
     standings[result.loser].losses++;
   }
 
-  // Sort teams by wins (descending), then tiebreak by finalPower
   const sorted = [...teams].sort((a, b) => {
     const sA = standings[a.id];
     const sB = standings[b.id];
@@ -76,32 +62,27 @@ function simulateGroup(
   };
 }
 
-// ── Playoffs ─────────────────────────────────────────────────
-
-/**
- * Simulate a single elimination playoff bracket (BO3).
- * Takes 8 teams, runs quarterfinals → semifinals → final.
- * Returns rounds and the champion.
- */
 function simulatePlayoffs(
   advancingTeams: MatchTeam[],
   rng: () => number,
   matchCounter: { value: number },
 ): { rounds: PlayoffRound[]; champion: MatchTeam; runnerUp: MatchTeam } {
   if (advancingTeams.length !== 8) {
-    throw new Error(`Playoffs require exactly 8 teams, got ${advancingTeams.length}`);
+    throw new Error(
+      `Playoffs require exactly 8 teams, got ${advancingTeams.length}`,
+    );
   }
 
-  // Seed: sort by finalPower descending, then pair 1v8, 2v7, 3v6, 4v5
-  const seeded = [...advancingTeams].sort((a, b) => b.finalPower - a.finalPower);
+  const seeded = [...advancingTeams].sort(
+    (a, b) => b.finalPower - a.finalPower,
+  );
   const qfMatchups: [MatchTeam, MatchTeam][] = [
-    [seeded[0], seeded[7]], // 1 vs 8
-    [seeded[3], seeded[4]], // 4 vs 5
-    [seeded[1], seeded[6]], // 2 vs 7
-    [seeded[2], seeded[5]], // 3 vs 6
+    [seeded[0], seeded[7]],
+    [seeded[3], seeded[4]],
+    [seeded[1], seeded[6]],
+    [seeded[2], seeded[5]],
   ];
 
-  // Quarterfinals
   const qfMatches: MatchResult[] = [];
   const qfWinners: MatchTeam[] = [];
 
@@ -117,7 +98,6 @@ function simulatePlayoffs(
     matches: qfMatches,
   };
 
-  // Semifinals: winners of QF1 vs QF2, QF3 vs QF4
   const sfMatchups: [MatchTeam, MatchTeam][] = [
     [qfWinners[0], qfWinners[1]],
     [qfWinners[2], qfWinners[3]],
@@ -138,12 +118,19 @@ function simulatePlayoffs(
     matches: sfMatches,
   };
 
-  // Grand Final
   const finalMatchId = generateMatchId("final", matchCounter.value++);
-  const finalResult = simulateMatch(sfWinners[0], sfWinners[1], "BO5", rng, finalMatchId);
+  const finalResult = simulateMatch(
+    sfWinners[0],
+    sfWinners[1],
+    "BO5",
+    rng,
+    finalMatchId,
+  );
 
-  const champion = finalResult.winner === sfWinners[0].id ? sfWinners[0] : sfWinners[1];
-  const runnerUp = finalResult.winner === sfWinners[0].id ? sfWinners[1] : sfWinners[0];
+  const champion =
+    finalResult.winner === sfWinners[0].id ? sfWinners[0] : sfWinners[1];
+  const runnerUp =
+    finalResult.winner === sfWinners[0].id ? sfWinners[1] : sfWinners[0];
 
   const grandFinal: PlayoffRound = {
     roundName: "Grand Final",
@@ -157,15 +144,6 @@ function simulatePlayoffs(
   };
 }
 
-// ── Full Bracket ─────────────────────────────────────────────
-
-/**
- * Simulate a complete Major bracket.
- *
- * @param groups - 4 groups of 4 teams (from seedIntoGroups)
- * @param rng - seeded random number generator
- * @param userTeamId - the user's team ID to track their journey
- */
 export function simulateBracket(
   groups: MatchTeam[][],
   rng: () => number,
@@ -177,7 +155,6 @@ export function simulateBracket(
 
   const matchCounter = { value: 1 };
 
-  // Stage 1: Group stage
   const groupNames = ["A", "B", "C", "D"];
   const groupResults: GroupResult[] = [];
   const allAdvancing: MatchTeam[] = [];
@@ -188,14 +165,12 @@ export function simulateBracket(
     allAdvancing.push(...result.advancing);
   }
 
-  // Stage 2: Playoffs
-  const { rounds: playoffRounds, champion, runnerUp } = simulatePlayoffs(
-    allAdvancing,
-    rng,
-    matchCounter,
-  );
+  const {
+    rounds: playoffRounds,
+    champion,
+    runnerUp,
+  } = simulatePlayoffs(allAdvancing, rng, matchCounter);
 
-  // Collect all matches
   const allMatches: MatchResult[] = [];
   for (const group of groupResults) {
     allMatches.push(...group.matches);
@@ -204,7 +179,6 @@ export function simulateBracket(
     allMatches.push(...round.matches);
   }
 
-  // Extract user team's journey
   const userTeamPath = allMatches.filter(
     (m) => m.teamA.id === userTeamId || m.teamB.id === userTeamId,
   );

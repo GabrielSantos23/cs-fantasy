@@ -34,9 +34,7 @@ export const ChemistryBar: React.FC<ChemistryBarProps> = ({
 
   return (
     <div className="space-y-3">
-      {/* Inline stats row */}
       <div className="flex items-center gap-3 flex-wrap">
-        {/* Base Power */}
         <div className="flex items-center gap-1.5 bg-white/5 border border-white/8 rounded-lg px-3 py-2">
           <Gauge className="size-3.5 text-white/40" />
           <div className="text-xs">
@@ -45,44 +43,48 @@ export const ChemistryBar: React.FC<ChemistryBarProps> = ({
           </div>
         </div>
 
-        {/* Chemistry modifier */}
         <div
           className={`flex items-center gap-1.5 rounded-lg px-3 py-2 border ${
             isPositive
               ? "bg-positive/10 border-positive/20"
               : totalMod < 0
-              ? "bg-negative/10 border-negative/20"
-              : "bg-white/5 border-white/8"
+                ? "bg-negative/10 border-negative/20"
+                : "bg-white/5 border-white/8"
           }`}
         >
-          <Zap className={`size-3.5 ${isPositive ? "text-positive" : totalMod < 0 ? "text-negative" : "text-white/40"}`} />
+          <Zap
+            className={`size-3.5 ${isPositive ? "text-positive" : totalMod < 0 ? "text-negative" : "text-white/40"}`}
+          />
           <div className="text-xs">
             <span className="text-white/40 mr-1">Química</span>
-            <span className={`font-bold ${isPositive ? "text-positive" : "text-negative"}`}>
+            <span
+              className={`font-bold ${isPositive ? "text-positive" : "text-negative"}`}
+            >
               {isPositive ? `+${modPercent}%` : `${modPercent}%`}
             </span>
           </div>
         </div>
 
-        {/* Variance */}
         <div className="flex items-center gap-1.5 bg-white/5 border border-white/8 rounded-lg px-3 py-2">
           <Shuffle className="size-3.5 text-purple-light" />
           <div className="text-xs">
             <span className="text-white/40 mr-1">Variância</span>
-            <span className="text-purple-light font-bold">×{varianceMultiplier.toFixed(1)}</span>
+            <span className="text-purple-light font-bold">
+              ×{varianceMultiplier.toFixed(1)}
+            </span>
           </div>
         </div>
 
-        {/* Final power */}
         <div className="flex items-center gap-1.5 bg-white/10 border border-white/15 rounded-lg px-3 py-2">
           <TrendingUp className="size-3.5 text-white/80" />
           <div className="text-xs">
             <span className="text-white/40 mr-1">Final</span>
-            <span className="text-white font-bold font-display text-sm">{finalPower.toFixed(0)}</span>
+            <span className="text-white font-bold font-display text-sm">
+              {finalPower.toFixed(0)}
+            </span>
           </div>
         </div>
 
-        {/* Toggle details */}
         {chemistry.factors.length > 0 && (
           <button
             onClick={() => setShowDetails(!showDetails)}
@@ -98,13 +100,10 @@ export const ChemistryBar: React.FC<ChemistryBarProps> = ({
         )}
       </div>
 
-      {/* Progress bar */}
       <div className="relative h-1.5 w-full bg-white/8 rounded-full overflow-hidden">
         <div
           className={`h-full transition-all duration-500 rounded-full ${
-            isPositive
-              ? "bg-positive"
-              : "bg-negative"
+            isPositive ? "bg-positive" : "bg-negative"
           }`}
           style={{
             width: `${Math.min(100, Math.max(8, (1 + totalMod) * 50))}%`,
@@ -112,7 +111,6 @@ export const ChemistryBar: React.FC<ChemistryBarProps> = ({
         />
       </div>
 
-      {/* Detailed factors (expandable) */}
       {showDetails && (
         <div className="grid grid-cols-1 md:grid-cols-2 gap-1.5 pt-1 animate-fade-in">
           {chemistry.factors.map((factor, idx) => {
@@ -124,7 +122,7 @@ export const ChemistryBar: React.FC<ChemistryBarProps> = ({
             return (
               <div
                 key={idx}
-                className="flex items-center justify-between p-2 rounded-lg bg-white/[0.03] hover:bg-white/[0.06] transition-colors text-xs"
+                className="flex items-center justify-between p-2 rounded-lg bg-white/3 hover:bg-white/6 transition-colors text-xs"
               >
                 <div className="flex items-center gap-1.5 min-w-0">
                   {isGood ? (
@@ -143,8 +141,8 @@ export const ChemistryBar: React.FC<ChemistryBarProps> = ({
                     isGood
                       ? "text-positive"
                       : isBad
-                      ? "text-negative"
-                      : "text-white/30"
+                        ? "text-negative"
+                        : "text-white/30"
                   }`}
                 >
                   {val > 0 ? `+${pct}%` : `${pct}%`}

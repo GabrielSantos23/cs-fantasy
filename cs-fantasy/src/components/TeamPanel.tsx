@@ -41,7 +41,6 @@ export const TeamPanel: React.FC<TeamPanelProps> = ({
 
   return (
     <div className="space-y-5">
-      {/* Panel Header */}
       <div className="flex items-center justify-between">
         <div className="flex items-center gap-3">
           <div className="flex items-center gap-2">
@@ -51,12 +50,16 @@ export const TeamPanel: React.FC<TeamPanelProps> = ({
             </h2>
           </div>
           <div className="flex items-center gap-1.5 text-xs text-white/40">
-            <span className={`font-bold ${filledCount === 5 ? "text-positive" : "text-white/60"}`}>
+            <span
+              className={`font-bold ${filledCount === 5 ? "text-positive" : "text-white/60"}`}
+            >
               {filledCount}/5
             </span>
             <span>jogadores</span>
             <span className="text-white/20">·</span>
-            <span className={`font-bold ${hasCoach ? "text-positive" : "text-white/60"}`}>
+            <span
+              className={`font-bold ${hasCoach ? "text-positive" : "text-white/60"}`}
+            >
               {hasCoach ? "1" : "0"}/1
             </span>
             <span>coach</span>
@@ -74,7 +77,6 @@ export const TeamPanel: React.FC<TeamPanelProps> = ({
         </Button>
       </div>
 
-      {/* Roster Grid: 5 Players + 1 Coach in a row */}
       <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3">
         {players.map((p, idx) => (
           <TeamSlot
@@ -85,7 +87,6 @@ export const TeamPanel: React.FC<TeamPanelProps> = ({
           />
         ))}
 
-        {/* Coach slot (visually distinct) */}
         <div className="relative">
           <div className="absolute -top-2.5 left-1/2 -translate-x-1/2 z-10">
             <span className="bg-role-coach/20 text-role-coach text-[9px] font-bold uppercase tracking-widest px-2 py-0.5 rounded-full border border-role-coach/30 whitespace-nowrap flex items-center gap-1">
@@ -104,7 +105,6 @@ export const TeamPanel: React.FC<TeamPanelProps> = ({
 
       <Separator className="bg-white/5" />
 
-      {/* Chemistry Stats Bar */}
       <ChemistryBar
         chemistry={chemistry}
         basePower={basePower}
@@ -112,7 +112,6 @@ export const TeamPanel: React.FC<TeamPanelProps> = ({
         varianceMultiplier={varianceMultiplier}
       />
 
-      {/* Simulate Button */}
       <Button
         onClick={onSimulate}
         disabled={!hasFullRoster}

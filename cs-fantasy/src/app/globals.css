@@ -4,38 +4,35 @@
 
 @custom-variant dark (&:is(.dark *));
 
-/* ─── Google Fonts (loaded in layout.tsx via next/font) ─── */
-
-/* ─── Tailwind v4 Theme ─── */
 @theme {
-  --color-bg: #0A0A0B;
+  --color-bg: #0a0a0b;
   --color-bg-lighter: #131316;
-  --color-bg-card: #1A1A1D;
+  --color-bg-card: #1a1a1d;
   --color-bg-card-hover: #222226;
 
   --color-surface: rgba(255, 255, 255, 0.03);
   --color-surface-hover: rgba(255, 255, 255, 0.06);
-  --color-surface-active: rgba(255, 255, 255, 0.10);
+  --color-surface-active: rgba(255, 255, 255, 0.1);
 
   --color-border: rgba(255, 255, 255, 0.06);
   --color-border-hover: rgba(255, 255, 255, 0.12);
 
-  --color-hi: #3B6EF5;
-  --color-hi-dark: #2B5AD4;
-  --color-hi-light: #6B9AFF;
+  --color-hi: #3b6ef5;
+  --color-hi-dark: #2b5ad4;
+  --color-hi-light: #6b9aff;
 
   --color-purple: #8b5cf6;
   --color-purple-dark: #6d28d9;
   --color-purple-light: #a78bfa;
 
-  --color-badge-blue: #3B6EF5;
-  --color-badge-green: #22C55E;
-  --color-badge-purple: #8B5CF6;
-  --color-badge-red: #EF4444;
+  --color-badge-blue: #3b6ef5;
+  --color-badge-green: #22c55e;
+  --color-badge-purple: #8b5cf6;
+  --color-badge-red: #ef4444;
 
-  --color-text: #E8E8EC;
-  --color-text-muted: #9A9AA0;
-  --color-text-dim: #5A5A62;
+  --color-text: #e8e8ec;
+  --color-text-muted: #9a9aa0;
+  --color-text-dim: #5a5a62;
 
   --color-role-igl: #3b82f6;
   --color-role-awper: #ef4444;
@@ -64,44 +61,79 @@
   --animate-card-pop: card-pop 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
 }
 
-/* ─── Keyframes ─── */
 @keyframes fade-in {
-  from { opacity: 0; }
-  to { opacity: 1; }
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 @keyframes slide-up {
-  from { opacity: 0; transform: translateY(20px); }
-  to { opacity: 1; transform: translateY(0); }
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 @keyframes slide-in-right {
-  from { opacity: 0; transform: translateX(20px); }
-  to { opacity: 1; transform: translateX(0); }
+  from {
+    opacity: 0;
+    transform: translateX(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
 
 @keyframes pulse-gold {
-  0%, 100% { box-shadow: 0 0 20px rgba(245, 166, 35, 0.15); }
-  50% { box-shadow: 0 0 30px rgba(245, 166, 35, 0.3); }
+  0%,
+  100% {
+    box-shadow: 0 0 20px rgba(245, 166, 35, 0.15);
+  }
+  50% {
+    box-shadow: 0 0 30px rgba(245, 166, 35, 0.3);
+  }
 }
 
 @keyframes shimmer {
-  0% { background-position: -200% center; }
-  100% { background-position: 200% center; }
+  0% {
+    background-position: -200% center;
+  }
+  100% {
+    background-position: 200% center;
+  }
 }
 
 @keyframes bounce-in {
-  0% { opacity: 0; transform: scale(0.8); }
-  100% { opacity: 1; transform: scale(1); }
+  0% {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
 }
 
 @keyframes card-pop {
-  0% { transform: scale(0.95); }
-  50% { transform: scale(1.02); }
-  100% { transform: scale(1); }
+  0% {
+    transform: scale(0.95);
+  }
+  50% {
+    transform: scale(1.02);
+  }
+  100% {
+    transform: scale(1);
+  }
 }
 
-/* ─── Base Styles ─── */
 * {
   scrollbar-width: thin;
   scrollbar-color: rgba(255, 255, 255, 0.1) transparent;
@@ -130,7 +162,6 @@ body {
   font-family: var(--font-body);
 }
 
-/* ─── Utility Classes ─── */
 .glass {
   background: rgba(26, 26, 29, 0.6);
   backdrop-filter: blur(20px);
@@ -144,15 +175,21 @@ body {
   border-color: var(--color-border-hover);
 }
 
-.gradient-hi, .gradient-gold {
-  background: #3B6EF5;
+.gradient-hi,
+.gradient-gold {
+  background: #3b6ef5;
 }
 
 .gradient-purple {
-  background: linear-gradient(135deg, var(--color-purple), var(--color-purple-dark));
+  background: linear-gradient(
+    135deg,
+    var(--color-purple),
+    var(--color-purple-dark)
+  );
 }
 
-.gradient-hi-text, .gradient-gold-text {
+.gradient-hi-text,
+.gradient-gold-text {
   background: linear-gradient(135deg, var(--color-hi-light), var(--color-hi));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -160,7 +197,8 @@ body {
 }
 
 .gradient-hero {
-  background: linear-gradient(180deg,
+  background: linear-gradient(
+    180deg,
     rgba(59, 110, 245, 0.15) 0%,
     rgba(59, 110, 245, 0.08) 50%,
     transparent 100%
@@ -178,29 +216,39 @@ body {
     inset 0 1px 0 rgba(255, 255, 255, 0.04);
 }
 
-.card-glow-hi, .card-glow-gold {
+.card-glow-hi,
+.card-glow-gold {
   box-shadow:
     0 4px 20px -2px rgba(59, 110, 245, 0.2),
     0 2px 4px -2px rgba(0, 0, 0, 0.2),
     inset 0 1px 0 rgba(255, 255, 255, 0.08);
 }
 
-/* ─── Role Badge Colors ─── */
-.role-igl { background-color: var(--color-role-igl); }
-.role-awper { background-color: var(--color-role-awper); }
-.role-rifler { background-color: var(--color-role-rifler); }
-.role-entry { background-color: var(--color-role-entry); }
-.role-support { background-color: var(--color-role-support); }
-.role-lurker { background-color: var(--color-role-lurker); }
-.role-coach { background-color: var(--color-role-coach); }
+.role-igl {
+  background-color: var(--color-role-igl);
+}
+.role-awper {
+  background-color: var(--color-role-awper);
+}
+.role-rifler {
+  background-color: var(--color-role-rifler);
+}
+.role-entry {
+  background-color: var(--color-role-entry);
+}
+.role-support {
+  background-color: var(--color-role-support);
+}
+.role-lurker {
+  background-color: var(--color-role-lurker);
+}
+.role-coach {
+  background-color: var(--color-role-coach);
+}
 
-/* ═══════════════════════════════════════════════════════════════
-   PREMIUM DARK CINEMATIC DESIGN SYSTEM
-   ═══════════════════════════════════════════════════════════════ */
-
-/* ─── Aurora Glow Background ─── */
 @keyframes aurora-drift {
-  0%, 100% {
+  0%,
+  100% {
     transform: translate(-50%, -50%) scale(1) rotate(0deg);
     opacity: 0.35;
   }
@@ -219,7 +267,8 @@ body {
 }
 
 @keyframes aurora-drift-2 {
-  0%, 100% {
+  0%,
+  100% {
     transform: translate(-50%, -50%) scale(1.1) rotate(0deg);
     opacity: 0.2;
   }
@@ -234,7 +283,8 @@ body {
 }
 
 @keyframes float-subtle {
-  0%, 100% {
+  0%,
+  100% {
     transform: translateY(0);
   }
   50% {
@@ -243,7 +293,8 @@ body {
 }
 
 @keyframes float-subtle-delayed {
-  0%, 100% {
+  0%,
+  100% {
     transform: translateY(0);
   }
   50% {
@@ -252,21 +303,35 @@ body {
 }
 
 @keyframes pulse-line {
-  0%, 100% { opacity: 0.15; }
-  50% { opacity: 0.4; }
+  0%,
+  100% {
+    opacity: 0.15;
+  }
+  50% {
+    opacity: 0.4;
+  }
 }
 
 @keyframes connector-pulse {
-  0%, 100% { opacity: 0.08; }
-  50% { opacity: 0.2; }
+  0%,
+  100% {
+    opacity: 0.08;
+  }
+  50% {
+    opacity: 0.2;
+  }
 }
 
 @keyframes play-pulse {
-  0%, 100% { box-shadow: 0 0 0 0 rgba(255,255,255,0.15); }
-  50% { box-shadow: 0 0 0 8px rgba(255,255,255,0); }
+  0%,
+  100% {
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.15);
+  }
+  50% {
+    box-shadow: 0 0 0 8px rgba(255, 255, 255, 0);
+  }
 }
 
-/* ─── Hero Card (framed window effect) ─── */
 .hero-card {
   position: relative;
   border-radius: 24px;
@@ -277,7 +342,7 @@ body {
 }
 
 .hero-card::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 40%;
   left: 50%;
@@ -297,7 +362,7 @@ body {
 }
 
 .hero-card::after {
-  content: '';
+  content: "";
   position: absolute;
   top: 30%;
   left: 55%;
@@ -315,7 +380,6 @@ body {
   pointer-events: none;
 }
 
-/* ─── Header Pill ─── */
 .header-pill {
   position: fixed;
   top: 12px;
@@ -336,7 +400,6 @@ body {
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
 }
 
-/* ─── Nav Pill (inside header) ─── */
 .nav-pill {
   display: flex;
   align-items: center;
@@ -363,7 +426,6 @@ body {
   background: rgba(255, 255, 255, 0.06);
 }
 
-/* ─── Light Rays (decorative vertical lines) ─── */
 .light-rays {
   position: absolute;
   bottom: 0;
@@ -379,17 +441,37 @@ body {
   position: absolute;
   bottom: 0;
   width: 1px;
-  background: linear-gradient(to top, rgba(255,255,255,0.12), transparent);
+  background: linear-gradient(to top, rgba(255, 255, 255, 0.12), transparent);
   animation: pulse-line 4s ease-in-out infinite;
 }
 
-.light-rays .ray:nth-child(1) { left: 30%; height: 140px; animation-delay: 0s; }
-.light-rays .ray:nth-child(2) { left: 45%; height: 180px; animation-delay: 0.8s; }
-.light-rays .ray:nth-child(3) { left: 50%; height: 160px; animation-delay: 0.3s; opacity: 0.25; }
-.light-rays .ray:nth-child(4) { left: 55%; height: 120px; animation-delay: 1.2s; }
-.light-rays .ray:nth-child(5) { left: 70%; height: 100px; animation-delay: 0.6s; }
+.light-rays .ray:nth-child(1) {
+  left: 30%;
+  height: 140px;
+  animation-delay: 0s;
+}
+.light-rays .ray:nth-child(2) {
+  left: 45%;
+  height: 180px;
+  animation-delay: 0.8s;
+}
+.light-rays .ray:nth-child(3) {
+  left: 50%;
+  height: 160px;
+  animation-delay: 0.3s;
+  opacity: 0.25;
+}
+.light-rays .ray:nth-child(4) {
+  left: 55%;
+  height: 120px;
+  animation-delay: 1.2s;
+}
+.light-rays .ray:nth-child(5) {
+  left: 70%;
+  height: 100px;
+  animation-delay: 0.6s;
+}
 
-/* ─── Floating Badges (live data) ─── */
 .floating-badge {
   position: absolute;
   display: flex;
@@ -457,7 +539,6 @@ body {
   animation-delay: 0.5s;
 }
 
-/* ─── Connector Lines (decorative) ─── */
 .connector-line {
   position: absolute;
   pointer-events: none;
@@ -477,7 +558,6 @@ body {
   animation: connector-pulse 6s ease-in-out infinite;
 }
 
-/* ─── Play Button (decorative) ─── */
 .play-btn-deco {
   width: 44px;
   height: 44px;
@@ -504,14 +584,13 @@ body {
   margin-left: 2px;
 }
 
-/* ─── CTA Buttons ─── */
 .btn-solid-white {
   display: inline-flex;
   align-items: center;
   gap: 8px;
   padding: 12px 28px;
   background: #ffffff;
-  color: #0A0A0A;
+  color: #0a0a0a;
   font-weight: 700;
   font-size: 14px;
   border-radius: 12px;
@@ -549,7 +628,6 @@ body {
   color: #ffffff;
 }
 
-/* ─── CTA Badge Pill ─── */
 .cta-badge-pill {
   display: inline-flex;
   align-items: center;
@@ -582,7 +660,6 @@ body {
   justify-content: center;
 }
 
-/* ─── Scroll Down Indicator ─── */
 .scroll-indicator {
   display: inline-flex;
   align-items: center;
@@ -606,7 +683,6 @@ body {
   justify-content: center;
 }
 
-/* ─── Progress Dots ─── */
 .progress-dots {
   display: flex;
   align-items: center;
@@ -626,18 +702,33 @@ body {
   width: 32px;
 }
 
-/* ─── Team Logo Strip (Marquee) ─── */
 @keyframes marquee-scroll {
-  0% { transform: translateX(0); }
-  100% { transform: translateX(-50%); }
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
 }
 
 .team-logo-strip-wrapper {
   overflow: hidden;
   position: relative;
   padding: 28px 0;
-  mask-image: linear-gradient(to right, transparent 0%, black 10%, black 90%, transparent 100%);
-  -webkit-mask-image: linear-gradient(to right, transparent 0%, black 10%, black 90%, transparent 100%);
+  mask-image: linear-gradient(
+    to right,
+    transparent 0%,
+    black 10%,
+    black 90%,
+    transparent 100%
+  );
+  -webkit-mask-image: linear-gradient(
+    to right,
+    transparent 0%,
+    black 10%,
+    black 90%,
+    transparent 100%
+  );
 }
 
 .team-logo-strip {
@@ -680,7 +771,6 @@ body {
   letter-spacing: 0.02em;
 }
 
-/* ─── Header CTA Button ─── */
 .header-cta {
   display: inline-flex;
   align-items: center;
@@ -704,7 +794,6 @@ body {
   background: rgba(255, 255, 255, 0.05);
 }
 
-/* ─── Section Cards (premium) ─── */
 .premium-card {
   background: rgba(17, 17, 17, 0.6);
   border: 1px solid rgba(255, 255, 255, 0.06);
@@ -718,7 +807,6 @@ body {
   background: rgba(22, 22, 22, 0.8);
 }
 
-/* ─── Responsive Floating Badges ─── */
 @media (max-width: 768px) {
   .floating-badge {
     display: none;
@@ -788,7 +876,8 @@ body {
   --radius-4xl: calc(var(--radius) * 2.6);
 }
 
-:root, .dark {
+:root,
+.dark {
   --background: oklch(0.07 0.005 260);
   --foreground: oklch(0.985 0 0);
   --card: oklch(0.13 0.005 260);

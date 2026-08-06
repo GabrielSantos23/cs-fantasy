@@ -1,12 +1,3 @@
-// ─────────────────────────────────────────────────────────────
-// Seeded random number generator (Mulberry32).
-// Allows deterministic simulations for testing/replay.
-// ─────────────────────────────────────────────────────────────
-
-/**
- * Create a seeded pseudo-random number generator (Mulberry32).
- * Returns a function that produces numbers in [0, 1).
- */
 export function createRNG(seed: number): () => number {
   let s = seed | 0;
   return () => {
@@ -17,10 +8,6 @@ export function createRNG(seed: number): () => number {
   };
 }
 
-/**
- * Gaussian random using Box-Muller transform.
- * Returns a value from a normal distribution with given mean and stddev.
- */
 export function gaussianRandom(
   rng: () => number,
   mean: number = 0,
@@ -32,10 +19,6 @@ export function gaussianRandom(
   return mean + z * stddev;
 }
 
-/**
- * Weighted random pick from an array.
- * Each item has a weight; higher weight = more likely to be picked.
- */
 export function weightedPick<T>(
   items: T[],
   weights: number[],
@@ -50,9 +33,6 @@ export function weightedPick<T>(
   return items[items.length - 1];
 }
 
-/**
- * Shuffle an array in place using Fisher-Yates.
- */
 export function shuffle<T>(array: T[], rng: () => number): T[] {
   const result = [...array];
   for (let i = result.length - 1; i > 0; i--) {

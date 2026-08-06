@@ -7,18 +7,18 @@ export function selectOpponents(
   dataset: GameDataset,
   userTeamPlayerIds: string[],
   count: number = 15,
-  rng: () => number
+  rng: () => number,
 ): OpponentTeam[] {
-  const validTeams = dataset.realTeams.filter(team => {
+  const validTeams = dataset.realTeams.filter((team) => {
     if (team.valid_players_count < 5) return false;
-    return !team.player_ids.some(pid => userTeamPlayerIds.includes(pid));
+    return !team.player_ids.some((pid) => userTeamPlayerIds.includes(pid));
   });
 
   const opponentCandidates: OpponentTeam[] = [];
   for (const team of validTeams) {
     const playerEras: PlayerEra[] = [];
     let validRoster = true;
-    
+
     for (const eraId of team.roster_era_ids) {
       const era = dataset.eras.get(eraId);
       if (era) {
@@ -28,11 +28,11 @@ export function selectOpponents(
         break;
       }
     }
-    
+
     if (!validRoster || playerEras.length < 5) continue;
-    
+
     const roster = playerEras.slice(0, 5);
-    
+
     let coachEra: PlayerEra | null = null;
     if (team.coach_id) {
       const coachEraId = `${team.coach_id}_${team.year}`;
@@ -41,10 +41,12 @@ export function selectOpponents(
 
     const basePower = roster.reduce((sum, p) => sum + p.total_score, 0);
 
-    // Calculate chemistry — coach may be null if era not found
-    // Use a dummy coach era for chemistry calc if coach era is not available
     const effectiveCoach = coachEra ?? roster[0]; // fallback to first player as coach proxy
-    const chemistry = calculateChemistry(roster, effectiveCoach, dataset.coPlayMatrix);
+    const chemistry = calculateChemistry(
+      roster,
+      effectiveCoach,
+      dataset.coPlayMatrix,
+    );
     const varianceMultiplier = calculateVarianceMultiplier(roster);
     const finalPower = basePower * (1 + chemistry.totalModifier);
 
@@ -89,14 +91,14 @@ export function selectOpponents(
 export function seedIntoGroups(
   userTeam: MatchTeam,
   opponents: MatchTeam[],
-  rng: () => number
+  rng: () => number,
 ): MatchTeam[][] {
   const allTeams = [userTeam, ...opponents];
-  
+
   allTeams.sort((a, b) => b.finalPower - a.finalPower);
-  
+
   const groups: MatchTeam[][] = [[], [], [], []];
-  
+
   if (allTeams.length === 16) {
     groups[0] = [allTeams[0], allTeams[7], allTeams[8], allTeams[15]];
     groups[1] = [allTeams[1], allTeams[6], allTeams[9], allTeams[14]];

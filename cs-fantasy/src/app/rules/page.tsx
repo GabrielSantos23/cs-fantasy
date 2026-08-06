@@ -31,8 +31,7 @@ import {
 export default function RulesPage() {
   return (
     <div className="min-h-screen flex flex-col justify-between bg-[#0A0A0A]">
-      {/* Header Navigation */}
-      <header className="sticky top-0 z-50 border-b border-white/[0.06] backdrop-blur-xl bg-[#0A0A0A]/90">
+      <header className="sticky top-0 z-50 border-b border-white/6 backdrop-blur-xl bg-[#0A0A0A]/90">
         <div className="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
           <Link href="/" className="flex items-center gap-2">
             <Crosshair className="size-5 text-white/50" />
@@ -42,11 +41,20 @@ export default function RulesPage() {
           </Link>
 
           <div className="flex items-center gap-3 text-xs font-semibold">
-            <Button size="sm" render={<Link href="/build" />} className="bg-white text-[#0A0A0A] font-bold gap-1.5 hover:bg-white/90">
+            <Button
+              size="sm"
+              render={<Link href="/build" />}
+              className="bg-white text-[#0A0A0A] font-bold gap-1.5 hover:bg-white/90"
+            >
               <Gamepad2 className="size-3.5" />
               Montar Time
             </Button>
-            <Button variant="ghost" size="sm" render={<Link href="/" />} className="gap-1.5">
+            <Button
+              variant="ghost"
+              size="sm"
+              render={<Link href="/" />}
+              className="gap-1.5"
+            >
               <Home className="size-3.5" />
               Início
             </Button>
@@ -72,7 +80,7 @@ export default function RulesPage() {
         </div>
 
         {/* Section 1: Conceito & Montagem de Time */}
-        <section className="rounded-xl p-6 border border-white/[0.06] space-y-4 bg-[#111111]/60">
+        <section className="rounded-xl p-6 border border-white/6 space-y-4 bg-[#111111]/60">
           <h2 className="font-display text-2xl font-bold uppercase text-white/80 tracking-wide flex items-center gap-2">
             <Target className="size-5 text-white/50" />
             1. Montagem de Time & Força Base
@@ -104,8 +112,7 @@ export default function RulesPage() {
           </div>
         </section>
 
-        {/* Section 2: Tabela de 8 Fatores de Química */}
-        <section className="rounded-xl p-6 border border-white/[0.06] space-y-4 bg-[#111111]/60">
+        <section className="rounded-xl p-6 border border-white/6 space-y-4 bg-[#111111]/60">
           <h2 className="font-display text-2xl font-bold uppercase text-white/80 tracking-wide flex items-center gap-2">
             <Swords className="size-5 text-white/50" />
             2. Os 8 Fatores de Química (Bônus & Ônus)
@@ -140,12 +147,12 @@ export default function RulesPage() {
                   </TableCell>
                   <TableCell>
                     Avalia o idioma nativo dos 5 jogadores + coach.
-                    <br />•{" "}Todos 6 compartilham:{" "}
-                    <span className="text-positive">+8%</span> | 5
-                    compartilham: <span className="text-positive">+6%</span> |
-                    4: <span className="text-positive">+4%</span> | 3:{" "}
+                    <br />• Todos 6 compartilham:{" "}
+                    <span className="text-positive">+8%</span> | 5 compartilham:{" "}
+                    <span className="text-positive">+6%</span> | 4:{" "}
+                    <span className="text-positive">+4%</span> | 3:{" "}
                     <span className="text-positive">+3%</span>
-                    <br />•{" "}Nenhum par compartilha idioma:{" "}
+                    <br />• Nenhum par compartilha idioma:{" "}
                     <span className="text-negative">-6%</span>
                   </TableCell>
                   <TableCell className="text-right font-mono font-bold">
@@ -160,10 +167,9 @@ export default function RulesPage() {
                   <TableCell>
                     Consulta a matriz de co-play do banco de dados de torneios
                     juntos no passado.
-                    <br />•{" "}
-                    <span className="text-positive">+1%</span> por torneio
-                    jogado no mesmo time por par (cap de +5% por par).
-                    <br />•{" "}Cap máximo total de co-play:{" "}
+                    <br />• <span className="text-positive">+1%</span> por
+                    torneio jogado no mesmo time por par (cap de +5% por par).
+                    <br />• Cap máximo total de co-play:{" "}
                     <span className="text-positive">+15%</span>.
                   </TableCell>
                   <TableCell className="text-right font-mono font-bold">
@@ -178,15 +184,16 @@ export default function RulesPage() {
                   <TableCell>
                     Verifica a composição de funções (IGL, AWPer, Rifler, Entry,
                     Support, Lurker).
-                    <br />•{" "}Possui ≥1 IGL <strong>E</strong> ≥1 AWPer:{" "}
+                    <br />• Possui ≥1 IGL <strong>E</strong> ≥1 AWPer:{" "}
                     <span className="text-positive">+5%</span>.
-                    <br />•{" "}Sem IGL:{" "}
-                    <span className="text-negative">-8%</span> | Sem AWPer:{" "}
-                    <span className="text-negative">-4%</span>.
-                    <br />•{" "}Mais de 2 da mesma função:{" "}
+                    <br />• Sem IGL: <span className="text-negative">
+                      -8%
+                    </span>{" "}
+                    | Sem AWPer: <span className="text-negative">-4%</span>.
+                    <br />• Mais de 2 da mesma função:{" "}
                     <span className="text-negative">-3%</span> por duplicata
                     extra.
-                    <br />•{" "}5 da mesma função: penalidade de{" "}
+                    <br />• 5 da mesma função: penalidade de{" "}
                     <span className="text-negative">-15%</span>.
                   </TableCell>
                   <TableCell className="text-right font-mono font-bold">
@@ -201,11 +208,11 @@ export default function RulesPage() {
                   <TableCell>
                     Avalia a distância do ano civil entre os jogadores do time (
                     <code className="text-white/60">max(ano) - min(ano)</code>).
-                    <br />•{" "}Gap ≤ 3 anos (meta similar):{" "}
+                    <br />• Gap ≤ 3 anos (meta similar):{" "}
                     <span className="text-positive">+3%</span>.
-                    <br />•{" "}Gap 4 a 7 anos:{" "}
+                    <br />• Gap 4 a 7 anos:{" "}
                     <span className="text-neutral font-normal">0%</span>.
-                    <br />•{" "}Gap 8 a 12 anos:{" "}
+                    <br />• Gap 8 a 12 anos:{" "}
                     <span className="text-negative">-4%</span> | Gap &gt; 12
                     anos (choque de meta):{" "}
                     <span className="text-negative">-8%</span>.
@@ -222,13 +229,16 @@ export default function RulesPage() {
                   <TableCell>
                     Soma o total de participações dos jogadores em campeonatos
                     Major e S-Tier na carreira.
-                    <br />•{" "}&lt; 3 aparições totais:{" "}
+                    <br />• &lt; 3 aparições totais:{" "}
                     <strong>Variância ×1.2</strong> (time instável em decisões).
-                    <br />•{" "}3 a 15 aparições:{" "}
-                    <strong>Variância ×1.0</strong> (padrão).
-                    <br />•{" "}&gt; 15 aparições:{" "}
-                    <strong>Variância ×0.9</strong> (time veterano e
-                    consistente).
+                    <br />• 3 a 15 aparições: <strong>
+                      Variância ×1.0
+                    </strong>{" "}
+                    (padrão).
+                    <br />• &gt; 15 aparições: <strong>
+                      Variância ×0.9
+                    </strong>{" "}
+                    (time veterano e consistente).
                   </TableCell>
                   <TableCell className="text-right font-mono font-bold">
                     Variância ×0.9 a ×1.2
@@ -242,10 +252,10 @@ export default function RulesPage() {
                   <TableCell>
                     Conta a proporção de pares entre os 5 jogadores que possuem
                     histórico prévio de equipe.
-                    <br />•{" "}0 pares se conhecem:{" "}
+                    <br />• 0 pares se conhecem:{" "}
                     <span className="text-negative">-6%</span> | 1 a 3 pares:{" "}
                     <span className="text-negative">-2%</span>.
-                    <br />•{" "}4 a 6 pares:{" "}
+                    <br />• 4 a 6 pares:{" "}
                     <span className="text-positive">+2%</span> | 7 a 9 pares:{" "}
                     <span className="text-positive">+4%</span> | 10 pares
                     (todos): <span className="text-positive">+8%</span>.
@@ -262,9 +272,8 @@ export default function RulesPage() {
                   <TableCell>
                     Verifica se o coach escolhido já treinou/jogou junto com
                     algum jogador do time.
-                    <br />•{" "}
-                    <span className="text-positive">+2%</span> por jogador que
-                    já trabalhou com o coach (cap máximo de{" "}
+                    <br />• <span className="text-positive">+2%</span> por
+                    jogador que já trabalhou com o coach (cap máximo de{" "}
                     <span className="text-positive">+8%</span>).
                   </TableCell>
                   <TableCell className="text-right font-mono font-bold">
@@ -279,11 +288,11 @@ export default function RulesPage() {
                   <TableCell>
                     Calcula a diferença de idade entre o jogador mais velho e o
                     mais novo.
-                    <br />•{" "}Gap de idade ≤ 5 anos:{" "}
+                    <br />• Gap de idade ≤ 5 anos:{" "}
                     <span className="text-positive">+2%</span>.
-                    <br />•{" "}Gap de idade 6 a 10 anos:{" "}
+                    <br />• Gap de idade 6 a 10 anos:{" "}
                     <span className="text-neutral font-normal">0%</span>.
-                    <br />•{" "}Gap de idade &gt; 10 anos:{" "}
+                    <br />• Gap de idade &gt; 10 anos:{" "}
                     <span className="text-negative">-3%</span>.
                   </TableCell>
                   <TableCell className="text-right font-mono font-bold">
@@ -295,8 +304,7 @@ export default function RulesPage() {
           </div>
         </section>
 
-        {/* Section 3: Sorteio de Adversários & Formato do Torneio */}
-        <section className="rounded-xl p-6 border border-white/[0.06] space-y-4 bg-[#111111]/60">
+        <section className="rounded-xl p-6 border border-white/6 space-y-4 bg-[#111111]/60">
           <h2 className="font-display text-2xl font-bold uppercase text-white/80 tracking-wide flex items-center gap-2">
             <Trophy className="size-5 text-white/50" />
             3. Formato do Major & Simulação de Partidas
@@ -310,9 +318,8 @@ export default function RulesPage() {
               </h4>
               <p className="text-white/35 leading-relaxed">
                 O motor seleciona <strong>15 adversários reais</strong> vindos
-                da tabela{" "}
-                <code className="text-white/60">real_teams.json</code> (ex:{" "}
-                <em>Natus Vincere 2021</em>, <em>Fnatic 2015</em>,{" "}
+                da tabela <code className="text-white/60">real_teams.json</code>{" "}
+                (ex: <em>Natus Vincere 2021</em>, <em>Fnatic 2015</em>,{" "}
                 <em>Astralis 2018</em>, <em>LG 2016</em>). Nenhum time é
                 inventado. Times sem roster completo de 5 jogadores + coach são
                 excluídos do sorteio.
@@ -325,18 +332,15 @@ export default function RulesPage() {
                 Estrutura do Torneio
               </h4>
               <p className="text-white/35 leading-relaxed">
-                •{" "}
-                <strong>Fase de Grupos (BO1)</strong>: 4 grupos de 4 times.
+                • <strong>Fase de Grupos (BO1)</strong>: 4 grupos de 4 times.
                 Formato round-robin com 3 rodadas por grupo. Os 2 melhores de
                 cada grupo avançam para os playoffs (8 times).
-                <br />•{" "}
-                <strong>Playoffs (BO3)</strong>: Eliminação simples (Quartas →
-                Semifinais → Grande Final em MD3).
+                <br />• <strong>Playoffs (BO3)</strong>: Eliminação simples
+                (Quartas → Semifinais → Grande Final em MD3).
               </p>
             </div>
           </div>
 
-          {/* Probability Model */}
           <div className="bg-white/5 p-4 rounded-xl space-y-2 text-xs">
             <h4 className="font-bold text-white uppercase text-sm flex items-center gap-1.5">
               <BarChart3 className="size-4 text-white/50" />
@@ -351,9 +355,9 @@ export default function RulesPage() {
               </code>
               A vantagem é atenuada por um fator de amortecimento (
               <code className="text-white/60">0.7 em BO1</code> e{" "}
-              <code className="text-white/60">0.85 em BO3</code>) e combinada com
-              ruído estocástico gaussiano. Isso significa que o time favorito
-              vence a maioria dos jogos (~65-75%), mas zebras e{" "}
+              <code className="text-white/60">0.85 em BO3</code>) e combinada
+              com ruído estocástico gaussiano. Isso significa que o time
+              favorito vence a maioria dos jogos (~65-75%), mas zebras e{" "}
               <strong className="inline-flex items-center gap-0.5">
                 <Zap className="size-3 text-upset" />
                 UPSETS
@@ -363,7 +367,6 @@ export default function RulesPage() {
           </div>
         </section>
 
-        {/* CTA Banner */}
         <div className="text-center pt-4">
           <Button
             size="lg"
@@ -376,8 +379,7 @@ export default function RulesPage() {
         </div>
       </main>
 
-      {/* Footer */}
-      <footer className="max-w-7xl mx-auto w-full p-4 text-center text-xs text-white/15 border-t border-white/[0.06]">
+      <footer className="max-w-7xl mx-auto w-full p-4 text-center text-xs text-white/15 border-t border-white/6">
         CS Fantasy Major • Especificação de Química & Engine de Simulação
       </footer>
     </div>

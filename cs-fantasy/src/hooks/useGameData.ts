@@ -14,7 +14,7 @@ interface LoadingState {
   loaded: boolean;
   loading: boolean;
   error: string | null;
-  progress: number; // 0-100
+  progress: number;
 }
 
 const dataCache: { current: GameDataset | null } = { current: null };
@@ -62,7 +62,6 @@ export function useGameData() {
 
         setState((s) => ({ ...s, progress: 70 }));
 
-        // Build Maps
         const eras = new Map<string, PlayerEra>();
         for (const era of erasArray) {
           eras.set(era.id, era);

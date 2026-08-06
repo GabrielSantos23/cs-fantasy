@@ -18,21 +18,25 @@ export const BracketView: React.FC<BracketViewProps> = ({
 }) => {
   const qf =
     playoffs.find((r) => r.roundName === "Quarterfinals")?.matches || [];
-  const sf =
-    playoffs.find((r) => r.roundName === "Semifinals")?.matches || [];
+  const sf = playoffs.find((r) => r.roundName === "Semifinals")?.matches || [];
   const final =
     playoffs.find((r) => r.roundName === "Grand Final")?.matches || [];
 
-  const groupStageFinished =
-    !revealedMatchIds || revealedMatchIds.size >= 24;
+  const groupStageFinished = !revealedMatchIds || revealedMatchIds.size >= 24;
 
-  const qf0Done = !revealedMatchIds || (qf[0] && revealedMatchIds.has(qf[0].matchId));
-  const qf1Done = !revealedMatchIds || (qf[1] && revealedMatchIds.has(qf[1].matchId));
-  const qf2Done = !revealedMatchIds || (qf[2] && revealedMatchIds.has(qf[2].matchId));
-  const qf3Done = !revealedMatchIds || (qf[3] && revealedMatchIds.has(qf[3].matchId));
+  const qf0Done =
+    !revealedMatchIds || (qf[0] && revealedMatchIds.has(qf[0].matchId));
+  const qf1Done =
+    !revealedMatchIds || (qf[1] && revealedMatchIds.has(qf[1].matchId));
+  const qf2Done =
+    !revealedMatchIds || (qf[2] && revealedMatchIds.has(qf[2].matchId));
+  const qf3Done =
+    !revealedMatchIds || (qf[3] && revealedMatchIds.has(qf[3].matchId));
 
-  const sf0Done = !revealedMatchIds || (sf[0] && revealedMatchIds.has(sf[0].matchId));
-  const sf1Done = !revealedMatchIds || (sf[1] && revealedMatchIds.has(sf[1].matchId));
+  const sf0Done =
+    !revealedMatchIds || (sf[0] && revealedMatchIds.has(sf[0].matchId));
+  const sf1Done =
+    !revealedMatchIds || (sf[1] && revealedMatchIds.has(sf[1].matchId));
 
   const qfSeedLabels = [
     { a: "1º Seed", b: "8º Seed" },
@@ -43,8 +47,7 @@ export const BracketView: React.FC<BracketViewProps> = ({
 
   return (
     <div className="w-full overflow-x-auto py-4">
-      <div className="min-w-[760px] grid grid-cols-3 gap-6 items-center">
-        {/* Quarterfinals Column */}
+      <div className="min-w-190 grid grid-cols-3 gap-6 items-center">
         <div className="space-y-6">
           <h4
             className="text-xs font-semibold uppercase tracking-wider text-white/40 text-center mb-4"
@@ -76,7 +79,6 @@ export const BracketView: React.FC<BracketViewProps> = ({
           })}
         </div>
 
-        {/* Semifinals Column */}
         <div className="space-y-12">
           <h4
             className="text-xs font-semibold uppercase tracking-wider text-white/40 text-center mb-4"
@@ -92,11 +94,15 @@ export const BracketView: React.FC<BracketViewProps> = ({
             let overrideTeamB;
 
             if (idx === 0) {
-              if (!qf0Done) overrideTeamA = { name: "Vencedor QF 1", id: "tbd-sf0-a" };
-              if (!qf1Done) overrideTeamB = { name: "Vencedor QF 2", id: "tbd-sf0-b" };
+              if (!qf0Done)
+                overrideTeamA = { name: "Vencedor QF 1", id: "tbd-sf0-a" };
+              if (!qf1Done)
+                overrideTeamB = { name: "Vencedor QF 2", id: "tbd-sf0-b" };
             } else {
-              if (!qf2Done) overrideTeamA = { name: "Vencedor QF 3", id: "tbd-sf1-a" };
-              if (!qf3Done) overrideTeamB = { name: "Vencedor QF 4", id: "tbd-sf1-b" };
+              if (!qf2Done)
+                overrideTeamA = { name: "Vencedor QF 3", id: "tbd-sf1-a" };
+              if (!qf3Done)
+                overrideTeamB = { name: "Vencedor QF 4", id: "tbd-sf1-b" };
             }
 
             return (
@@ -112,7 +118,6 @@ export const BracketView: React.FC<BracketViewProps> = ({
           })}
         </div>
 
-        {/* Grand Final Column */}
         <div className="space-y-6">
           <h4
             className="text-xs font-semibold uppercase tracking-wider text-white/90 text-center mb-4 flex items-center justify-center gap-1.5"
@@ -128,8 +133,10 @@ export const BracketView: React.FC<BracketViewProps> = ({
             let overrideTeamA;
             let overrideTeamB;
 
-            if (!sf0Done) overrideTeamA = { name: "Vencedor SF 1", id: "tbd-f-a" };
-            if (!sf1Done) overrideTeamB = { name: "Vencedor SF 2", id: "tbd-f-b" };
+            if (!sf0Done)
+              overrideTeamA = { name: "Vencedor SF 1", id: "tbd-f-a" };
+            if (!sf1Done)
+              overrideTeamB = { name: "Vencedor SF 2", id: "tbd-f-b" };
 
             return (
               <MatchCard
@@ -177,18 +184,19 @@ const MatchCard: React.FC<{
     <div
       className={`rounded-xl border p-3 bg-[#111111]/80 backdrop-blur-md transition-all duration-300 ${
         !isRevealed
-          ? "border-white/[0.04] opacity-50"
+          ? "border-white/4 opacity-50"
           : isFinal
-          ? "border-white/30 bg-white/[0.06] shadow-lg shadow-white/5"
-          : isUserMatch
-          ? "border-white/20 bg-white/[0.05]"
-          : "border-white/[0.08]"
+            ? "border-white/30 bg-white/6 shadow-lg shadow-white/5"
+            : isUserMatch
+              ? "border-white/20 bg-white/5"
+              : "border-white/8"
       }`}
     >
-      {/* Team A Row */}
       <div
         className={`flex items-center justify-between p-2 rounded-lg ${
-          teamAIsWinner ? "bg-white/10 font-semibold text-white" : "opacity-60 text-white/70"
+          teamAIsWinner
+            ? "bg-white/10 font-semibold text-white"
+            : "opacity-60 text-white/70"
         }`}
       >
         <div className="flex items-center gap-2 truncate">
@@ -204,13 +212,13 @@ const MatchCard: React.FC<{
         </span>
       </div>
 
-      {/* Divider */}
-      <div className="my-1 border-t border-white/[0.06]" />
+      <div className="my-1 border-t border-white/6" />
 
-      {/* Team B Row */}
       <div
         className={`flex items-center justify-between p-2 rounded-lg ${
-          teamBIsWinner ? "bg-white/10 font-semibold text-white" : "opacity-60 text-white/70"
+          teamBIsWinner
+            ? "bg-white/10 font-semibold text-white"
+            : "opacity-60 text-white/70"
         }`}
       >
         <div className="flex items-center gap-2 truncate">
@@ -226,8 +234,7 @@ const MatchCard: React.FC<{
         </span>
       </div>
 
-      {/* Upset Tag / Map Scores */}
-      <div className="mt-2 text-[10px] text-white/35 flex items-center justify-between pt-1 border-t border-white/[0.06]">
+      <div className="mt-2 text-[10px] text-white/35 flex items-center justify-between pt-1 border-t border-white/6">
         {isRevealed && match.isUpset ? (
           <span className="text-amber-400 font-semibold flex items-center gap-1">
             <Zap className="size-3" />
