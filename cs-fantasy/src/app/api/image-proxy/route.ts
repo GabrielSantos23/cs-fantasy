@@ -1,5 +1,4 @@
 import { NextRequest, NextResponse } from "next/server";
-import { gotScraping } from "got-scraping";
 import crypto from "crypto";
 import fs from "fs";
 import path from "path";
@@ -23,17 +22,22 @@ export async function GET(request: NextRequest) {
     const hash = crypto.createHash("md5").update(imageUrl).digest("hex");
     const cachedPngPath = path.join(CACHE_DIR, `${hash}.png`);
 
-    // Serve pre-processed transparent PNG from local img_cache if available
-    if (fs.existsSync(cachedPngPath)) {
-      const fileBuffer = fs.readFileSync(cachedPngPath);
-      return new NextResponse(new Uint8Array(fileBuffer), {
-        headers: {
-          "Content-Type": "image/png",
-          "Cache-Control": "no-cache, no-store, must-revalidate",
-        },
-      });
+    // 1. Serve pre-processed transparent PNG from local img_cache if available
+    try {
+      if (fs.existsSync(cachedPngPath)) {
+        const fileBuffer = fs.readFileSync(cachedPngPath);
+        return new NextResponse(new Uint8Array(fileBuffer), {
+          headers: {
+            "Content-Type": "image/png",
+            "Cache-Control": "public, max-age=86400, s-maxage=86400",
+          },
+        });
+      }
+    } catch {
+      // Ignore filesystem errors on read-only environments
     }
 
+    // 2. Fetch directly with browser headers
     const targetUrl = new URL(imageUrl);
     const referer = targetUrl.hostname.includes("hltv.org")
       ? "https://www.hltv.org/"
@@ -41,24 +45,24 @@ export async function GET(request: NextRequest) {
       ? "https://liquipedia.net/"
       : `${targetUrl.origin}/`;
 
-    const res = await gotScraping({
-      url: imageUrl,
+    const res = await fetch(imageUrl, {
       headers: {
-        Referer: referer,
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+        "Referer": referer,
       },
-      timeout: { request: 15000 },
+      next: { revalidate: 86400 },
     });
 
-    if (res.statusCode !== 200) {
-      return new NextResponse(`Failed to fetch image: HTTP ${res.statusCode}`, {
-        status: res.statusCode,
+    if (!res.ok) {
+      return new NextResponse(`Failed to fetch image: HTTP ${res.status}`, {
+        status: res.status,
       });
     }
 
-    const contentType = (res.headers["content-type"] as string) || "image/jpeg";
-    const imageBuffer = res.rawBody;
+    const contentType = res.headers.get("content-type") || "image/jpeg";
+    const arrayBuffer = await res.arrayBuffer();
 
-    return new NextResponse(new Uint8Array(imageBuffer), {
+    return new NextResponse(new Uint8Array(arrayBuffer), {
       headers: {
         "Content-Type": contentType,
         "Cache-Control": "public, max-age=86400, s-maxage=86400, stale-while-revalidate=604800",
