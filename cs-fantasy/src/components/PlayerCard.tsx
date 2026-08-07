@@ -116,7 +116,7 @@ export const PlayerCard: React.FC<PlayerCardProps> = ({
         <img
           src={
             era.photo_url.startsWith("http")
-              ? `/api/image-proxy?url=${encodeURIComponent(era.photo_url)}&v=2`
+              ? `/api/image-proxy?url=${encodeURIComponent(era.photo_url)}&v=4`
               : era.photo_url
           }
           alt={era.handle}

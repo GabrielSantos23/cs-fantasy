@@ -433,7 +433,7 @@ function ResultsContent() {
                           <img
                             src={
                               p.photo_url.startsWith("http")
-                                ? `/api/image-proxy?url=${encodeURIComponent(p.photo_url)}&v=2`
+                                ? `/api/image-proxy?url=${encodeURIComponent(p.photo_url)}&v=4`
                                 : p.photo_url
                             }
                             alt={p.handle}

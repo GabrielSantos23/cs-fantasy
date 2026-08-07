@@ -22,7 +22,7 @@ import {
 
 const getProxyPhoto = (url: string) =>
   url && url.startsWith("http")
-    ? `/api/image-proxy?url=${encodeURIComponent(url)}&v=2`
+    ? `/api/image-proxy?url=${encodeURIComponent(url)}&v=4`
     : url;
 
 const TOP_RANKED_ERAS = [
