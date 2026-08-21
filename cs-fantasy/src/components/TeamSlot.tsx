@@ -3,7 +3,7 @@
 import React, { useState } from "react";
 import type { PlayerEra } from "../lib/data/types";
 import { TeamLogo } from "./TeamLogo";
-import logoMapData from "../../public/data/team_logos_map.json";
+import { getPlayerBackgroundLogo, getPlayerMainTeam } from "../lib/teamLogos";
 import { Badge } from "@/components/ui/badge";
 import {
   X,
@@ -23,31 +23,6 @@ interface TeamSlotProps {
   isCoach?: boolean;
   onRemove: () => void;
   onClickSlot?: () => void;
-}
-
-interface LogoEntry {
-  local_path: string | null;
-  remote_url: string | null;
-  downloaded: boolean;
-}
-
-const logoMap: Record<string, LogoEntry> = logoMapData as Record<
-  string,
-  LogoEntry
->;
-
-function cleanTeamName(name: string): string {
-  if (!name) return "";
-  return name
-    .replace(/<!--.*?-->/g, "")
-    .replace(/<[^>]+>/g, "")
-    .trim();
-}
-
-function getTeamLogoUrl(teamName: string): string | null {
-  const cleaned = cleanTeamName(teamName);
-  const logoInfo = logoMap[cleaned] || logoMap[teamName];
-  return logoInfo?.local_path || logoInfo?.remote_url || null;
 }
 
 const ROLE_COLORS: Record<string, string> = {
@@ -93,8 +68,8 @@ export const TeamSlot: React.FC<TeamSlotProps> = ({
   const [logoError, setLogoError] = useState(false);
 
   if (era) {
-    const mainTeam = era.teams?.[0] ?? "";
-    const teamLogoUrl = getTeamLogoUrl(mainTeam);
+    const mainTeam = getPlayerMainTeam(era.teams, era.nationality);
+    const bgLogo = getPlayerBackgroundLogo(era.teams, era.nationality);
     const roleColor = isCoach
       ? ROLE_COLORS.Coach
       : ROLE_COLORS[era.primary_role] || "bg-purple-600";
@@ -105,17 +80,25 @@ export const TeamSlot: React.FC<TeamSlotProps> = ({
         className="group relative h-65 w-full rounded-xl overflow-hidden border border-white/10 bg-bg-card transition-all duration-300 hover:border-red-500/40 hover:bg-red-950/10 cursor-pointer"
         title="Clique para remover do roster"
       >
-        {teamLogoUrl && !logoError && (
-          <div className="absolute inset-0 flex items-center justify-center z-1 pointer-events-none">
-            <img
-              src={teamLogoUrl}
-              alt=""
-              onError={() => setLogoError(true)}
-              className="w-[80%] h-[80%] object-contain opacity-[0.15] select-none"
-              style={{ filter: "grayscale(20%) brightness(1.4)" }}
-            />
-          </div>
-        )}
+        <div className="absolute inset-0 flex items-center justify-center z-1 pointer-events-none">
+          <img
+            src={bgLogo.url}
+            alt=""
+            onError={(e) => {
+              const target = e.currentTarget;
+              if (!target.src.endsWith("/cs-logo.png")) {
+                target.src = "/cs-logo.png";
+                target.style.filter = "none";
+              }
+            }}
+            className="w-[80%] h-[80%] object-contain opacity-[0.12] select-none"
+            style={{
+              filter: bgLogo.isCsFallback
+                ? undefined
+                : "grayscale(20%) brightness(1.4)",
+            }}
+          />
+        </div>
 
         {era.photo_url && !imgError ? (
           <img

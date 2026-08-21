@@ -1,13 +1,17 @@
 "use client";
 
 import React, { useState } from "react";
-import logoMapData from "../../public/data/team_logos_map.json";
 import {
   Tooltip,
   TooltipContent,
   TooltipProvider,
   TooltipTrigger,
 } from "@/components/ui/tooltip";
+import {
+  getTeamLogoUrl,
+  cleanTeamName,
+  CS_LOGO_URL,
+} from "../lib/teamLogos";
 
 interface TeamLogoProps {
   teamName: string;
@@ -15,69 +19,6 @@ interface TeamLogoProps {
   showName?: boolean;
   className?: string;
   isUserTeam?: boolean;
-}
-
-interface LogoEntry {
-  local_path: string | null;
-  remote_url: string | null;
-  downloaded: boolean;
-}
-
-const logoMap: Record<string, LogoEntry> = logoMapData as Record<string, LogoEntry>;
-
-function cleanTeamName(name: string): string {
-  if (!name) return "";
-  return name.replace(/<!--.*?-->/g, "").replace(/<[^>]+>/g, "").trim();
-}
-
-function getInitials(name: string): string {
-  const cleaned = cleanTeamName(name);
-  if (!cleaned) return "?";
-  const words = cleaned.split(/[\s_-]+/);
-  if (words.length >= 2) {
-    return (words[0][0] + words[1][0]).toUpperCase();
-  }
-  return cleaned.slice(0, 3).toUpperCase();
-}
-
-function getLogoUrl(teamName: string): string | null {
-  if (!teamName) return null;
-
-  const cleaned = cleanTeamName(teamName);
-  if (logoMap[cleaned]?.local_path || logoMap[cleaned]?.remote_url) {
-    return logoMap[cleaned].local_path || logoMap[cleaned].remote_url;
-  }
-
-  const withoutYear = cleaned.replace(/\s+\d{4}$/, "").trim();
-  if (logoMap[withoutYear]?.local_path || logoMap[withoutYear]?.remote_url) {
-    return logoMap[withoutYear].local_path || logoMap[withoutYear].remote_url;
-  }
-
-  if (logoMap[teamName]?.local_path || logoMap[teamName]?.remote_url) {
-    return logoMap[teamName].local_path || logoMap[teamName].remote_url;
-  }
-
-  const lowerCleaned = cleaned.toLowerCase();
-  const lowerWithoutYear = withoutYear.toLowerCase();
-
-  for (const [key, entry] of Object.entries(logoMap)) {
-    const keyLower = key.toLowerCase();
-    if (keyLower === lowerCleaned || keyLower === lowerWithoutYear) {
-      if (entry.local_path || entry.remote_url) {
-        return entry.local_path || entry.remote_url;
-      }
-    }
-  }
-
-  if (withoutYear.includes("/")) {
-    const parts = withoutYear.split("/").map((p) => p.trim());
-    for (const part of parts) {
-      const partLogo = getLogoUrl(part);
-      if (partLogo) return partLogo;
-    }
-  }
-
-  return null;
 }
 
 export const TeamLogo: React.FC<TeamLogoProps> = ({
@@ -90,7 +31,7 @@ export const TeamLogo: React.FC<TeamLogoProps> = ({
   const [imgError, setImgError] = useState(false);
 
   const cleanedName = cleanTeamName(teamName);
-  const logoUrl = getLogoUrl(teamName);
+  const logoUrl = getTeamLogoUrl(teamName);
 
   const sizeClasses = {
     sm: "size-6 text-[10px]",
@@ -122,9 +63,11 @@ export const TeamLogo: React.FC<TeamLogoProps> = ({
       ) : isUserTeam ? (
         <span className="font-display font-black text-hi text-xs">⭐</span>
       ) : (
-        <span className="font-display font-extrabold uppercase text-white/80 tracking-wider">
-          {getInitials(teamName)}
-        </span>
+        <img
+          src={CS_LOGO_URL}
+          alt="CS"
+          className={`object-contain p-0.5 opacity-60 ${imgSizeClasses}`}
+        />
       )}
     </div>
   );

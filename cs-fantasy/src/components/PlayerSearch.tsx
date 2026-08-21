@@ -3,7 +3,7 @@
 import React, { useState, useMemo } from "react";
 import type { PlayerEra, GameDataset } from "../lib/data/types";
 import { TeamLogo } from "./TeamLogo";
-import logoMapData from "../../public/data/team_logos_map.json";
+import { getPlayerBackgroundLogo, getPlayerMainTeam } from "../lib/teamLogos";
 import { Badge } from "@/components/ui/badge";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
@@ -464,7 +464,8 @@ export const PlayerSearch: React.FC<PlayerSearchProps> = ({
             {visibleEras.map((era) => {
               const isSelected = selectedEraIds.has(era.id);
               const hasImgError = imgErrors.has(era.id);
-              const mainTeam = era.teams?.[0] ?? "";
+              const mainTeam = getPlayerMainTeam(era.teams, era.nationality);
+              const bgLogo = getPlayerBackgroundLogo(era.teams, era.nationality);
 
               return (
                 <div
@@ -481,26 +482,25 @@ export const PlayerSearch: React.FC<PlayerSearchProps> = ({
                       : "Clique para selecionar"
                   }
                 >
-                  {(() => {
-                    const logoInfo = (
-                      logoMapData as Record<
-                        string,
-                        { local_path: string | null; remote_url: string | null }
-                      >
-                    )[mainTeam];
-                    const logoUrl =
-                      logoInfo?.local_path || logoInfo?.remote_url || null;
-                    return logoUrl ? (
-                      <div className="absolute inset-0 flex items-center justify-center z-1 pointer-events-none">
-                        <img
-                          src={logoUrl}
-                          alt=""
-                          className="w-[70%] h-[70%] object-contain opacity-8 select-none"
-                          style={{ filter: "grayscale(100%) brightness(1.8)" }}
-                        />
-                      </div>
-                    ) : null;
-                  })()}
+                  <div className="absolute inset-0 flex items-center justify-center z-1 pointer-events-none">
+                    <img
+                      src={bgLogo.url}
+                      alt=""
+                      onError={(e) => {
+                        const target = e.currentTarget;
+                        if (!target.src.endsWith("/cs-logo.png")) {
+                          target.src = "/cs-logo.png";
+                          target.style.filter = "none";
+                        }
+                      }}
+                      className="w-[70%] h-[70%] object-contain opacity-[0.09] select-none"
+                      style={{
+                        filter: bgLogo.isCsFallback
+                          ? undefined
+                          : "grayscale(100%) brightness(1.8)",
+                      }}
+                    />
+                  </div>
 
                   {era.photo_url && !hasImgError ? (
                     <img

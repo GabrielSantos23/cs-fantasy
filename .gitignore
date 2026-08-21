@@ -4,6 +4,7 @@ node_modules/
 bun.lock
 /out/
 /dist/
+*.tsbuildinfo
 
 # Environment & Caches
 .env
@@ -18,6 +19,9 @@ data/cs_data.db
 data/cs_eras.db
 data/raw/
 data/img_raw/
+data/img_cache/
+data/
+cs-fantasy/data/
 
 # Existing markdown documentation (exclude except README.md)
 CHEMISTRY_FORMULA.md

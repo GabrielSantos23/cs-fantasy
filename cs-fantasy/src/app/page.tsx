@@ -177,7 +177,7 @@ export default function HomePage() {
       </header>
 
       <main className="flex-1 px-3 sm:px-4 pt-20 pb-8 max-w-340 mx-auto w-full space-y-6">
-        <section className="hero-card px-6 sm:px-12 pt-16 sm:pt-20 pb-8 min-h-[520px] flex flex-col">
+        <section className="hero-card px-6 sm:px-12 pt-16 sm:pt-20 pb-8 min-h-130 flex flex-col">
           <div className="floating-badge pos-top-left">
             <div className="badge-icon" style={{ overflow: "hidden" }}>
               <img

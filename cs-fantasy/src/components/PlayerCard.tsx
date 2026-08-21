@@ -14,7 +14,7 @@ import {
   ClipboardList,
 } from "lucide-react";
 import { TeamLogo } from "./TeamLogo";
-import logoMapData from "../../public/data/team_logos_map.json";
+import { getPlayerBackgroundLogo } from "../lib/teamLogos";
 
 interface PlayerCardProps {
   era: PlayerEra;
@@ -23,31 +23,6 @@ interface PlayerCardProps {
   isCoach?: boolean;
   isSelected?: boolean;
   compact?: boolean;
-}
-
-interface LogoEntry {
-  local_path: string | null;
-  remote_url: string | null;
-  downloaded: boolean;
-}
-
-const logoMap: Record<string, LogoEntry> = logoMapData as Record<
-  string,
-  LogoEntry
->;
-
-function cleanTeamName(name: string): string {
-  if (!name) return "";
-  return name
-    .replace(/<!--.*?-->/g, "")
-    .replace(/<[^>]+>/g, "")
-    .trim();
-}
-
-function getTeamLogoUrl(teamName: string): string | null {
-  const cleaned = cleanTeamName(teamName);
-  const logoInfo = logoMap[cleaned] || logoMap[teamName];
-  return logoInfo?.local_path || logoInfo?.remote_url || null;
 }
 
 export const PlayerCard: React.FC<PlayerCardProps> = ({
@@ -84,8 +59,7 @@ export const PlayerCard: React.FC<PlayerCardProps> = ({
 
   const displayTeams =
     era.teams && era.teams.length > 0 ? era.teams.slice(0, 3) : [];
-  const mainTeam = displayTeams[0] ?? "";
-  const teamLogoUrl = getTeamLogoUrl(mainTeam);
+  const bgLogo = getPlayerBackgroundLogo(era.teams, era.nationality);
 
   return (
     <div
@@ -100,17 +74,25 @@ export const PlayerCard: React.FC<PlayerCardProps> = ({
           : "border-white/8"
       } ${compact ? "p-2.5 h-36" : "p-4 h-56 w-full"}`}
     >
-      {teamLogoUrl && !logoError && (
-        <div className="absolute inset-0 flex items-center justify-center z-0 pointer-events-none">
-          <img
-            src={teamLogoUrl}
-            alt=""
-            onError={() => setLogoError(true)}
-            className="w-[70%] h-[70%] object-contain opacity-[0.08] select-none"
-            style={{ filter: "grayscale(100%) brightness(1.8)" }}
-          />
-        </div>
-      )}
+      <div className="absolute inset-0 flex items-center justify-center z-0 pointer-events-none">
+        <img
+          src={bgLogo.url}
+          alt=""
+          onError={(e) => {
+            const target = e.currentTarget;
+            if (!target.src.endsWith("/cs-logo.png")) {
+              target.src = "/cs-logo.png";
+              target.style.filter = "none";
+            }
+          }}
+          className="w-[70%] h-[70%] object-contain opacity-[0.09] select-none"
+          style={{
+            filter: bgLogo.isCsFallback
+              ? undefined
+              : "grayscale(100%) brightness(1.8)",
+          }}
+        />
+      </div>
 
       {era.photo_url && !imgError ? (
         <img
